@@ -1,0 +1,171 @@
+body {
+    background-color:rgb(241,241,241);
+	font-family: Verdana, 'Times New Roman';
+}
+
+ul {
+    list-style-type:none;
+}
+    ul li {
+        position:relative;
+        left:-40px;
+    }
+
+.red {
+    color:red;
+}
+
+#withPic {
+    background-image:url("house.png");
+    background-repeat:no-repeat;
+    padding-left:20px;
+}
+#left {
+    width:180px;
+}
+
+aside {
+    position:relative;
+    float:left;
+}
+
+section {
+    position:relative;
+    float:left;
+    background-color:white;
+    width:600px;
+}
+
+.leftButton {
+    background-image:url("leftArrowImage.png");
+    margin-left:5px;
+}
+
+.rightButton {
+    background-image:url("rightArrowImage.png");
+}
+
+.leftButton, .rightButton {
+    width:100px;
+    border:1px solid black;
+}
+
+hr {
+    border:none;
+    margin-left:5px;
+    margin-right:5px;
+    background-color:rgb(159,159,159);
+    height:2px;
+}
+
+    hr:last-of-type {
+        margin-bottom: 50px;
+    }
+
+.coloredHeading {
+    margin-left:5px;
+    margin-right:5px;
+    height:20px;
+    background-color:rgb(128,128,128);
+    color:white;
+    font-size:17px;
+}
+
+    .coloredHeading span {
+        margin-left:5px;
+    }
+
+
+    .coloredHeading+div{
+        margin-left:5px;
+        margin-top:5px;
+        background-image:url("csslogo.jpg");
+        background-repeat: no-repeat;
+        padding-left:110px;
+    }
+
+        .coloredHeading + div p {
+            margin-left:5px;
+            font-weight:bold;
+            width: 400px;
+        }
+
+        .coloredHeading + div a, .coloredHeading + p + a {
+            margin-left:5px;
+            color:red;
+            display:block;
+            margin-bottom:27px;
+        }
+
+    .coloredHeading + p {
+        margin-left:5px;
+    }
+
+.coloredHeadingAside {
+    height:18px;
+    width:177px;
+    background-color:rgb(128,128,128);
+    color:white;
+    font-size:16px;
+    text-align:center;
+    margin-bottom:7px;
+}
+
+#right {
+    margin-left:5px;
+    width:180px;
+}
+
+    #right div {
+        border:1px solid grey;
+        margin-bottom:2.5px;
+    }
+    #right div input[type=text] {
+        margin-left:15%;
+        width:100px;
+        height:15px;
+        margin-bottom:8px;
+    }
+
+
+    #right div input[type=button] {
+        width: 25px;
+    }
+
+    #right ul {
+        font-size:0;
+    }
+
+    #right ul li {
+        font-size:15px;
+        left: -5px;
+    }
+
+        #right ul li:last-child {
+                margin-bottom:10px;
+        }
+
+        #right ul li a {
+            color:red;
+            text-align:center;
+        }
+
+    #right div img {
+        position:relative;
+        left: 20%;
+        top:5px;
+        margin-bottom:10px;
+    }
+
+.two-row {
+    position:relative;
+    display:block;
+    width:140px;
+    left:-20px;
+    text-align:center;
+}
+
+#right .nospace li {
+    left: -20%;
+    width:180px;
+}

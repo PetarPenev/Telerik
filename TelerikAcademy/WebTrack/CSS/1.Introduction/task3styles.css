@@ -1,0 +1,56 @@
+:root{
+background:rgb(169,169,169);
+margin: 0;
+width: 100%;
+height: 100%;
+}
+/*Стилизираме само header на целия документ, без header-ите в section тага.*/
+body>header{
+margin-left:auto;
+margin-right:auto;
+width:170px;
+}
+
+body>header>h1{
+color:rgb(250,250,210);
+}
+/*Това стилизиране важи само за а-тага с името на Дончо под публикациите.*/
+a{
+text-decoration:none;
+color:black;
+}
+/*Всички а-тагове, наследници на li - тоест, при този документ тези в header на документа.*/
+li>a{
+color:rgb(255,255,255);
+text-decoration:none;
+font-size:20px;
+position:relative;
+margin-left:25px;
+}
+/*Приемам, че при поставяне на мишката над хиперлинк, той бива подчертан. Оставям последния хиперлинк перманентно подчертан (за това по-надолу) както е на картинката.*/
+li>a:hover{
+text-decoration:underline;
+}
+
+ul{
+list-style-type:none;
+}
+
+.current{
+background:rgb(211,211,211);
+}
+/*Понеже беше дадено така на картинката, оставих последния a таг да бъде винаги подчертан. Ако приемем, че подчертаването е необходимо само при поставяне на мишката върху линка, тогава този селектор става излишен.*/
+li:nth-child(4)>a{
+text-decoration:underline;
+}
+
+h1{
+color:rgb(250,250,210);
+}
+/*Стилизирам само footer на целия документ (който следва след края на section таг.*/
+section+footer{
+margin-left:auto;
+margin-right:auto;
+width:350px;
+font-size:17px;
+}

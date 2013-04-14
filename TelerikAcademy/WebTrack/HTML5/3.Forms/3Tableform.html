@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Table with buttons</title>
+	<meta charset="UTF-8" />
+	<style type="text/css">
+		span#text2
+		{
+			float:right;
+		}
+		input.imagea
+		{
+			width:20px;
+		}
+		input.box1
+		{
+			width:80px
+		}
+		input.box2
+		{
+			width:150px
+		}
+		input.box3
+		{
+			width:100px
+		}
+		th#col1, th#col6
+		{
+			width:100px
+		}
+		th#col2
+		{
+			width:300px
+		}
+		th#col3, th#col4, th#col5
+		{
+			width:200px
+		}
+		table
+			{
+				border-collapse:collapse;
+			}
+		table, td, tr, th
+		{
+			border:2px solid grey
+		}
+		th
+		{
+			text-align:left
+		}
+	</style>
+	</head>
+	<body>
+		<form method="get">
+		<table>
+			
+			<thead>
+				<tr>
+					<th colspan="6" id="mainHead">Drag a column header and drop it here to group by that column</th>
+				</tr>
+				<tr>
+					<th id="col1">ProductID</th>
+					<th id="col2">Product Name</th>
+					<th id="col3">Unit Price</th>
+					<th id="col4">Quantity per unit</th>
+					<th id="col5">Units in stock</th>
+					<th id="col6">Discontinued</th>
+				</tr>
+				<tr>
+					<th><input type="text" class="box1" /></th>
+					<th><input type="text" class="box2" /></th>
+					<th><input type="text" class="box3"/><input type="image" src="cup.png" alt="Button" /></th>
+					<th><input type="text" class="box3" /></th>
+					<th><input type="text" class="box3" /><input type="image" src="cup.png" alt="Button" /></th>
+					<th><input type="checkbox" /><input type="image" src="cup.png" alt="Button" /></th>
+				</tr>
+			</thead>
+			<tfoot>
+				<tr>
+				<td colspan="6">
+				
+					<input type="image" src="arrow2.png" alt="Backwards"  class="imagea"/>
+					<input type="image" src="play2.png" alt="Backwards" class="imagea"/>
+					<a href="#">1</a>
+					<a href="#">2</a>
+					<a href="#">3</a>
+					<a href="#">4</a>
+					<a href="#">5</a>
+					<a href="#">6</a>
+					<a href="#">7</a>
+					<a href="#">8</a>
+					<a href="#">9</a>
+					<a href="#">10</a>
+					<span>...</span>
+					<input type="image" src="arrow1.png" alt="Backwards" class="imagea"/>
+					<input type="image" src="play1.png" alt="Backwards" class="imagea"/>
+					<span id="text1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Page size</span>
+					<select name="pageSize">
+						<option value="Value 1"
+							selected="selected">10</option>
+						<option value="Value 2">15</option>
+						<option value="Value 3">20</option>
+					</select>
+					<span id="text2">335104 items in 33511 pages</span>
+					
+				</td>
+				</tr>
+			</tfoot>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>Chai1</td>
+					<td>$15.00</td>
+					<td>10 bags</td>
+					<td>37</td>
+					<td><input type="checkbox" /></td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Chai2</td>
+					<td>$24.00</td>
+					<td>3 bottles</td>
+					<td>14</td>
+					<td><input type="checkbox" /></td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Chai3</td>
+					<td>$9.00</td>
+					<td>4 bags</td>
+					<td>143</td>
+					<td><input type="checkbox" /></td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Chai4</td>
+					<td>$14.00</td>
+					<td>12 bags</td>
+					<td>45</td>
+					<td><input type="checkbox" /></td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>Chai5</td>
+					<td>$16.00</td>
+					<td>10 bottles</td>
+					<td>50</td>
+					<td><input type="checkbox" checked /></td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>Chai6</td>
+					<td>$120.00</td>
+					<td>100 bags</td>
+					<td>10</td>
+					<td><input type="checkbox" /></td>
+				</tr>
+				<tr>
+					<td>7</td>
+					<td>Chai7</td>
+					<td>$5.00</td>
+					<td>10 bags</td>
+					<td>900</td>
+					<td><input type="checkbox" /></td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td>Chai8</td>
+					<td>$15.00</td>
+					<td>1 bottle</td>
+					<td>15</td>
+					<td><input type="checkbox" /></td>
+				</tr>
+				<tr>
+					<td>9</td>
+					<td>Chai9</td>
+					<td>$11.00</td>
+					<td>5 bags</td>
+					<td>50</td>
+					<td><input type="checkbox" checked /></td>
+				</tr>
+				<tr>
+					<td>10</td>
+					<td>Chai10</td>
+					<td>$10.00</td>
+					<td>3 bottles</td>
+					<td>0</td>
+					<td><input type="checkbox" /></td>
+				</tr>
+			</tbody>
+		</table>
+		</form>
+	</body>
+
+</html>

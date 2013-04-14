@@ -1,0 +1,14 @@
+section{
+width:1350px;
+background:none;
+}
+
+
+div{
+margin:0;
+width:96%;
+background:black;
+border-radius:60px;
+border: 2px solid red;
+padding-right:3%;
+}

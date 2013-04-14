@@ -1,0 +1,61 @@
+body {
+    background-color:rgb(238,238,238);
+}
+.box {
+	position:relative;
+    margin-top: 60px;
+    height: 110px;
+    border: 1px solid rgb(168,168,168);
+    width:400px;
+    padding:15px;
+	overflow:hidden;
+	border-radius:1%;
+    background-color: white;
+}
+
+img {
+	position:absolute;
+	top:10%;
+	left:4%;
+	float:left;
+	margin:0 auto;
+}
+
+.inDiv{
+position:absolute;
+top:10%;
+right:10%;
+width: 50%;
+}
+
+#secondInDiv {
+    right:8%;
+    width:55%
+}
+
+#thirdInDiv {
+    right:6%;
+    width:55%;
+}
+
+span{
+font-weight:bold;
+}
+
+h2 {
+    text-decoration:none;
+    font-weight:normal;
+    font-size:18px;
+}
+
+.listenButton {
+    position:absolute;
+    bottom:13%;
+    right:25%;
+}
+
+.altButton {
+    position:absolute;
+    bottom:11.8%;
+    right:9%;
+}

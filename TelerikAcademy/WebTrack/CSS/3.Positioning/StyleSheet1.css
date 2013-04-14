@@ -1,0 +1,17 @@
+a {text-decoration:none;
+   color:black;
+}
+body {background-color:white;
+}
+ul {list-style-type:none;
+}
+li > ul {display:none;
+}
+li:hover > ul {display:block;
+}
+li a:hover {text-decoration:underline;
+}
+ul > li {width:80px;
+}
+li ul li a{color:rgb(144,150,162);
+}

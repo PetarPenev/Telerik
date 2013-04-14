@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Nested Lists са</title>
+<style type="text/css">
+#list3
+{
+	list-style-type: none;
+}
+#list4
+{
+	list-style-type: none;
+}
+#list2
+{
+	list-style-type: square;
+}
+#list1
+{
+	list-style-type: circle;
+}
+</style>
+</head>
+<body>
+<div>Preceding text са</div>
+<ol type='I'>
+<li>List Item 1</li>
+<li><ol type = 'a'>
+<li>Nested Item 1.1</li>
+<li>Nested Item 1.2</li>
+</ol></li>
+<li>List Item 2</li>
+<li><ol type='1'>
+<li>Nested Item 2.1</li>
+<li>Nested Item 2.2</li>
+<li id="list3"><ul id="list1">
+<li>Nested Item 2.2.1</li>
+<li>Nested Item 2.2.2</li>
+<li id="list4"><ul id="list2">
+<li>Nested Item 2.2.2.1</li>
+<li>Nested Item 2.2.2.2</li>
+</ul></li>
+<li>Nested Item 2.2.3</li>
+</ul></li>
+<li>Nested Item 2.3</li>
+</ol></li>
+<li>List Item 3</li>
+</ol>
+</body>
+</html>

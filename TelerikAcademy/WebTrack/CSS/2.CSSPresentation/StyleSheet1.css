@@ -1,0 +1,15 @@
+﻿/*Стилизираме цялостния вид на текста.*/
+body {
+    font-family:Consolas;
+    font-size:16px;
+    color:#0094ff;
+}
+/*Задаваме удебелен шрифт за текста на първия ред.*/
+p:first-line {
+    font-weight:bold;
+}
+/*Стилизираме първата буква със съответния шрифт и подходящ размер спрямо големината на шрифта.*/
+p:first-letter {
+    font-size:2.5em;
+    font-family:Edwardian Script ITC;
+}

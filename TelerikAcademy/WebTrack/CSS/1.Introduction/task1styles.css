@@ -1,0 +1,56 @@
+table {
+
+height:300px;
+width:400px;
+
+}
+/*Всички цветове са взети (като rgb кодове) от оригиналната картинка чрез colorpicker на Paint.NET. Поради ниското й качество обаче са възможни грешки*/
+body{
+width:1000px;
+height:380px;
+font-family: Arial;
+background-color:rgb(89,89,89);
+}
+
+.firstCell{
+vertical-align:top;
+font-style:italic;
+color:white;
+width:180px;
+}
+
+#secondCell1,#secondCell2,#secondCell3,#secondCell4,#secondCell5,#secondCell6,#secondCell7{
+vertical-align:top;
+float:left;
+}
+
+#secondCell1,#secondCell3,#secondCell6{
+color:rgb(228,227,156);
+}
+
+#secondCell4, #secondCell5{
+color:rgb(170,163,153);
+}
+/*Създаваме зеления кръг чрез задаване на border radius на 50%*/
+#greenCircle{
+border-radius: 50%;
+width: 1px;
+height: 2px;
+background-color: rgb(113,180,122);
+font-size:13px;
+}
+
+#secondCell2{
+color:rgb(255,12,20);
+}
+
+#secondCell7{
+color:rgb(220,106,37);
+}
+
+
+#titleTable{
+color:rgb(192,192,192);
+text-align:left;
+font-size:25px;
+}

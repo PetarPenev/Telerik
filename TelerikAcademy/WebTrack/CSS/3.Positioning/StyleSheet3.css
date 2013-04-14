@@ -1,0 +1,91 @@
+#login {
+    position:relative;
+    height:70px;
+    width:660px;
+    background-color:yellow;
+    background-image: linear-gradient(top, rgb(59,59,59) 40%, rgb(46,46,46) 73%);
+background-image: -o-linear-gradient(top, rgb(59,59,59) 40%, rgb(46,46,46) 73%);
+background-image: -moz-linear-gradient(top, rgb(59,59,59) 40%, rgb(46,46,46) 73%);
+background-image: -webkit-linear-gradient(top, rgb(59,59,59) 40%, rgb(46,46,46) 73%);
+background-image: -ms-linear-gradient(top, rgb(59,59,59) 40%, rgb(46,46,46) 73%);
+
+background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0.4, rgb(59,59,59)),
+	color-stop(0.73, rgb(46,46,46))
+);
+}
+
+body {
+    font-family:Verdana,'Times New Roman';
+}
+
+#container {
+    background-color:rgb(59,59,59);
+    width:660px;
+    height:330px;
+}
+img {
+    float:left;
+    position:absolute;
+    top:10px;
+    left:10px;
+}
+
+
+label {
+    position:absolute;
+    left:70px;
+    top:20px;
+    color:white;
+}
+
+#nameBox {
+    position:absolute;
+    left:225px;
+    top:20px;
+    width:140px;
+    color:rgb(230,230,230);
+}
+
+#emailBox{
+    position:absolute;
+    left:400px;
+    top:20px;
+    width:140px;
+    color:rgb(230,230,230);
+}
+
+#button {
+    position:absolute;
+    top:17px;
+    left: 590px;
+}
+
+#textOver {
+    position:absolute;
+    top:5px;
+    left:605px;
+    color:white;
+}
+
+#text p {
+    color:rgb(125,125,125);
+    position:relative;
+    left:10px;
+    margin:0;
+    font-size:14px;
+    width:600px;
+}
+
+#text p strong {
+    color:white;
+}
+
+h2 {
+    color:rgb(250,212,24);
+    position:relative;
+    left:10px;
+}
