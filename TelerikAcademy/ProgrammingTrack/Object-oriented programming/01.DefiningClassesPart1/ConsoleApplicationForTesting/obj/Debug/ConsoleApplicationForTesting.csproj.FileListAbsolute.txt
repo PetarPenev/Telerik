@@ -1,0 +1,8 @@
+D:\Object-oriented programming\FirstDate\Homework\Homework1\ConsoleApplicationForTesting\bin\Debug\ConsoleApplicationForTesting.exe.config
+D:\Object-oriented programming\FirstDate\Homework\Homework1\ConsoleApplicationForTesting\bin\Debug\ConsoleApplicationForTesting.exe
+D:\Object-oriented programming\FirstDate\Homework\Homework1\ConsoleApplicationForTesting\bin\Debug\ConsoleApplicationForTesting.pdb
+D:\Object-oriented programming\FirstDate\Homework\Homework1\ConsoleApplicationForTesting\bin\Debug\Library.dll
+D:\Object-oriented programming\FirstDate\Homework\Homework1\ConsoleApplicationForTesting\bin\Debug\Library.pdb
+D:\Object-oriented programming\FirstDate\Homework\Homework1\ConsoleApplicationForTesting\obj\Debug\ConsoleApplicationForTesting.csprojResolveAssemblyReference.cache
+D:\Object-oriented programming\FirstDate\Homework\Homework1\ConsoleApplicationForTesting\obj\Debug\ConsoleApplicationForTesting.exe
+D:\Object-oriented programming\FirstDate\Homework\Homework1\ConsoleApplicationForTesting\obj\Debug\ConsoleApplicationForTesting.pdb

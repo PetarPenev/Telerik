@@ -1,0 +1,11 @@
+D:\Object-oriented programming\SecondDate\Homework\Homework2\TestingConsoleApp\bin\Debug\TestingConsoleApp.exe.config
+D:\Object-oriented programming\SecondDate\Homework\Homework2\TestingConsoleApp\bin\Debug\TestingConsoleApp.exe
+D:\Object-oriented programming\SecondDate\Homework\Homework2\TestingConsoleApp\bin\Debug\TestingConsoleApp.pdb
+D:\Object-oriented programming\SecondDate\Homework\Homework2\TestingConsoleApp\bin\Debug\Library.dll
+D:\Object-oriented programming\SecondDate\Homework\Homework2\TestingConsoleApp\bin\Debug\Library.pdb
+D:\Object-oriented programming\SecondDate\Homework\Homework2\TestingConsoleApp\obj\Debug\TestingConsoleApp.csprojResolveAssemblyReference.cache
+D:\Object-oriented programming\SecondDate\Homework\Homework2\TestingConsoleApp\obj\Debug\TestingConsoleApp.exe
+D:\Object-oriented programming\SecondDate\Homework\Homework2\TestingConsoleApp\obj\Debug\TestingConsoleApp.pdb
+D:\gitRepository\TelerikAcademy\ProgrammingTrack\Object-oriented programming\DefiningClassesPart2\TestingConsoleApp\bin\Debug\TestingConsoleApp.exe.config
+D:\gitRepository\TelerikAcademy\ProgrammingTrack\Object-oriented programming\DefiningClassesPart2\TestingConsoleApp\obj\Debug\TestingConsoleApp.exe
+D:\gitRepository\TelerikAcademy\ProgrammingTrack\Object-oriented programming\DefiningClassesPart2\TestingConsoleApp\obj\Debug\TestingConsoleApp.pdb

@@ -1,0 +1,8 @@
+D:\Object-oriented programming\ThirdDate\Homework\Homework3\ConsoleTest\bin\Debug\ConsoleTest.exe.config
+D:\Object-oriented programming\ThirdDate\Homework\Homework3\ConsoleTest\bin\Debug\ConsoleTest.exe
+D:\Object-oriented programming\ThirdDate\Homework\Homework3\ConsoleTest\bin\Debug\ConsoleTest.pdb
+D:\Object-oriented programming\ThirdDate\Homework\Homework3\ConsoleTest\bin\Debug\Library.dll
+D:\Object-oriented programming\ThirdDate\Homework\Homework3\ConsoleTest\bin\Debug\Library.pdb
+D:\Object-oriented programming\ThirdDate\Homework\Homework3\ConsoleTest\obj\Debug\ConsoleTest.csprojResolveAssemblyReference.cache
+D:\Object-oriented programming\ThirdDate\Homework\Homework3\ConsoleTest\obj\Debug\ConsoleTest.exe
+D:\Object-oriented programming\ThirdDate\Homework\Homework3\ConsoleTest\obj\Debug\ConsoleTest.pdb

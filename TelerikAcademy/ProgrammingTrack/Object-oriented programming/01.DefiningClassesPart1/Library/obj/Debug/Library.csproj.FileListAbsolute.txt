@@ -1,0 +1,6 @@
+D:\Object-oriented programming\FirstDate\Homework\Homework1\Library\bin\Debug\Library.dll.config
+D:\Object-oriented programming\FirstDate\Homework\Homework1\Library\bin\Debug\Library.dll
+D:\Object-oriented programming\FirstDate\Homework\Homework1\Library\bin\Debug\Library.pdb
+D:\Object-oriented programming\FirstDate\Homework\Homework1\Library\obj\Debug\Library.csprojResolveAssemblyReference.cache
+D:\Object-oriented programming\FirstDate\Homework\Homework1\Library\obj\Debug\Library.dll
+D:\Object-oriented programming\FirstDate\Homework\Homework1\Library\obj\Debug\Library.pdb
