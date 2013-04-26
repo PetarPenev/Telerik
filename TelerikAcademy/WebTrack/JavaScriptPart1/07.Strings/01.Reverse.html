@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Reverse</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+	<style>
+		input[type=text]{
+			border:1px solid black;
+			padding:5px 15px;
+			background-color:black;
+			color:white;
+			font-family:Consolas;		   
+			margin-bottom:5px;
+		}
+
+		a{
+			color:black;
+			border:1px solid black;
+			padding:5px 15px;						
+			text-decoration:none;	   
+			display:inline-block;		 
+			margin: 15px 0;
+		}
+
+		a:hover{
+			text-decoration:underline;
+		}
+	</style>
+</head>
+<body>
+    <label for="first">String: </label>
+	<input type="text" id="first"/>
+	<br />	
+    <a href="#" onclick="reverse()">Reverse</a>
+	<div id="console">
+	</div>
+	<script src="scripts/js-console.js">	  
+	</script> 
+	<script>
+	    function reverse() {
+	        var string = jsConsole.read("#first");
+            // Splitting the string into an array, reversing it, and then joining it again.
+	        string = string.split("").reverse().join("");
+            // Checking whether the string is empty
+	        if ((string==null) || (typeof string=='undefined') || (string=="")) {
+	            jsConsole.writeLine("You entered an empty string.");
+	        }
+	        else {
+	            jsConsole.writeLine("The reversed string is " + string);
+	        }
+	    }
+	</script>	  
+</body>
+</html>

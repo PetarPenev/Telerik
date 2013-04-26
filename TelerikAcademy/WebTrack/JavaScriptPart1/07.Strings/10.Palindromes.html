@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Palindromes</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+	<style>
+		input[type=text]{
+			border:1px solid black;
+			padding:5px 15px;
+			background-color:black;
+			color:white;
+			font-family:Consolas;		   
+			margin-bottom:5px;
+		}
+
+		a{
+			color:black;
+			border:1px solid black;
+			padding:5px 15px;						
+			text-decoration:none;	   
+			display:inline-block;		 
+			margin: 15px 0;
+		}
+
+		a:hover{
+			text-decoration:underline;
+		}
+	</style>
+</head>
+<body>
+	<div id="console">
+	</div>
+	<script src="scripts/js-console.js">	  
+	</script> 
+	<script>
+        // Hardcoded text. Since there is no clear definition of a palindrome in the task, I assumed that a palindrome is a word that is the same forward and backwards.
+	    var text = "ABBA is here in the pop church of lemel.";
+        // Getting the array of words.
+	    var wordsArray = text.match(/\b[\w]+\b/g);
+	    for (var i = 0; i < wordsArray.length; i++) {
+            // For each word check if it is a palindrome and print it on the console if it is.
+	        var checkPalindrome = true;
+	        var word = wordsArray[i].toLowerCase();
+	        for (var j = 0; j < word.length/2; j++) {
+	            if (word[j] != word[word.length - 1 - j]) {
+	                checkPalindrome = false;
+	                break;
+	            }
+	        }
+	        if (checkPalindrome) {
+	            jsConsole.writeLine(word);
+	        }
+	    }
+    </script>
+</body>
+</html>

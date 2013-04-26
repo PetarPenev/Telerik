@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Maximal Increasing Subsequence</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+	<style>
+		input[type=text]{
+			border:1px solid black;
+			padding:5px 15px;
+			background-color:black;
+			color:white;
+			font-family:Consolas;		   
+			margin-bottom:5px;
+		}
+
+		a{
+			color:black;
+			border:1px solid black;
+			padding:5px 15px;						
+			text-decoration:none;	   
+			display:inline-block;		 
+			margin: 15px 0;
+		}
+
+		a:hover{
+			text-decoration:underline;
+		}
+	</style>
+</head>
+<body>
+	<div id="console">
+	</div>
+	<script src="scripts/js-console.js">	  
+	</script>		  
+	<script>
+		function findMaxIncreasingSequence(arr)
+		{
+			var startIndexMax=0;
+			var lengthMax=1;
+			var startCurrentIndex=0;
+			var currentLength=1;
+			// Cycle through the array and check for the length of the current increasing sequence, compare it with the maximal when it ends and make changes if necessary.
+			for (var i=1;i<arr.length;i++)
+			{
+			    if (arr[i]>arr[i-1])
+			    {
+			        currentLength++;
+			    }
+			    else
+			    {
+			        if (currentLength>lengthMax)
+			        {
+			            lengthMax=currentLength;
+			            startIndexMax=startCurrentIndex;
+			        }
+			        startCurrentIndex=i;
+			        currentLength=1;
+			    }
+			}
+			// Make an additional check for the last increasing sequence as it is not made in the cycle.
+			if (currentLength>lengthMax)
+			{
+				lengthMax=currentLength;
+				startIndexMax=startCurrentIndex;
+			}
+			// Create a string for the result.
+			var result="{";
+			for (var i=startIndexMax;i<startIndexMax+lengthMax;i++)
+			{
+				result+=arr[i];
+				if (i!==startIndexMax+lengthMax-1)
+				{
+					result+=", ";
+				}
+			}
+			result += "}";
+			jsConsole.writeLine("The maximal increasing sequence is of length "+lengthMax+" and it is "+result);
+		}
+
+		var array = new Array(3, 2, 3, 4, 2, 2, 4);
+		jsConsole.write("The array:");
+	    jsConsole.write("{");
+	    for (var i = 0; i < array.length; i++)
+	    {
+	        jsConsole.write(array[i]);
+	        if (i !== array.length - 1)
+	        {
+	            jsConsole.write(", ");
+	        }
+	    }
+	    jsConsole.writeLine("}");
+		findMaxIncreasingSequence(array);
+	</script>			  
+</body>
+</html>

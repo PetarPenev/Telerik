@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Exchange</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+	<style>
+		input[type=text]{
+			border:1px solid black;
+			padding:5px 15px;
+			background-color:black;
+			color:white;
+			font-family:Consolas;		   
+			margin-bottom:5px;
+		}
+
+		a{
+			color:black;
+			border:1px solid black;
+			padding:5px 15px;						
+			text-decoration:none;	   
+			display:inline-block;		 
+			margin: 15px 0;
+		}
+
+		a:hover{
+			text-decoration:underline;
+		}
+	</style>
+</head>
+<body>
+	<label for="first">First number: </label>
+	<input type="text" id="first"/>
+	<br />	
+	<label for="second">Second number: </label>
+	<input type="text" id="second"/>
+	<br />	
+	<a href="#" onclick="exchange()">Exchange if Necessary</a>
+	<div id="console">
+	</div>
+	<script src="scripts/js-console.js">	  
+	</script>		  
+	<script>														 
+
+		function exchange() {
+			var firstNum = jsConsole.readFloat("#first");
+			var secondNum = jsConsole.readFloat("#second");
+			<!--Checking for correctness of input.-->
+			if (isNaN(firstNum) || isNaN(secondNum))
+			{
+				jsConsole.writeLine("Incorrect Input.");
+			}
+			<!--Exchange numbers if necessary.-->
+			else if (firstNum>secondNum)
+			{
+				firstNum+=secondNum;
+				secondNum=firstNum-secondNum;
+				firstNum-=secondNum;
+				jsConsole.writeLine("The values were exchanged.");
+			}
+			else
+			{
+				jsConsole.writeLine("The values were not exchanged.");
+			}
+			<!--Display result.-->
+			jsConsole.writeLine("First number: "+firstNum+", second number: "+secondNum+".");
+			
+		}											
+	</script>			  
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Replace whitespaces</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+	<style>
+		input[type=text]{
+			border:1px solid black;
+			padding:5px 15px;
+			background-color:black;
+			color:white;
+			font-family:Consolas;		   
+			margin-bottom:5px;
+		}
+
+		a{
+			color:black;
+			border:1px solid black;
+			padding:5px 15px;						
+			text-decoration:none;	   
+			display:inline-block;		 
+			margin: 15px 0;
+		}
+
+		a:hover{
+			text-decoration:underline;
+		}
+	</style>
+</head>
+<body>
+	<div id="console">
+	</div>
+	<script src="scripts/js-console.js">	  
+	</script> 
+	<script>
+	    var text = "We are the void.";
+	    jsConsole.writeLine("Text before:");
+	    jsConsole.writeLine(text);
+	    text = replaceSpaces(text);
+	    jsConsole.writeLine("Text after:");
+	    jsConsole.writeLine(text);
+
+	    function replaceSpaces(text) {
+	        var resultString = "";
+            // Making the replacement string.
+	        var replacement = "&amp;nbsp;";
+	        var startSearchPosition = 0;
+            // Cycling through the string
+	        while (text.indexOf(" ", startSearchPosition) != -1) {
+                // Adding the text before the white space.
+	            resultString += text.substring(startSearchPosition, text.indexOf(" ", startSearchPosition));
+                // Replacing the white space
+	            resultString += replacement;
+                // Updating search position
+	            startSearchPosition = text.indexOf(" ", startSearchPosition) + 1;
+	        }
+            // Adding the rest of the string
+	        resultString += text.substring(startSearchPosition);
+	        return resultString;
+	    }
+	</script>	  
+</body>
+</html>

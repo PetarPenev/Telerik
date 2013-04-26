@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Area of Rectangle</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+	<style>
+		input[type=text]{
+			border:1px solid black;
+			padding:5px 15px;
+			background-color:black;
+			color:white;
+			font-family:Consolas;		   
+			margin-bottom:5px;
+		}
+
+		a{
+			color:black;
+			border:1px solid black;
+			padding:5px 15px;						
+			text-decoration:none;	   
+			display:inline-block;		 
+			margin: 15px 0;
+		}
+
+		a:hover{
+			text-decoration:underline;
+		}
+	</style>
+</head>
+<body>
+	<label for="width">Width: </label>
+	<input type="text" id="width"/>
+	<br />	
+	<label for="height">Height: </label>
+	<input type="text" id="height"/>
+	<br />	
+	<a href="#" onclick="rectangleArea()">Calculate Area</a>
+	<div id="console">
+	</div>
+	<script src="scripts/js-console.js">	  
+	</script>		  
+	<script>														 
+
+		function rectangleArea() {
+			var width = jsConsole.readFloat("#width");
+			var height= jsConsole.readFloat("#height");
+			<!--Check for correctness of input-->
+			if (isNaN(width) || isNaN(height))
+			{
+				jsConsole.writeLine("Incorrect input.");
+			}
+			else
+			{
+				<!--Calculate area and write it on the console.-->
+				jsConsole.writeLine("The area of the rectangle is "+(width*height)+".");
+			}
+		}											
+	</script>			  
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Find Max Sequence</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+	<style>
+		input[type=text]{
+			border:1px solid black;
+			padding:5px 15px;
+			background-color:black;
+			color:white;
+			font-family:Consolas;		   
+			margin-bottom:5px;
+		}
+
+		a{
+			color:black;
+			border:1px solid black;
+			padding:5px 15px;						
+			text-decoration:none;	   
+			display:inline-block;		 
+			margin: 15px 0;
+		}
+
+		a:hover{
+			text-decoration:underline;
+		}
+	</style>
+</head>
+<body>
+	<div id="console">
+	</div>
+	<script src="scripts/js-console.js">	  
+	</script>		  
+	<script>
+		function findMaxSequence(arr)
+		{
+			var lengthCurrentSequence=1;
+			var currentElement=arr[0];
+			var maxLength=1;
+			var maxElement=arr[0];
+			// Checking whether every element is equal to the element of the sequence preceding him; if yes, adding one to the length of the current sequence;
+			// if no, then checking wheter this is the max sequence so far, making changes in the max sequence (if necessary) and then starting a new sequence.
+			for (var i=1; i<arr.length;i++)
+			{
+				if (arr[i]===currentElement)
+				{
+					lengthCurrentSequence++;
+				}
+				else
+				{
+					if (lengthCurrentSequence>maxLength)
+					{
+						maxElement=arr[i-1];
+						maxLength=lengthCurrentSequence;
+					}
+					lengthCurrentSequence=1;
+					currentElement=arr[i];
+				}
+			}
+			// Making an additional check for the last sequence (it remains unchecked in the loop).
+			if (lengthCurrentSequence>maxLength)
+			{
+				maxElement=arr[i-1];
+				maxLength=lengthCurrentSequence;
+			}
+			jsConsole.writeLine("The maximal sequence consists of "+maxLength+" elements and the element of the sequence is {"+maxElement+"}.");
+		}
+		
+		// Hardcoding the array and using the function to find the max sequence.
+		var arr = new Array(2,344,4,4,4,6,5,7,7,7,7,7,11,11,11,11,11,11);
+		jsConsole.write("The array:");
+	    jsConsole.write("{");
+	    for (var i = 0; i < arr.length; i++)
+	    {
+	        jsConsole.write(arr[i]);
+	        if (i !== arr.length - 1)
+	        {
+	            jsConsole.write(", ");
+	        }
+	    }
+	    jsConsole.writeLine("}");
+		findMaxSequence(arr);
+	</script>			  
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Selection Sort</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+	<style>
+		input[type=text]{
+			border:1px solid black;
+			padding:5px 15px;
+			background-color:black;
+			color:white;
+			font-family:Consolas;		   
+			margin-bottom:5px;
+		}
+
+		a{
+			color:black;
+			border:1px solid black;
+			padding:5px 15px;						
+			text-decoration:none;	   
+			display:inline-block;		 
+			margin: 15px 0;
+		}
+
+		a:hover{
+			text-decoration:underline;
+		}
+	</style>
+</head>
+<body>
+	<div id="console">
+	</div>
+	<script src="scripts/js-console.js">	  
+	</script>		  
+	<script>
+	    function selectionSort(arr)
+	    {
+            // Use classic selection sort algorithm without the need to resort to a second array, thus saving system resources. The method returns the sorted array.
+	        var index = 1;
+	        var smallestElement = 1;
+	        var intermediateElement = 1;
+	        for (var i = 0; i < arr.length - 1; i++)
+	        {
+	            smallestElement = arr[i];
+	            index = i;
+	            for (var j = i + 1; j < arr.length; j++)
+	            {
+	                if (arr[j] < smallestElement)
+	                {
+	                    smallestElement = arr[j];
+	                    index = j;
+	                }
+	            }
+	            if (index != i)
+	            {
+	                intermediateElement = arr[i];
+	                arr[i] = arr[index];
+	                arr[index] = intermediateElement;
+	            }
+	        }
+	        return arr;
+	    }
+
+	    var array = new Array(11,-345, 11, 23, 21, 1, 17, 5, 190, 34);
+		jsConsole.write("The array:");
+	    jsConsole.write("{");
+	    for (var i = 0; i < array.length; i++)
+	    {
+	        jsConsole.write(array[i]);
+	        if (i !== array.length - 1)
+	        {
+	            jsConsole.write(", ");
+	        }
+	    }
+	    jsConsole.writeLine("}");
+	    var sorted = selectionSort(array);
+	    jsConsole.writeLine("The sorted array is:");
+	    jsConsole.write("{");
+        // Write the resulting sorted array on the console.
+	    for (var i = 0; i < sorted.length; i++)
+	    {
+	        jsConsole.write(sorted[i]);
+	        if (i !== sorted.length - 1)
+	        {
+	            jsConsole.write(", ");
+	        }
+	    }
+	    jsConsole.write("}");
+	</script>			  
+</body>
+</html>

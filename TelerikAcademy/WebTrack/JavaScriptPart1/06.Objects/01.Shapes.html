@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Shapes</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+	<style>
+		input[type=text]{
+			border:1px solid black;
+			padding:5px 15px;
+			background-color:black;
+			color:white;
+			font-family:Consolas;		   
+			margin-bottom:5px;
+		}
+
+		a{
+			color:black;
+			border:1px solid black;
+			padding:5px 15px;						
+			text-decoration:none;	   
+			display:inline-block;		 
+			margin: 15px 0;
+		}
+
+		a:hover{
+			text-decoration:underline;
+		}
+	</style>
+</head>
+<body>
+	<div id="console">
+	</div>
+	<script src="scripts/js-console.js">	  
+	</script>
+    		  
+	<script>
+        // Function creating a Point
+	    function Point(x, y) {
+	        this.x = x;
+	        this.y = y;
+	        this.toString = function () {
+	            return "(" + this.x + "," + this.y + ")";
+	        }
+	        this.clone = function () {
+	            return new Point(this.x, this.y);
+	        }
+	    }
+
+        // Function for a line - consisting of 2 cloned points
+	    function Line(firstPoint, secondPoint) {
+	        this.startPoint = firstPoint.clone();
+	        this.endPoint = secondPoint.clone();
+	        this.toString = function () {
+	            return "[" + this.startPoint.toString() + " - " + this.endPoint.toString() + "]";
+	        }
+	        this.length = function () {
+	            return getDistance(this.startPoint, this.endPoint);
+	        }
+	    }
+
+        // Function to calculate the distance
+	    function getDistance(firstPoint, secondPoint) {
+	        return Math.sqrt((firstPoint.x - secondPoint.x) * (firstPoint.x - secondPoint.x) + (firstPoint.y - secondPoint.y) * (firstPoint.y - secondPoint.y));
+	    }
+
+        // Function checking for possibility of a triangle
+	    function formTriangle(a, b, c) {
+	        var firstLength = a.length();
+	        var secondLength = b.length();
+	        var thirdLength = c.length();
+	        return firstLength < secondLength + thirdLength && secondLength < firstLength + thirdLength && thirdLength < firstLength + secondLength;
+	    }
+
+        // Creating points
+	    var aPoint = new Point(2, 3);
+	    var bPoint = new Point(3, 4);
+	    var cPoint = new Point(7, 5);
+	    var dPoint = new Point(10, 2);
+        // Testing toString
+	    jsConsole.writeLine(aPoint);
+        // Testing the distance function
+	    jsConsole.writeLine(getDistance(aPoint, bPoint));
+	    var firstLine = new Line(aPoint, bPoint);
+	    var secondLine = new Line(cPoint, dPoint);
+	    var thirdLine = new Line(bPoint, cPoint);
+        // Testing the triangle function
+	    jsConsole.writeLine(formTriangle(firstLine,secondLine,thirdLine));	    
+	</script>	  
+</body>
+</html>

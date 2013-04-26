@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Equation Solver</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+	<style>
+		input[type=text]{
+			border:1px solid black;
+			padding:5px 15px;
+			background-color:black;
+			color:white;
+			font-family:Consolas;		   
+			margin-bottom:5px;
+		}
+
+		a{
+			color:black;
+			border:1px solid black;
+			padding:5px 15px;						
+			text-decoration:none;	   
+			display:inline-block;		 
+			margin: 15px 0;
+		}
+
+		a:hover{
+			text-decoration:underline;
+		}
+	</style>
+</head>
+<body>
+	<label for="first">a: </label>
+	<input type="text" id="first"/>
+	<br />	
+	<label for="second">b: </label>
+	<input type="text" id="second"/>
+	<br />	
+	<label for="third">c: </label>
+	<input type="text" id="third"/>
+	<br />	
+	<a href="#" onclick="solve()">Solve Equation</a>
+	<div id="console">
+	</div>
+	<script src="scripts/js-console.js">	  
+	</script>		  
+	<script>														 
+
+		function solve() 
+		{
+			var a = jsConsole.readFloat("#first");
+			var b = jsConsole.readFloat("#second");
+			var c =jsConsole.readFloat("#third");
+			<!--Check for correctness of input.-->
+			if (isNaN(a) || isNaN(b) || isNaN(c))
+			{
+				jsConsole.writeLine("Incorrect input.");
+			}
+			else
+			{
+				<!--See different cases.-->
+				if (a==0)
+				{
+					if (b==0)
+					{
+						if (c==0)
+						{
+							<!--If a==b==c==0, every x is a solution.-->
+							jsConsole.writeLine("Every x is a solution");
+						}
+						else 
+						{
+							<!--If a==b==0, c!=0 - no solution.-->
+							jsConsole.writeLine("No solution.");
+						}
+					}
+					else
+					{
+						<!--Otherwise, if a==0- solution is -c/b.->
+						jsConsole.writeLine("The solution is "+(-c/b)+".");
+					}
+				}
+				else
+				{
+					<!--Otherwise, we calculate the discriminant and check the relevant case.-->
+					var disc = b*b-4*a*c;
+					if (disc<0)
+					{
+						jsConsole.writeLine("No real roots.");
+					}
+					else if (disc==0)
+					{
+						jsConsole.writeLine("Two equal roots (meaning one answer) - "+(-b/(2*a))+".");
+					}
+					else
+					{
+						var first = (-b+Math.sqrt(disc))/(2*a);
+						var second = (-b-Math.sqrt(disc))/(2*a);
+						jsConsole.writeLine("Two solutions - "+first+" and "+second+".");
+					}
+				}
+						
+			}
+		}
+	</script>			  
+</body>
+</html>

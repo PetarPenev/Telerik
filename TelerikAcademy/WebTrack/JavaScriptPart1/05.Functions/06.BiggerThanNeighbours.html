@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Number of occurances</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+	<style>
+		input[type=text]{
+			border:1px solid black;
+			padding:5px 15px;
+			background-color:black;
+			color:white;
+			font-family:Consolas;		   
+			margin-bottom:5px;
+		}
+
+		a{
+			color:black;
+			border:1px solid black;
+			padding:5px 15px;						
+			text-decoration:none;	   
+			display:inline-block;		 
+			margin: 15px 0;
+		}
+
+		a:hover{
+			text-decoration:underline;
+		}
+	</style>
+</head>
+<body>
+	<label for="first">Array: </label>
+	<input type="text" id="first"/>
+	<br />	
+    <label for="second">Index: </label>
+	<input type="text" id="second"/>
+	<br />
+	<a href="#" onclick="checkIndex()">Check the indexed number</a>
+	<div id="console">
+	</div>
+	<script src="scripts/js-console.js">	  
+	</script>		  
+	<script>
+	    function checkIndex() {
+	        // Array numbers must be separated by commas.
+	        var array = jsConsole.readNumbersArray("#first", ",");
+	        var index = jsConsole.readInteger("#second");
+
+            // Checking if the index is out of range
+	        if ((index >= array.length) || (index<0)) {
+	            jsConsole.writeLine("Index out of range.");
+	            return;
+	        }
+
+            // Boolean value in order to know whether the element is bigger than existing neighbours
+	        var bigger = true;
+
+            // Checking neighbours if they exist
+	        if (index - 1 >= 0) {
+	            if (array[index] <= array[index - 1]) {
+	                bigger = false;
+	            }
+	        }
+	        if (index + 1 < array.length) {
+	            if (array[index] <= array[index + 1]) {
+	                bigger = false;
+	            }
+	        }
+	        jsConsole.writeLine("Element at index "+index+" is "+ (bigger ? "bigger":"not bigger") + " than its neighbours.");
+	    }
+	    
+	</script>			  
+</body>
+</html>

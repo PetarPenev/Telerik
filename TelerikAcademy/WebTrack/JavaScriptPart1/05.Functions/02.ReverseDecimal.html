@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Reverse Decimal</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+	<style>
+		input[type=text]{
+			border:1px solid black;
+			padding:5px 15px;
+			background-color:black;
+			color:white;
+			font-family:Consolas;		   
+			margin-bottom:5px;
+		}
+
+		a{
+			color:black;
+			border:1px solid black;
+			padding:5px 15px;						
+			text-decoration:none;	   
+			display:inline-block;		 
+			margin: 15px 0;
+		}
+
+		a:hover{
+			text-decoration:underline;
+		}
+	</style>
+</head>
+<body>
+	<label for="first">Number: </label>
+	<input type="text" id="first"/>
+	<br />	
+	<a href="#" onclick="reverseDigits()">Get Reversed</a>
+	<div id="console">
+	</div>
+	<script src="scripts/js-console.js">	  
+	</script>		  
+	<script>
+
+	    function reverseDigits() {
+	        // Reading number.
+	        var num = jsConsole.readInteger("#first");
+	        var numCheck = jsConsole.readFloat("#first");
+	        var stringNumber = num.toString();
+	        var negative = false;
+            // Checking if it is negative - if it is, we will print the reversed number as negative also
+	        if (num < 0) {
+	            negative = true;
+	        }
+            // Checking it it is a number
+	        if (isNaN(num)) {
+	            jsConsole.writeLine("Incorrect input");
+	        }
+	        else 
+	        {
+                // Taking only the whole part if it is a float
+	            if (num != numCheck) {
+	                jsConsole.writeLine("The entered number is a float - we will evaluate only its whole part for the function.");
+	            }
+                // Getting an array, reversing it and joining it as string
+	            var reversed = stringNumber.split("").reverse().join("");
+                // Getting the number from the string
+	            num = parseInt(reversed);
+                // Getting a minus if necessary
+	            if (negative) {
+	                num *= -1;
+	            }
+	            jsConsole.writeLine("The reversed number is "+num);
+	        }
+	        }
+	    
+	</script>			  
+</body>
+</html>

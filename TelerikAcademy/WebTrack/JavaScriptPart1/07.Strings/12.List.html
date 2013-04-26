@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>List</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+	<style>
+		input[type=text]{
+			border:1px solid black;
+			padding:5px 15px;
+			background-color:black;
+			color:white;
+			font-family:Consolas;		   
+			margin-bottom:5px;
+		}
+
+		a{
+			color:black;
+			border:1px solid black;
+			padding:5px 15px;						
+			text-decoration:none;	   
+			display:inline-block;		 
+			margin: 15px 0;
+		}
+
+		a:hover{
+			text-decoration:underline;
+		}
+	</style>
+</head>
+<body>
+    <div id="list">
+        <strong>-{name}-</strong> <span>-{age}-</span>
+    </div>
+	<div id="console">
+	</div>
+	<script src="scripts/js-console.js">	  
+	</script> 
+	<script>
+        // Getting the template and calling the functions
+	    var people = [{name: "Peter", age: 14}, {name: "Ivo", age:15}];
+	    var tmpl = document.getElementById("list").innerHTML;
+	    tmpl=tmpl.trim();
+	    var peopleList = generateList(people, tmpl);
+	    var result = peopleList.join("");
+	    jsConsole.writeLine(result);
+
+        // Function for generating the main list
+	    function generateList(people, template) {
+	        var list = [];
+	        list.push("<ul>");
+            // Pushing each instance of the pattern
+	        for (var i = 0; i < people.length; i++) {
+	            list.push(generateElement(people[i], template));
+	        }
+	        list.push("</ul>");
+	        return list;
+	    }
+
+	    function generateElement(person, template) {
+            // Creating each element by replacing the pattern with the instance via regular expression
+	        var element = "<li>";
+	        var regExp = /-{(\w+)}-/g;
+	        template = template.replace(regExp, function (match, string) { return person[string]; });
+	        element += template;
+	        element += "</li>";
+	        return element;
+	    }
+    </script>
+</body>
+</html>

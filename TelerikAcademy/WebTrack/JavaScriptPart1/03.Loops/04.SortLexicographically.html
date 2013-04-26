@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Lexicographic Sort</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+	<style>
+		input[type=text]{
+			border:1px solid black;
+			padding:5px 15px;
+			background-color:black;
+			color:white;
+			font-family:Consolas;		   
+			margin-bottom:5px;
+		}
+
+		a{
+			color:black;
+			border:1px solid black;
+			padding:5px 15px;						
+			text-decoration:none;	   
+			display:inline-block;		 
+			margin: 15px 0;
+		}
+
+		a:hover{
+			text-decoration:underline;
+		}
+	</style>
+</head>
+<body>
+	<div id="console">
+	</div>
+	<script src="scripts/js-console.js">	  
+	</script>		  
+	<script>
+		//Write functions that find the min and the max property.
+	    function findMin(arr) {
+	        var min='a';
+	        for (var property in arr)
+	        {
+	            if (min=='a')
+	            {
+	                min=property;
+	            }
+	            else if (min>property)
+	            {
+	                min=property;
+	            }
+	        }
+	        jsConsole.writeLine("The min element is "+min);
+	    }
+
+	    function findMax(arr) {
+	        var max = 'a';
+	        for (var property in arr) {
+	            if (max == 'a') {
+	                max = property;
+	            }
+	            else if (max < property) {
+	                max = property;
+	            }
+	        }
+	        jsConsole.writeLine("The max element is " + max);
+	    }
+		//Call them for each object
+	    jsConsole.writeLine("Checking document.");
+	    findMin(document);
+	    findMax(document);
+	    jsConsole.writeLine("Checking window.");
+	    findMin(window);
+	    findMax(window);
+	    jsConsole.writeLine("Checking navigator.");
+	    findMin(navigator);
+	    findMax(navigator);
+	    
+	</script>			  
+</body>
+</html>

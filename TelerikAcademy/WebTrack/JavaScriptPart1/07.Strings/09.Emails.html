@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Mails</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+	<style>
+		input[type=text]{
+			border:1px solid black;
+			padding:5px 15px;
+			background-color:black;
+			color:white;
+			font-family:Consolas;		   
+			margin-bottom:5px;
+		}
+
+		a{
+			color:black;
+			border:1px solid black;
+			padding:5px 15px;						
+			text-decoration:none;	   
+			display:inline-block;		 
+			margin: 15px 0;
+		}
+
+		a:hover{
+			text-decoration:underline;
+		}
+	</style>
+</head>
+<body>
+	<div id="console">
+	</div>
+	<script src="scripts/js-console.js">	  
+	</script> 
+	<script>
+	    var text = "Please contact us by phone (+359 222 222 222) or by email at example@abv.bg or at baj.ivan@yahoo.co.uk. This is not email: test@test. This also: @telerik.com. Neither this: a@a.b.";
+        // Calling the function and printing the array.
+	    var arr = getMails(text);
+	    jsConsole.writeLine(arr);
+
+	    function getMails(text) {
+            // There are a lot of different possible regular expressions for an e-mail depending on the constraints. I have chosen this variant.
+	        var regExp = /\b[\w\d\.%]+?@[\w\d]+?\.(([\w]{2}\.[\w]{2,4})|[\w]{2,4})\b/g;
+            // Getting the resulting array and returning it.
+	        var array = text.match(regExp);
+	        return array;
+	    }
+    </script>
+</body>
+</html>

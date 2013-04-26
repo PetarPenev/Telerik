@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Number of occurances</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+	<style>
+		input[type=text]{
+			border:1px solid black;
+			padding:5px 15px;
+			background-color:black;
+			color:white;
+			font-family:Consolas;		   
+			margin-bottom:5px;
+		}
+
+		a{
+			color:black;
+			border:1px solid black;
+			padding:5px 15px;						
+			text-decoration:none;	   
+			display:inline-block;		 
+			margin: 15px 0;
+		}
+
+		a:hover{
+			text-decoration:underline;
+		}
+	</style>
+</head>
+<body>
+	<label for="first">Array: </label>
+	<input type="text" id="first"/>
+	<br />	
+	<br />
+	<a href="#" onclick="checkArray()">Get index of element</a>
+	<div id="console">
+	</div>
+	<script src="scripts/js-console.js">	  
+	</script>		  
+	<script>
+
+	    function checkArray() {
+            // Reading array - values separated by commas
+	        var array = jsConsole.readNumbersArray("#first", ",");
+	        var indexFirst = -1;
+            // Cycling through the array to find the first index
+	        for (var i = 0; i < array.length; i++) {
+	            if (checkIndex(array,i)){
+	                indexFirst = i;
+	                break;
+	            }
+	        }
+	        jsConsole.writeLine(indexFirst);
+	    }
+
+        // Using a shorter, slightly modified version of the function from the previous task
+	    function checkIndex(array,index) {
+	        // Boolean value in order to know whether the element is bigger than existing neighbours
+	        var bigger = true;
+
+	        // Checking neighbours if they exist
+	        if (index - 1 >= 0) {
+	            if (array[index] <= array[index - 1]) {
+	                bigger = false;
+	            }
+	        }
+	        if (index + 1 < array.length) {
+	            if (array[index] <= array[index + 1]) {
+	                bigger = false;
+	            }
+	        }
+	        return bigger;
+	    }
+
+	</script>			  
+</body>
+</html>

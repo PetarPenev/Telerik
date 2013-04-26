@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Placeholders</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+	<style>
+		input[type=text]{
+			border:1px solid black;
+			padding:5px 15px;
+			background-color:black;
+			color:white;
+			font-family:Consolas;		   
+			margin-bottom:5px;
+		}
+
+		a{
+			color:black;
+			border:1px solid black;
+			padding:5px 15px;						
+			text-decoration:none;	   
+			display:inline-block;		 
+			margin: 15px 0;
+		}
+
+		a:hover{
+			text-decoration:underline;
+		}
+	</style>
+</head>
+<body>
+	<div id="console">
+	</div>
+	<script src="scripts/js-console.js">	  
+	</script> 
+	<script>
+        // Function to format a string
+	    function stringFormat() {
+	        var mainString = arguments[0];
+	        for (var i = 1; i < arguments.length; i++) {
+                // Construct the replacement placeholder
+	            var replacePlaceholder = "{" + (i - 1) + "}";
+                // Replace all instances
+	            while (mainString.indexOf(replacePlaceholder) >= 0) {
+	                mainString = mainString.replace(replacePlaceholder, arguments[i]);
+	            }
+	        }
+	        return mainString;
+	    }
+	    var text = "Hello, {0}. Are you {1} to {2}, {0}?";
+	    var result = stringFormat(text, "John", "willing", "sacrifice");
+	    jsConsole.writeLine(result);
+    </script>
+</body>
+</html>

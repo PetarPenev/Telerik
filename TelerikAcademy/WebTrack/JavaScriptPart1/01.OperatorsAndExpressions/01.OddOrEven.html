@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Odd or Even</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+	<style>
+		input[type=text]{
+			border:1px solid black;
+			padding:5px 15px;
+			background-color:black;
+			color:white;
+			font-family:Consolas;		   
+			margin-bottom:5px;
+		}
+
+		a{
+			color:black;
+			border:1px solid black;
+			padding:5px 15px;						
+			text-decoration:none;	   
+			display:inline-block;		 
+			margin: 15px 0;
+		}
+
+		a:hover{
+			text-decoration:underline;
+		}
+	</style>
+</head>
+<body>
+	<label for="num">Number: </label>
+	<input type="text" id="num"/>
+	<br />							  
+	<a href="#" onclick="evenOrOdd()">Check Odd or Even</a>
+	<div id="console">
+	</div>
+	<script src="scripts/js-console.js">	  
+	</script>		  
+	<script>														 
+
+		function evenOrOdd() {
+			var number = jsConsole.readFloat("#num");
+			var numberParsed=parseInt(number);
+			<!--Checking if the input is a number-->
+			if  (isNaN(number)){
+				jsConsole.writeLine("The input is incorrect.");}
+			else if (number!=numberParsed)
+			{
+				<!--If not integer, we cannot classify as even or odd - the concept is meaningful only for whole numbers-->
+				jsConsole.writeLine("The number is not a whole number, therefore even or odd is meaningless in this case");
+			}
+			<!--Making the check-->
+			else if (number%2==0){
+				jsConsole.writeLine("The number "+number+" is even.");
+			}
+			else{
+				jsConsole.writeLine("The number "+number+" is odd.");
+			}
+		}											
+	</script>			  
+</body>
+</html>

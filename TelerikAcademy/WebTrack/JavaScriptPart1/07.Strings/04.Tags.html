@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Tags</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+	<style>
+		input[type=text]{
+			border:1px solid black;
+			padding:5px 15px;
+			background-color:black;
+			color:white;
+			font-family:Consolas;		   
+			margin-bottom:5px;
+		}
+
+		a{
+			color:black;
+			border:1px solid black;
+			padding:5px 15px;						
+			text-decoration:none;	   
+			display:inline-block;		 
+			margin: 15px 0;
+		}
+
+		a:hover{
+			text-decoration:underline;
+		}
+	</style>
+</head>
+<body>
+	<div id="console">
+	</div>
+	<script src="scripts/js-console.js">	  
+	</script> 
+	<script>
+        // Providing an additional prototype function for turning a string into a mix case.
+	    String.prototype.toMixCase = function () {
+	        var length = this.length;
+	        var random = 0;
+	        var result="";
+	        for (var i = 0; i < length; i++) {
+	            random = Math.random();
+	            if (random > 0.5) {
+	                result += this[i].toUpperCase();
+	            }
+	            else {
+	                result += this[i].toLowerCase();
+	            }
+	        }
+	        return result;
+	    }
+
+        // Replacing the tags with their content converted to the appropriate case via regular expressions.
+	    var text = "We are <mixcase>living</mixcase> in a <upcase>yellow submarine</upcase>. We <mixcase>don't</mixcase> have <lowcase>anything</lowcase> else.";
+	    var myRegExp = /<upcase>([^<>]+)<\/upcase>/g;
+	    text = text.replace(myRegExp, function (a, b) { return b.toUpperCase(); });
+	    myRegExp = /<lowcase>([^<>]+)<\/lowcase>/g;
+	    text = text.replace(myRegExp, function (a, b) { return b.toLowerCase(); });
+	    myRegExp = /<mixcase>([^<>]+)<\/mixcase>/g;
+	    text = text.replace(myRegExp, function (a, b) { return b.toMixCase(); });
+	    jsConsole.writeLine(text);
+    </script>
+</body>
+</html>

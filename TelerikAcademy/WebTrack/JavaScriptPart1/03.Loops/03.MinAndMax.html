@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Min And Max</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+	<style>
+		input[type=text]{
+			border:1px solid black;
+			padding:5px 15px;
+			background-color:black;
+			color:white;
+			font-family:Consolas;		   
+			margin-bottom:5px;
+		}
+
+		a{
+			color:black;
+			border:1px solid black;
+			padding:5px 15px;						
+			text-decoration:none;	   
+			display:inline-block;		 
+			margin: 15px 0;
+		}
+
+		a:hover{
+			text-decoration:underline;
+		}
+	</style>
+</head>
+<body>
+	<div id="console">
+	</div>
+	<script src="scripts/js-console.js">	  
+	</script>		  
+	<script>	
+		//Hard-coding the array.
+		var arr = new Array(17,14,23,15,16);
+		jsConsole.writeLine("The array is:");
+	    jsConsole.write("{");
+        // Write the array on the console.
+	    for (var i = 0; i < arr.length; i++)
+	    {
+	        jsConsole.write(arr[i]);
+	        if (i !== arr.length - 1)
+	        {
+	            jsConsole.write(", ");
+	        }
+	    }
+	    jsConsole.writeLine("}");
+		//Calling the three functions (they do the same thing in different ways)
+		jsConsole.writeLine("First method:");
+		printMinAndMaxFirst(arr);
+		jsConsole.writeLine("Second method:");
+		printMinAndMaxSecond(arr);
+		jsConsole.writeLine("Third method:");
+		printMinAndMaxThird(arr);
+		
+		//Get values by iterating and checking.
+		function printMinAndMaxFirst(arr) 
+		{
+			var min = arr[0];
+			var max=arr[0];
+			for (var i=1; i<arr.length;i++)
+			{
+				if (arr[i]<min)
+				{
+					min=arr[i];
+				}
+				else if (arr[i]>max)
+				{
+					max=arr[i];
+				}
+			}
+			jsConsole.writeLine("Minimum is "+min+" and maximum is "+max);
+		}
+		
+		//Get values by Math.min and Math.max
+		function printMinAndMaxSecond(arr)
+		{
+			var min = Math.min.apply(Math, arr);
+			var max = Math.max.apply(Math, arr);
+			jsConsole.writeLine("Minimum is "+min+" and maximum is "+max);
+		}
+		
+		//Get values by sorting.
+		function printMinAndMaxThird(arr)
+		{
+			arr.sort(function(a,b){return b-a});
+			var min=arr[0];
+			var max= arr[arr.length-1];
+			jsConsole.writeLine("Minimum is "+min+" and maximum is "+max);
+		}
+	</script>			  
+</body>
+</html>

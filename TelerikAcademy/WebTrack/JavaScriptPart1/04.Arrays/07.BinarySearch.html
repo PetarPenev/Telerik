@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Binary Search</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+	<style>
+		input[type=text]{
+			border:1px solid black;
+			padding:5px 15px;
+			background-color:black;
+			color:white;
+			font-family:Consolas;		   
+			margin-bottom:5px;
+		}
+
+		a{
+			color:black;
+			border:1px solid black;
+			padding:5px 15px;						
+			text-decoration:none;	   
+			display:inline-block;		 
+			margin: 15px 0;
+		}
+
+		a:hover{
+			text-decoration:underline;
+		}
+	</style>
+</head>
+<body>
+	<div id="console">
+	</div>
+	<script src="scripts/js-console.js">	  
+	</script>		  
+	<script>
+        // Classic implementation of binary search. Takes as arguments the sorted array and the element. Returns the index, or, if not found, -1.
+	    function binarySearch(arr, element)
+	    {
+	        var start = 0;
+	        var end = arr.length - 1;
+	        var index=-1;
+	        while (true)
+	        {
+	            var intermediateIndex = Math.floor((start + end) / 2);
+	            if (arr[intermediateIndex] == element)
+	            {
+	                index = intermediateIndex;
+	                break;
+	            }
+	            else if (start == end)
+	            {
+	                break;
+	            }
+	            else
+	            {
+	                if (arr[intermediateIndex] < element)
+	                {
+	                    start = intermediateIndex + 1;
+	                }
+	                else
+	                {
+	                    end = intermediateIndex - 1;
+	                }
+	            }
+	        }
+	        return index;
+	        
+	    }
+
+	    var array = new Array(1, 1, 5, 9, 17, 19);
+        // Sorting the array, just in case.
+	    array.sort(function (a, b) { return a - b; });
+        // The element to be found. I am using hardcoding and not input for easier debugging.
+	    var element = 5;
+        // Calling the function and gettting the index.
+	    var index = binarySearch(array, element);
+	    jsConsole.write("The array:");
+	    jsConsole.write("{");
+	    for (var i = 0; i < array.length; i++)
+	    {
+	        jsConsole.write(array[i]);
+	        if (i !== array.length - 1)
+	        {
+	            jsConsole.write(", ");
+	        }
+	    }
+	    jsConsole.writeLine("}");
+	    jsConsole.writeLine("The element to be searched for is " + element + ".");
+	    if (index === -1)
+	    {
+	        jsConsole.writeLine("Element was not found in the array.");
+	    }
+	    else
+	    {
+	        jsConsole.writeLine("The element " + element + " is at position " + index + ".");
+	    }
+	</script>			  
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Inside Circle</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+	<style>
+		input[type=text]{
+			border:1px solid black;
+			padding:5px 15px;
+			background-color:black;
+			color:white;
+			font-family:Consolas;		   
+			margin-bottom:5px;
+		}
+
+		a{
+			color:black;
+			border:1px solid black;
+			padding:5px 15px;						
+			text-decoration:none;	   
+			display:inline-block;		 
+			margin: 15px 0;
+		}
+
+		a:hover{
+			text-decoration:underline;
+		}
+	</style>
+</head>
+<body>
+	<label for="number">X: </label>
+	<input type="text" id="number"/>
+	<br />	
+	<label for="number2">Y: </label>
+	<input type="text" id="number2"/>
+	<br />	
+	<a href="#" onclick="checkInCircle()">Check if in Circle</a>
+	<div id="console">
+	</div>
+	<script src="scripts/js-console.js">	  
+	</script>		  
+	<script>														 
+
+		function checkInCircle() {
+			var xCoord = jsConsole.readFloat("#number");
+			var yCoord = jsConsole.readFloat("#number2");
+			<!--Check for correctness of input.-->
+			if (isNaN(xCoord)||isNaN(yCoord))
+			{
+				jsConsole.writeLine("Incorrect input.");
+			}
+			else
+			{
+				<!--Calculate distance.-->
+				var distance = Math.sqrt(xCoord*xCoord+yCoord*yCoord);
+				<!--Check if it is in or on or outside the circle. -->
+				if (distance<5)
+				{
+					jsConsole.writeLine("The point is inside the circle.");
+				}
+				else if (distance==5)
+				{
+					jsConsole.writeLine("The point is on the circle.");
+				}
+				else
+				{
+					jsConsole.writeLine("The point is outside the circle.");
+				}
+			}
+		}											
+	</script>			  
+</body>
+</html>

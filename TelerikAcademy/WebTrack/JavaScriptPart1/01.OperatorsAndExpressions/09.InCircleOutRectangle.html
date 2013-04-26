@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Inside Circle and Outside Rectangle</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+	<style>
+		input[type=text]{
+			border:1px solid black;
+			padding:5px 15px;
+			background-color:black;
+			color:white;
+			font-family:Consolas;		   
+			margin-bottom:5px;
+		}
+
+		a{
+			color:black;
+			border:1px solid black;
+			padding:5px 15px;						
+			text-decoration:none;	   
+			display:inline-block;		 
+			margin: 15px 0;
+		}
+
+		a:hover{
+			text-decoration:underline;
+		}
+	</style>
+</head>
+<body>
+	<label for="number">X: </label>
+	<input type="text" id="number"/>
+	<br />	
+	<label for="number2">Y: </label>
+	<input type="text" id="number2"/>
+	<br />	
+	<a href="#" onclick="check()">Check</a>
+	<div id="console">
+	</div>
+	<script src="scripts/js-console.js">	  
+	</script>		  
+	<script>														 
+
+		function check() {
+			var xCoord = jsConsole.readFloat("#number");
+			var yCoord = jsConsole.readFloat("#number2");
+			var bool = true;
+			var xLeft=1;
+			var yLeft=-1;
+			var width=6;
+			var height=2;
+			<!--Checking for correctness of input-->
+			if (isNaN(xCoord)||isNaN(yCoord))
+			{
+				jsConsole.writeLine("Incorrect input.");
+			}
+			else
+			{
+				<!--Calculating distance between the center of the circle and the point.-->
+				var distance = Math.sqrt((xCoord-1)*(xCoord-1)+(yCoord-1)*(yCoord-1));
+				<!--Checking if inside circle.-->
+				if (distance>3)
+				{
+					bool=false;
+				}
+				else
+				{
+					<!--Checking if the point is outside the rectangle.-->
+					if (xCoord>xLeft && xCoord<(xLeft+width) && yCoord<yLeft && yCoord>(yLeft-height))
+					{
+						bool=false;
+					}
+				}
+				<!--Display results.-->
+				if (bool)
+				{
+					jsConsole.writeLine("The point is in the circle and out of the rectangle.");
+				}
+				else
+				{
+					jsConsole.writeLine("The point is not in the circle and out of the rectangle");
+				}
+				
+			}
+		}											
+	</script>			  
+</body>
+</html>

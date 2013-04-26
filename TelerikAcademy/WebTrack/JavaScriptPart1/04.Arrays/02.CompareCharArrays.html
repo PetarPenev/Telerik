@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Compare arrays</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+	<style>
+		input[type=text]{
+			border:1px solid black;
+			padding:5px 15px;
+			background-color:black;
+			color:white;
+			font-family:Consolas;		   
+			margin-bottom:5px;
+		}
+
+		a{
+			color:black;
+			border:1px solid black;
+			padding:5px 15px;						
+			text-decoration:none;	   
+			display:inline-block;		 
+			margin: 15px 0;
+		}
+
+		a:hover{
+			text-decoration:underline;
+		}
+	</style>
+</head>
+<body>
+	<div id="console">
+	</div>
+	<script src="scripts/js-console.js">	  
+	</script>		  
+	<script>
+		function compareArrays(first,second)
+		{
+			var firstEarly=false;
+			var equal=true;
+			var length = Math.min(first.length,second.length);
+			for (var i=0;i<length;i++)
+			{
+				if (first[i]!==second[i])
+				{
+					equal=false;
+					if (first[i]<second[i])
+					{
+						firstEarly=true;
+					}
+					break;
+				}
+			}
+			if (equal)
+			{
+				if (first.length<second.length)
+				{
+					equal=false;
+					firstEarly=true;
+				}
+				else if (first.length>second.length)
+				{
+					equal=false;
+				}
+			}
+			if (equal)
+			{
+				jsConsole.writeLine("Arrays are equal.");
+			}
+			else if (firstEarly)
+			{
+				jsConsole.writeLine("The first array lexicographically precedes the second.");
+			}
+			else
+			{
+				jsConsole.writeLine("The second array lexicographically precedes the first.");
+			}
+		}
+		// Initializing two arrays and comparing them. For the lexicographic comparison we are using the rule from Nakov's book:
+		// При лексикографската наредба символите се сравняват един по един като се започва от най-левия. 
+		// При несъвпадащи символи по-рано е масивът, чийто текущ символ е по-рано в азбуката. 
+		// При съвпадение се продължава със следващия символ вдясно. Ако се стигне до края на единия масив, по-краткият е лексикографски по-рано. 
+		// Ако всички съответни символи от двата масива съвпаднат, то масивите са еднакви и никой о тях не е по-рано в лексикографската наредба."
+		var arrFirst=new Array('A','B','c');
+		var arrSecond= new Array('A','A','c');
+		jsConsole.write("The first array:");
+	    jsConsole.write("{");
+	    for (var i = 0; i < arrFirst.length; i++)
+	    {
+	        jsConsole.write(arrFirst[i]);
+	        if (i !== arrFirst.length - 1)
+	        {
+	            jsConsole.write(", ");
+	        }
+	    }
+	    jsConsole.writeLine("}");
+		jsConsole.write("The second array:");
+	    jsConsole.write("{");
+	    for (var i = 0; i < arrSecond.length; i++)
+	    {
+	        jsConsole.write(arrSecond[i]);
+	        if (i !== arrSecond.length - 1)
+	        {
+	            jsConsole.write(", ");
+	        }
+	    }
+	    jsConsole.writeLine("}");
+		compareArrays(arrFirst,arrSecond);
+	</script>			  
+</body>
+</html>

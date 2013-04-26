@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Area of Trapezoid</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+	<style>
+		input[type=text]{
+			border:1px solid black;
+			padding:5px 15px;
+			background-color:black;
+			color:white;
+			font-family:Consolas;		   
+			margin-bottom:5px;
+		}
+
+		a{
+			color:black;
+			border:1px solid black;
+			padding:5px 15px;						
+			text-decoration:none;	   
+			display:inline-block;		 
+			margin: 15px 0;
+		}
+
+		a:hover{
+			text-decoration:underline;
+		}
+	</style>
+</head>
+<body>
+	<label for="x">X: </label>
+	<input type="text" id="x"/>
+	<br />	
+	<label for="y">Y: </label>
+	<input type="text" id="y"/>
+	<br />	
+	<label for="h">H: </label>
+	<input type="text" id="h"/>
+	<br />	
+	<a href="#" onclick="calculateArea()">Calculate Area</a>
+	<div id="console">
+	</div>
+	<script src="scripts/js-console.js">	  
+	</script>		  
+	<script>														 
+
+		function calculateArea() {
+			var x = jsConsole.readFloat("#x");
+			var y = jsConsole.readFloat("#y");
+			var h = jsConsole.readFloat("#h");
+			<!--Checking for correctness of inputs.-->
+			if (isNaN(x)||isNaN(y)||isNaN(h))
+			{
+				jsConsole.writeLine("Incorrect input.");
+			}
+			else if (x<=0 || y<=0 || h<=0)
+			{
+				jsConsole.writeLine("All specified dimensions must be positive numbers - otherwise, the trapezoid cannot exist.");
+			}
+			else
+			{
+				<!--Calculating and displaying area.-->
+				var area = ((x+y)/2)*h;
+				jsConsole.writeLine("The area is "+area+".");
+			}
+		}											
+	</script>			  
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Third digit</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+	<style>
+		input[type=text]{
+			border:1px solid black;
+			padding:5px 15px;
+			background-color:black;
+			color:white;
+			font-family:Consolas;		   
+			margin-bottom:5px;
+		}
+
+		a{
+			color:black;
+			border:1px solid black;
+			padding:5px 15px;						
+			text-decoration:none;	   
+			display:inline-block;		 
+			margin: 15px 0;
+		}
+
+		a:hover{
+			text-decoration:underline;
+		}
+	</style>
+</head>
+<body>
+	<label for="number">Number: </label>
+	<input type="text" id="number"/>
+	<br />	
+	<a href="#" onclick="checkThirdDigit()">Check Third Digit</a>
+	<div id="console">
+	</div>
+	<script src="scripts/js-console.js">	  
+	</script>		  
+	<script>														 
+
+		function checkThirdDigit() {
+			var number = jsConsole.readInteger("#number");
+			var numberAsInput= jsConsole.readFloat("#number");
+			<!--Check for correctness-->
+			if (isNaN(number))
+			{
+				jsConsole.writeLine("Incorrect input.");
+			}
+			else
+			{
+				<!--If the number is a float, we check only its whole part-->
+				if (number!=numberAsInput){
+					jsConsole.writeLine("The number inputed is "+numberAsInput+" and it is not an integer number.");
+					jsConsole.writeLine("We will check its whole part.");
+				}
+				<!--Checking whether the number has at least 3 digits.-->
+				if (number>-99 && number<99)
+				{
+					jsConsole.writeLine("The number does not have three digits.");
+				}
+				else
+				{
+					<!--Getting the third digit.-->
+					number=Math.abs(number);
+					var thirdDigit=parseInt(number/100);
+					thirdDigit=thirdDigit%10;
+					<!--Making the check.-->
+					if (thirdDigit==7)
+					{
+						jsConsole.writeLine("The third digit is 7.");
+					}
+					else
+					{
+						jsConsole.writeLine("The third digit is not 7 but "+thirdDigit+".");
+					}
+				}
+			}
+		}											
+	</script>			  
+</body>
+</html>

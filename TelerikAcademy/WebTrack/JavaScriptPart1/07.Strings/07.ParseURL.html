@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Parse URL</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+	<style>
+		input[type=text]{
+			border:1px solid black;
+			padding:5px 15px;
+			background-color:black;
+			color:white;
+			font-family:Consolas;		   
+			margin-bottom:5px;
+		}
+
+		a{
+			color:black;
+			border:1px solid black;
+			padding:5px 15px;						
+			text-decoration:none;	   
+			display:inline-block;		 
+			margin: 15px 0;
+		}
+
+		a:hover{
+			text-decoration:underline;
+		}
+	</style>
+</head>
+<body>
+	<div id="console">
+	</div>
+	<script src="scripts/js-console.js">	  
+	</script> 
+	<script>
+        // Function for creating and returning the necessary JSON object.
+	    function createWebObject(protocol, server, resource) {
+	        return {
+	            protocol: protocol,
+	            server: server,
+	            resource: resource,
+	            toString: function () { return "protocol: " + this.protocol + "<br/>" + "server: " + this.server + "<br/>" + "resource: " + this.resource; }
+                
+	        }
+	    }
+        // Hardcoded URL
+	    var text = "http://www.devbg.org/forum/index.php";
+        // Getting the 3 parts
+	    var protocol = text.substring(0, text.indexOf("://"));
+	    var server = text.substring(text.indexOf("://") + 3, text.indexOf("/", text.indexOf("://") + 3));
+	    var resource = text.substring(text.indexOf("/", text.indexOf("://") + 3));
+        // Creating the new object and printing it on console.
+	    var newlyCreatedObject = createWebObject(protocol, server, resource);
+	    jsConsole.writeLine(newlyCreatedObject.toString());
+    </script>
+</body>
+</html>

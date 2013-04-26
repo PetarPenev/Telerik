@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Last Digit</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+	<style>
+		input[type=text]{
+			border:1px solid black;
+			padding:5px 15px;
+			background-color:black;
+			color:white;
+			font-family:Consolas;		   
+			margin-bottom:5px;
+		}
+
+		a{
+			color:black;
+			border:1px solid black;
+			padding:5px 15px;						
+			text-decoration:none;	   
+			display:inline-block;		 
+			margin: 15px 0;
+		}
+
+		a:hover{
+			text-decoration:underline;
+		}
+	</style>
+</head>
+<body>
+	<label for="first">Number: </label>
+	<input type="text" id="first"/>
+	<br />	
+	<a href="#" onclick="getLastDigit()">Print Numbers</a>
+	<div id="console">
+	</div>
+	<script src="scripts/js-console.js">	  
+	</script>		  
+	<script>
+
+	    function getLastDigit() {
+	        //Reading number.
+	        var num = jsConsole.readInteger("#first");
+            // Checking if it is number
+	        if (isNaN(num)) {
+	            jsConsole.writeLine("Incorrect input");
+	        }
+	        else {
+                // Getting last digit and printing it.
+	            var digit = Math.abs(num) % 10;
+	            switch (digit) {
+	                case 0:
+	                    jsConsole.writeLine("zero");
+	                    break;         
+	                case 1:            
+	                    jsConsole.writeLine("one");
+	                    break;         
+	                case 2:           
+	                    jsConsole.writeLine("two");
+	                    break;         
+	                case 3:            
+	                    jsConsole.writeLine("three");
+	                    break;        
+	                case 4:            
+	                    jsConsole.writeLine("four");
+	                    break;         
+	                case 5:            
+	                    jsConsole.writeLine("five");
+	                    break;         
+	                case 6:            
+	                    jsConsole.writeLine("six");
+	                    break;         
+	                case 7:            
+	                    jsConsole.writeLine("seven");
+	                    break;         
+	                case 8:            
+	                    jsConsole.writeLine("eight");
+	                    break;
+	                case 9:
+	                    jsConsole.write("nine");
+	                    break;
+	            }
+	        }
+	    }
+	</script>			  
+</body>
+</html>

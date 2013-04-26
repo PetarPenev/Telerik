@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Number to text</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+	<style>
+		input[type=text]{
+			border:1px solid black;
+			padding:5px 15px;
+			background-color:black;
+			color:white;
+			font-family:Consolas;		   
+			margin-bottom:5px;
+		}
+
+		a{
+			color:black;
+			border:1px solid black;
+			padding:5px 15px;						
+			text-decoration:none;	   
+			display:inline-block;		 
+			margin: 15px 0;
+		}
+
+		a:hover{
+			text-decoration:underline;
+		}
+	</style>
+</head>
+<body>
+	<label for="first">Number: </label>
+	<input type="text" id="first"/>
+	<br />	
+	<a href="#" onclick="convert()">Convert to text</a>
+	<div id="console">
+	</div>
+	<script src="scripts/js-console.js">	  
+	</script>		  
+	<script>														 
+
+		function convert() 
+		{
+			var num = jsConsole.readInteger("#first");
+			var number = jsConsole.readFloat("#first");
+			<!--Check for input correctness.-->
+			if (isNaN(num))
+			{
+				jsConsole.writeLine("Incorrect Input.");
+			}
+			else if (num<0 || num>=1000)
+			{
+				jsConsole.writeLine("Number not in the required interval.");
+			}
+			else
+			{
+				<!--Check different cases-->
+				if (number!=num)
+				{
+					jsConsole.writeLine("The number is float. Only its whole part will be written.");
+				}
+				var names = [["one","two","three","four","five","six","seven","eight","nine"],["ten","eleven","twelve","thirteen","fourteen","fifteen","sixteen","seventeen","eighteen","nineteen"], ["ten","twenty","thirty","fourty","fifty","sixty","seventy","eighty","ninety"]];
+				var check = false;
+				var check2 = false;
+				var check3 = false;
+				var check4 = false;
+				var output="";
+				if (Math.floor(num/100)>0)
+                    {
+                        output+=names[0][Math.floor(num/100)-1]+" hundred";
+                        check2=true;
+                    }
+                    num=num-Math.floor(num/100)*100;
+                    if (Math.floor(num/10)>1)
+                    {
+                        if (check2)
+                        {
+                            output += " ";
+                        }
+                        output=output+names[2][Math.floor(num/10)-1];
+                        check3=true;
+                    }
+                    else if (Math.floor(num/10)==1)
+                    {
+                        if (check2)
+                        {
+                            output += " and ";
+                        }
+                        output+=names[1][num%10];
+                        check4 = true;
+                    }
+                    num=num-Math.floor(num/10)*10;
+                    if (num!==0 && check2 && !check3 && !check4)
+                    {
+						output+=" and ";
+                        output+=names[0][num-1];
+                    }
+					else if (num!==0 && check2 && check3)
+					{
+						output+=" "+names[0][num-1];
+					}
+                    else if (num!==0 && !check2 && !check3 && !check4)
+                    {
+                        output+=names[0][num-1];
+                    }
+					else if (num!==0 && !check2 && check3)
+                    {
+                        output+=" "+names[0][num-1];
+                    }
+					else if (num==0 && !check2 && !check3 && !check4)
+					{
+						output="zero";
+					}
+                    
+				jsConsole.writeLine(output);
+            }
+			
+		}
+	</script>			  
+</body>
+</html>

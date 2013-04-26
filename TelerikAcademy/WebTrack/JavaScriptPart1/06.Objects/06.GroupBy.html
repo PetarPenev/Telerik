@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Group By</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+	<style>
+		input[type=text]{
+			border:1px solid black;
+			padding:5px 15px;
+			background-color:black;
+			color:white;
+			font-family:Consolas;		   
+			margin-bottom:5px;
+		}
+
+		a{
+			color:black;
+			border:1px solid black;
+			padding:5px 15px;						
+			text-decoration:none;	   
+			display:inline-block;		 
+			margin: 15px 0;
+		}
+
+		a:hover{
+			text-decoration:underline;
+		}
+	</style>
+</head>
+<body>
+	<div id="console">
+	</div>
+	<script src="scripts/js-console.js">	  
+	</script>
+	<script>
+        // Creating a Person object
+	    function Person(firstName, lastName, age) {
+	        this.firstName = firstName;
+	        this.lastName = lastName;
+	        this.age = age;
+	        this.toString = function () {
+	            return this.firstName+" "+this.lastName+" is "+this.age+" years old.";
+	        }
+	    }
+
+            // Function for grouping
+	        function groupByProperty(array, property) {
+	            switch (property) {
+	                case "firstName":
+	                case "lastName":
+	                case "age":
+	                    {
+	                        var groups = {};
+	                        array.map(function (p) {
+	                            if (!groups[p[property]])
+	                                groups[p[property]] = new Array();
+	                            groups[p[property]].push(p);
+	                        });
+	                        return groups;
+	                    }
+	            }
+	        }
+
+	        // Testing
+
+	        var array =[
+                new Person("Linda", "Grecko", 18),
+                new Person("Laura", "Johnson", 21),
+                new Person("Zoya", "Grecko", 18),
+                new Person("Kat", "Thompson", 21)
+	        ];
+	        var grouped = groupByProperty(array, "lastName");
+	        for (var i in grouped) {
+	            jsConsole.writeLine(grouped[i]);
+	        }
+	        var groupedSecond = groupByProperty(array, "age");
+	        for (var i in groupedSecond) {
+	            jsConsole.writeLine(groupedSecond[i]);
+	        }
+	</script>	  
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Is It Prime?</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+	<style>
+		input[type=text]{
+			border:1px solid black;
+			padding:5px 15px;
+			background-color:black;
+			color:white;
+			font-family:Consolas;		   
+			margin-bottom:5px;
+		}
+
+		a{
+			color:black;
+			border:1px solid black;
+			padding:5px 15px;						
+			text-decoration:none;	   
+			display:inline-block;		 
+			margin: 15px 0;
+		}
+
+		a:hover{
+			text-decoration:underline;
+		}
+	</style>
+</head>
+<body>
+	<label for="number">Number: </label>
+	<input type="text" id="number"/>
+	<br />	
+	<a href="#" onclick="checkPrime()">Check if Prime</a>
+	<div id="console">
+	</div>
+	<script src="scripts/js-console.js">	  
+	</script>		  
+	<script>														 
+
+		function checkPrime() {
+			var number = jsConsole.readInteger("#number");
+			var num = jsConsole.readFloat("#number");
+			<!--Check for correctness of input.-->
+			if (isNaN(number))
+			{
+				jsConsole.writeLine("Incorrect input.");
+			}
+			else 
+			{
+				if (number!=num)
+				{
+					jsConsole.writeLine("The number is not integer but float. Only its whole part will be evaluated.");
+				}
+				if (number<0 || number>100)
+				{
+					jsConsole.writeLine("The number is outside the specified interval in the task.");
+				}
+				else if (number==0)
+				{
+					jsConsole.writeLine("The number is 0 and 0 is neither prime nor composite.");
+				}
+				else
+				{
+					var bool=false;
+					<!--Check if the number is divisible by any number in the interval [2,number)-->
+					for (var i=2;i<number;i++)
+					{
+						if (number%i==0)
+						{
+							bool=true;
+							break;
+						}
+					}
+					<!--Output result.-->
+					if (bool)
+					{
+						jsConsole.writeLine("The number is not prime.");
+					}
+					else
+					{
+						jsConsole.writeLine("The number is prime.");
+					}
+				}
+			}
+		}											
+	</script>			  
+</body>
+</html>
