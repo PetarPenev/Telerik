@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Drag'n'drop</title>
+
+    <style>
+        #binWrapper {
+            position:relative;
+            top:250px;
+            left:300px;
+            width: 100px;
+            height: 100px;
+            background-color:azure;
+            border-radius:20px;
+        }
+
+        #imageContainer {
+            float:left;
+            width:400px;
+            height:400px;
+            background-color:coral;
+        }
+
+        img {
+            position:relative;
+        }
+
+        #bin {
+            width:100px;
+            height:100px;
+        }
+    </style>
+
+    <script>
+        function changeBinImage(newState) {
+            var bin = document.getElementById("bin");
+            if (newState == "opened") {
+                bin.src = "img/trash-open.png";
+            }          
+            else if (newState == "closed") {
+                bin.src = "img/trash-closed.png";
+            }
+        }
+
+        function allowDrop(ev) {
+            ev.preventDefault();
+        }
+
+        function drag(ev) {
+            ev.dataTransfer.setData("dragged-id", ev.target.id);
+        }
+
+        function drop(ev) {
+            ev.preventDefault();
+            var data = ev.dataTransfer.getData("dragged-id");
+            var trashToRemove = document.getElementById(data);
+            imageContainer.removeChild(trashToRemove);
+        }
+
+        function dropper(ev) {
+            ev.preventDefault();
+        }
+
+        function getRandomPosition(start, end) {
+            var random = Math.floor((Math.random() * (end - start) + start));
+            return random;
+        }
+
+        function loadTrash(numberOfTrashes) {
+            var docFragment = document.createDocumentFragment();
+            var trash;
+
+            for (var i = 0; i < numberOfTrashes; i++) {
+                trash = document.createElement("img");
+                trash.style.position = "relative";
+                trash.style.top = getRandomPosition(0, 150) + "px";
+                trash.style.left = getRandomPosition(0, 150) + "px";
+                trash.src = "img/trash.jpg";
+                trash.style.height = 20 + "px";
+                trash.style.width = 20 + "px";
+                trash.draggable = "true";
+                trash.setAttribute('ondragstart', 'drag(event)');
+                trash.id = "image " + i;
+                docFragment.appendChild(trash);
+            }
+
+            document.getElementById("imageContainer").appendChild(docFragment);
+        }
+    </script>
+</head>
+<body onload="loadTrash(3)" ondragover="allowDrop(event)">
+    <div id="imageContainer" ondragover="allowDrop(event)" ondrop="dropper(event)">
+        <div id="binWrapper" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <img id="bin" ondragover="changeBinImage('opened')" ondragleave="changeBinImage('closed')" onmouseout="changeBinImage('closed')" src="img/trash-closed.png" alt="This is the bin" />
+        </div>
+    </div>
+</body>
+</html>

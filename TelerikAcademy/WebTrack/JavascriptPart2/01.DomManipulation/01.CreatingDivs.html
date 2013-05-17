@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Creating DIVS</title>
+    <style>
+        #generateDivs {
+            text-decoration:none;
+            color:blue;
+        }
+    </style>
+</head>
+<body>
+	<input type="text" id="divCount" />
+    <a href="#" id="generateDivs" onclick="onCreateDivsButtonClick()">Create DIVs</a>
+    <div id="wrapper">
+	</div>
+	<script>
+	    function onCreateDivsButtonClick() {
+	        var numberDivs = parseInt(document.getElementById("divCount").value, 10);
+	        var docFragment = document.createDocumentFragment();
+	        var i, divHolder;
+	        for (i = 0; i < numberDivs; i++) {
+	            divHolder = createNewDiv();
+	            docFragment.appendChild(divHolder);
+	        }
+	        document.getElementById("wrapper").appendChild(docFragment);
+	    }
+
+	    function createNewDiv() {
+	        var newDiv = document.createElement("div");
+	        var randomWidth = 20 + Math.random() * 80;
+	        newDiv.style.width = randomWidth + "px";
+	        newDiv.style.backgroundColor = generateRandomColor();
+	        newDiv.style.color = generateRandomColor();
+	        newDiv.style.position = "absolute";
+	        var topPosition = (screen.height - 100) * Math.random();
+	        newDiv.style.top = topPosition + "px";
+	        var leftPosition = (screen.width - 100) * Math.random();
+	        newDiv.style.left = leftPosition + "px";
+	        var contentOfDiv = "<strong>div</strong>";
+	        newDiv.innerHTML = contentOfDiv;
+	        newDiv.style.borderRadius = Math.random() * 200 + "px";
+	        newDiv.style.borderColor = generateRandomColor;
+	        var borderWidth = Math.random() * 20;
+	        if (borderWidth < 1) {
+	            borderWidth = 1;
+	        }
+	        newDiv.style.borderWidth = borderWidth;
+	        return newDiv;
+	    }
+
+	    function generateRandomColor() {
+	        var red = (Math.random() * 256) | 0;
+	        var green = (Math.random() * 256) | 0;
+	        var blue = (Math.random() * 256) | 0;
+	        return "rgb(" + red + "," + green + "," + blue + ")";
+	    }
+	</script>
+</body>
+</html>

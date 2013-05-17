@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Tag Cloud</title>
+</head>
+<body>
+	<script>
+	    function generateTagCloud(tags, minFontSize, maxFontSize) {
+			// We will be putting everything in a document fragment containing a wrapper div
+			// so that tags will be added simultaneously to the DOM and not one by one.
+	        var documentFragement = document.createDocumentFragment();
+	        var wrapper = document.createElement("div");
+	        wrapper.style.width = "270px";
+	        wrapper.id = "tagCloud";
+	        wrapper.style.border = "1px solid black";
+	        wrapper.style.backgroundColor = "yellow";
+
+	        if (tags.length == 0) {
+	            document.body.appendChild(tag);
+	            return;
+	        }
+
+	        var tagCount = createTagArray(tags);
+
+	        var counts = getOccurances(tagCount);
+	        var minCount = counts[0];
+	        var maxCount = counts[1];
+	        if (maxCount == -1) {
+	            maxCount = 2;
+	        }
+	        var countRange=maxCount-minCount;
+
+	        for (var tag in tagCount) {
+	            var fontSize;
+	            if (tagCount[tag] == minCount) {
+	                fontSize = minFontSize;
+	            }
+	            else if (tagCount[tag] == maxCount) {
+	                fontSize = maxFontSize;
+	            }
+	            else {
+					// Alternative tag weight formula.
+	                //fontSize = Math.floor((maxFontSize * (tagCount[tag] - minCount)) / (countRange*((maxFontSize-minFontSize)/maxFontSize)));
+					
+					// The tag weight formula. It basically distributes (roughly) equally the tag font size in the given
+					// font interval based on tag count.
+					fontSize = minFontSize+Math.floor((maxFontSize-minFontSize) * ((tagCount[tag] - minCount)/(maxCount-minCount)));
+	            }
+
+	            var linkTag = createLink(tag, tagCount, fontSize);
+	            wrapper.appendChild(linkTag);
+	        }
+
+	        documentFragement.appendChild(wrapper);
+	        document.body.appendChild(documentFragement);
+	    }
+
+	    function createTagArray(tags) {
+	        var tagCount = {};
+	        for (var i = 0, length = tags.length; i < length; i++) {
+	            if (tagCount[tags[i]]) {
+	                tagCount[tags[i]] += 1;
+	            }
+	            else {
+	                tagCount[tags[i]] = 1;
+	            }
+	        }
+	        return tagCount;
+	    }
+
+	    function getOccurances(tagCount) {
+	        var min = 1;
+	        var max = -1;
+	        for (var tag in tagCount) {
+	            if (tagCount[tag] > max) {
+	                max = tagCount[tag];
+	            }
+	            else if (tagCount[tag] < min) {
+	                min = tagCount[tag];
+	            }
+	        }
+
+	        return new Array(min, max);
+	    }
+		
+		// We will be creating tags as a link element (and not a div or span) as this is the way
+		// it is usually done in real websites.
+	    function createLink(tag, tags, fontSize) {
+	        var element = document.createElement("a");
+	        element.setAttribute("href", "#");
+	        element.style.display = "inline-block";
+	        element.style.margin = "10px";
+	        element.innerHTML = tag;
+	        element.style.fontSize = fontSize+"px";
+	        element.style.textDecoration = "none";
+	        return element;
+	    }
+
+	    var tags = ["cms", "javascript", "js", "ASP.NET MVC", ".net", ".net", "css", "wordpress", "xaml", "js",
+            "http", "web", "asp.net", "asp.net MVC", "ASP.NET MVC", "wp", "javascript", "js", "cms", "html",
+            "javascript", "http", "http", "CMS"];
+	    generateTagCloud(tags, 17, 42);
+	</script>
+</body>
+</html>

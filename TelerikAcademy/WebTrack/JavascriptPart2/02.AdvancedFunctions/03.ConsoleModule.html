@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Console Module</title>
+</head>
+<body>
+	<script>
+	    var specialConsole = (function () {
+			// In all functions, we are using the arguments element because we do not know the number of placeholders passed.
+			// I have tried to make the code given in the example in the presentation work exactly as given - in it, the text replacing
+			// placeholders is given not as an array, but as consecutive strings. Therefore, we use the arguments element as a jagged
+			// array.
+	        function writeLine() {
+	            var outputString = formatString(arguments);
+	            console.log(outputString);
+	        }
+
+	        function writeError() {
+	            var outputString = formatString(arguments);
+	            console.error(outputString);
+	        }
+
+	        function writeWarning() {
+	            var outputString = formatString(arguments);
+	            console.warn(outputString);
+	        }
+
+	        function formatString() {
+	            var result = "";
+
+	            if (arguments[0]) {
+	                var message = arguments[0][0];
+	                result = JSON.stringify(message);
+
+	                if (arguments[0][1]) {
+	                    for (var i = 0; i < arguments[0].length - 1; i++) {
+	                        var placeholder = "\\{" + i + "\\}";
+	                        var regularExpression = new RegExp(placeholder, "gi");
+	                        result = result.replace(regularExpression, arguments[0][i + 1]);
+	                    }
+	                }
+	            }
+
+	            return result;
+	        }
+
+	        return {
+	            writeLine: writeLine,
+	            writeError: writeError,
+                writeWarning: writeWarning
+	        }
+	    })();
+
+	    specialConsole.writeLine("Message: hello");
+	    //logs to the console "Message: hello"
+	    specialConsole.writeLine("Message: {0}", "hello");
+	    //logs to the console "Message: hello"
+	    specialConsole.writeError("Error: {0}", "Something happened");
+	    specialConsole.writeWarning("Warning: {0}", "A warning");
+	</script>
+</body>
+</html>

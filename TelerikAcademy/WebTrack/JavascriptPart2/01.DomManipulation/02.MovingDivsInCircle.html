@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Moving DIVs</title>
+    <style>
+        div {
+            background-color:red;
+            border-radius:50px;
+            height:50px;
+            width:50px;
+        }
+    </style>
+</head>
+<body>
+	<div id="Div1">
+	</div>
+	<div id="Div2">
+	</div>
+	<div id="Div3">
+	</div>
+	<div id="Div4">
+	</div>
+	<div id="Div5">
+	</div>
+	<script>
+	    var divs = new Array(document.getElementById("Div1"), document.getElementById("Div2"), document.getElementById("Div3"),
+	        document.getElementById("Div4"),document.getElementById("Div5"));
+	    var i, length;
+	    for (i =0, length=divs.length; i <length; i++) {
+	        divs[i].style.position = "absolute";
+	        divs[i].style.top = 250+"px";
+	        divs[i].style.left = 300 + "px";
+	        divs[i].style.margin = 100 + "px";
+	    }
+
+	    var angle = 0;
+	    var radius = 50;
+	    animateDivs();
+
+	    function animateDivs() {
+	        for (var k = 0, len = divs.length; k < len; k++) {
+				// Using a specific formula. For more information: http://stackoverflow.com/questions/2093405/finding-the-coordinates-on-the-edge-of-a-circle
+	            var xPosition = Math.cos(angle + 2 * Math.PI / len * k) / radius * 5000+"px";
+	            var yPosition = Math.sin(angle + 2 * Math.PI / len * k) / radius * 5000+"px";
+
+	            divs[k].style.top = xPosition;
+	            divs[k].style.left = yPosition;
+	        }
+			
+			// You can change the speed of rotation by changing the value of the angle increment.
+	        angle += 0.3;
+	        setTimeout(animateDivs, 100);
+	    }
+	</script>
+</body>
+</html>

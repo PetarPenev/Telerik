@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>DOM Module</title>
+    <style>
+        #wrapperDiv {
+            width:500px;
+            height:300px;
+            background-color:green;
+        }
+    </style>
+</head>
+<body>
+	<ul>
+        <li class="listItem" id="firstListItem">First</li>
+        <li class="listItem">Second</li>
+        <li class="listItem">Third</li>
+	</ul>
+	<div id="wrapperDiv"></div>
+    <a id="button" href="#">Bring it on</a>
+	<script>
+	    var domModule = (function () {
+	        var buffer = {};
+	        var MAX_BUFFER_SIZE = 100;
+
+	        function appendChild(element, selector) {
+	            var parent = document.querySelector(selector);
+
+                // This check is necessary because the selector may be invalid (it does not select an existing element).
+	            if (parent) {
+	                parent.appendChild(element);
+	            }
+	        }
+
+	        function removeChild(parentSelector, removalSelector) {
+	            removalSelector = specifySelector(removalSelector);
+	            var elementsToRemove = document.querySelectorAll(parentSelector + " " + removalSelector);
+
+	            for (var i = 0; i < elementsToRemove.length; i++) {
+	                elementsToRemove[i].parentNode.removeChild(elementsToRemove[i]);
+	            }
+	        }
+
+            // The goal of this function is to fix incorrectly specified selectors like the one in the presentation.
+	        function specifySelector(selector) {
+	            if (selector.indexOf(':first') != -1 ||
+                        selector.indexOf(':last') != -1 ||
+                        selector.indexOf(':nth') != -1) {
+	                        return selector + '-child';
+	            }
+
+	            return selector;
+	        }
+
+	        function addHandler(selector, event, eventHandler) {
+	            selector = specifySelector(selector);
+
+	            var elementsToAddEvent = document.querySelectorAll(selector);
+	            for (var i = 0; i < elementsToAddEvent.length; i++) {
+	                elementsToAddEvent[i].addEventListener(event, eventHandler);
+	            }
+	        }
+
+	        function appendToBuffer(parentSelector, element) {
+	            var elementToAdd = element;
+
+                // The goal is to check if the function is passed not a string with an element name, but the element itself.
+	            if (!(elementToAdd instanceof HTMLElement)) {
+	                elementToAdd = document.createElement(element);
+	            }
+
+	            if (!buffer[parentSelector]) {
+	                buffer[parentSelector] = document.createDocumentFragment();
+	            }
+
+	            buffer[parentSelector].appendChild(elementToAdd);
+
+	            if (buffer[parentSelector].childNodes.length == MAX_BUFFER_SIZE) {
+	                var parent = document.querySelector(parentSelector);
+	                parent.appendChild(buffer[parentSelector]);
+	                buffer[parentSelector] = null;
+	            }
+	        }
+
+	        return {
+	            appendChild: appendChild,
+	            removeChild: removeChild,
+	            addHandler: addHandler,
+                appendToBuffer: appendToBuffer
+	        }
+	    })();
+
+	    var div = document.createElement("div");
+	    //change the div
+	    domModule.appendChild(div, "#firstListItem");
+	    domModule.removeChild("ul", "li:first");
+	    //remove the first li from each ul
+	    domModule.addHandler("a.button", 'click',
+                             function () { alert("Clicked") });
+	    domModule.appendToBuffer("container", div.cloneNode(true));
+	    domModule.appendToBuffer("#main-nav ul", "p");
+	</script>
+</body>
+</html>

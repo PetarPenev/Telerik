@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Tree View</title>
+    <style>	
+		li{
+			font-size:30px;
+			width:300px;
+		}
+		
+        ul li {
+            list-style-type:circle;
+        }
+
+        li ul {
+            display:none;
+        }
+    </style>
+</head>
+<body>
+	<script>
+		// I am trying to make the code given in the presentation work exactly as given (after fixing the wrong variable names
+		// at places). In order to do that, I must use Node.prototype as the methods for adding node and content are called both
+		// for the treeview and different <li> elements in it.
+	    Node.prototype.addNode = function () {
+	        var element = document.createElement("li");
+	        element.addEventListener("click", onClickChange, false);
+
+	        if (this instanceof HTMLUListElement) {
+                this.appendChild(element);
+	        }
+	        else if (this instanceof HTMLDivElement){
+	            var parent = document.querySelector(".tree-view > ul:first-of-type");
+	            parent.appendChild(element);
+	        }
+	        else if (this instanceof HTMLLIElement) {
+	            var unorderedListChild = null;
+	            unorderedListChild = this.querySelector("ul");
+	            if (unorderedListChild) {
+	                unorderedListChild.appendChild(element);
+	            }
+	            else {
+	                var newList = document.createElement("ul");
+	                newList.appendChild(element);
+	                this.appendChild(newList);
+	            }
+	        }
+
+	        return element;
+	    }
+
+	    Node.prototype.content = function (content) {
+	        var element = document.createElement("a");
+	        element.setAttribute("href", "#");
+	        element.innerHTML = content;
+	        this.appendChild(element);
+	    }
+		
+		// NOTE: The event does not propagate to parent elements but look where you click when testing. If you click next to 
+		// a <li> element (and not exactly on the circle of it) it is as if you have clicked the parent <li> element and it seems as if
+		// the event propagates. In fact it does not - it is just that the browser engine is calculating the event as if you clicked the 
+		// parent element. You can check it during debugging.
+	    function onClickChange(event) {
+	        // Ensuring the event does not propagate for parent elements.
+			if (!event) {
+	            event = window.Event;
+	        }
+			
+	        if (event.stopPropagation) {
+	            event.stopPropagation();
+	        }
+
+	        event.cancelBubble = true;
+
+	        if (this.getElementsByTagName('ul')[0].style.display == 'block') {
+	            this.getElementsByTagName('ul')[0].style.display = 'none';
+	        }
+	        else {
+	            this.getElementsByTagName('ul')[0].style.display = 'block';
+	        }
+	    }
+
+	    var controls = (function () {
+	        function treeView(selector) {
+	            var indexOfID = selector.indexOf(".");
+	            var wrapper = document.createElement(selector.substring(0, indexOfID));
+	            wrapper.setAttribute("class", selector.substring(indexOfID+1));
+	            wrapper.appendChild(document.createElement("ul"));
+	            document.body.appendChild(wrapper);
+	            return wrapper;
+	        }
+	        
+	        return {
+	            treeView: treeView
+	        }
+	    })();
+	    
+	    var treeView = controls.treeView("div.tree-view");
+	    var jsnode = treeView.addNode();
+	    jsnode.content("JavaScript");
+	    var js1subnode = jsnode.addNode();
+	    js1subnode.content("JavaScript - part 1");
+	    var js2subnode = jsnode.addNode();
+	    js2subnode.content("JavaScript - part 2");
+	    var jslibssubnode = jsnode.addNode();
+	    jslibssubnode.content("JS Libraries");
+	    var jsframeworksnode = jsnode.addNode();
+	    jsframeworksnode.content("JS Frameworks and UI");
+
+	    var webnode = treeView.addNode();
+	    webnode.content("Web");
+	</script>
+</body>
+</html>

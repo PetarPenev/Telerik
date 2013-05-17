@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Carousel</title> 
+        
+        <style>
+            #left-arrow, #right-arrow {
+                display:inline;
+                width:100px;
+                height:100px;
+            }
+
+            #left-arrow {
+                float:left;
+                position:relative;
+                top:150px;
+                background: url("imgs\\left-arrow.png") no-repeat;
+            }
+
+            #right-arrow {
+                float:right;
+                position:relative;
+                top:150px;
+                background: url("imgs\\right-arrow.png") no-repeat;
+            }
+
+            #image-container {
+				display:inline;
+                height:400px;
+                width:800px;
+            }
+
+            #image {
+                height:400px;
+                width:400px;
+				display:inline;
+            }
+
+            #carousel-container {
+                width:600px;
+            }
+
+            #control-container {
+                position:relative;
+                left:150px;
+            }
+        </style>   
+    </head>
+    <body>
+        <div id="carousel-container">
+            <div id="arrow-container">
+                <div id="left-arrow"></div>
+                <div id="right-arrow"></div>
+            </div>
+            <div id="image-container">
+                <img id="image"/>
+            </div>
+        </div>
+        <div id="control-container">
+            <button id="slide-left">Start left slideshow</button>
+            <button id="slide-right">Start right slideshow</button>
+        </div>
+
+        <script>
+            // When you click on an arrow the image is changed only a single time and, if there are any timers (slideshows)
+            // currently on, they are discarded.
+            var images = ["imgs/first-cat.jpg", "imgs/second-cat.jpg", "imgs/third-cat.jpeg", "imgs/fourth-cat.jpg", "imgs/fifth-cat.jpg"];
+            var imageIndex = 0;
+            var container = document.getElementById("image");
+            container.src = images[imageIndex];
+            var intervalId;
+
+            function attachEventHandler(element, eventType, eventHandler) {
+                if (!element) {
+                    return;
+                }
+
+                if (document.addEventListener) {
+                    element.addEventListener(eventType, eventHandler, false);
+                }
+                else if (document.attachEvent) {
+                    element.attachEvent("on" + eventType, eventHandler);
+                }
+                else {
+                    element['on' + eventType] = eventHandler;
+                }
+            }
+
+            // Having two separate move functions for both left and right movement is necessary if we want to
+            // end the slide show once a single-move button is clicked. If we try to do this with just a single moveLeft
+            // and a single moveRight function and call it both in the single slide and multiple slide events, it will not
+            // work as you cannot pass (sucessfully) arguments in the setInterval internal function call.
+            function moveLeft(caller) {
+                imageIndex-=1;
+                if (imageIndex == -1){
+                    imageIndex=images.length-1;
+                }
+
+                container.src=images[imageIndex];
+            }
+
+            function moveLeftOnce(caller) {
+                clearInterval(intervalId);
+                imageIndex -= 1;
+                if (imageIndex == -1) {
+                    imageIndex = images.length - 1;
+                }
+
+                container.src = images[imageIndex];
+            }
+
+            function moveRight() {
+                imageIndex+=1;
+                if (imageIndex == images.length){
+                    imageIndex=0;
+                }
+
+                container.src=images[imageIndex];
+            }
+
+            function moveRightOnce() {
+                clearInterval(intervalId);
+                imageIndex += 1;
+                if (imageIndex == images.length) {
+                    imageIndex = 0;
+                }
+
+                container.src = images[imageIndex];
+            }
+
+            function slideLeft() {
+                if (intervalId) {
+                    clearInterval(intervalId);
+                }
+
+                intervalId = setInterval(function () { moveLeft() }, 2000);
+            }
+
+            function slideRight() {
+                if (intervalId) {
+                    clearInterval(intervalId);
+                }
+
+                intervalId = setInterval(function () { moveRight() }, 2000);
+            }
+
+            var leftArrow = document.getElementById("left-arrow");
+            attachEventHandler(leftArrow, "click", moveLeftOnce);
+
+            var rightArrow = document.getElementById("right-arrow");
+            attachEventHandler(rightArrow, "click", moveRightOnce);
+
+            var leftButton = document.getElementById("slide-left");
+            attachEventHandler(leftButton, "click", slideLeft);
+
+            var rightButton = document.getElementById("slide-right");
+            attachEventHandler(rightButton, "click", slideRight);
+        </script>
+    </body>
+</html>

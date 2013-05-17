@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Change Text Area Colors</title>
+</head>
+<body>
+	<textarea id="changingArea">I love wrist watches.</textarea>
+    <label for="fontColorValue">Font color</label>
+    <input type="color" id="fontColorValue"/>
+    <label for="backgroundColorValue">Background color</label>
+    <input type="color" id="backgroundColorValue"/>
+	<script>
+	// Note that the color input tag does not work in Firefox - there you have a textbox in which 
+	// you have to enter a color's name - like yellow.
+	
+	    function changeFontColor() {
+	        var element = document.getElementById("changingArea");
+	        var colorValue = getColor(document.getElementById("fontColorValue"));
+	        element.style.color = colorValue;
+	    }
+
+	    function changeBackgroundColor() {
+	        var element = document.getElementById("changingArea");
+	        var colorValue = getColor(document.getElementById("backgroundColorValue"));
+	        element.style.backgroundColor = colorValue;
+	    }
+
+	    function getColor(sourceOfValue) {
+	        return sourceOfValue.value;
+	    }
+
+        var elementToChange = document.getElementById("changingArea");
+	    var fontColorInput = document.getElementById("fontColorValue");
+	    fontColorInput.onchange = changeFontColor;
+
+	    var backgroundColorInput = document.getElementById("backgroundColorValue");
+	    backgroundColorInput.onchange = changeBackgroundColor;
+	</script>
+</body>
+</html>

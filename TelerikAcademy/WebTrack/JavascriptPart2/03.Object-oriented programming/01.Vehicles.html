@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Vehicles Hierarchy</title>
+    <script src = "propulsions.js"></script>
+	<script src= "vehicles.js"></script>
+</head>
+<body>
+    <script>
+        // Instantiating some variables and calling some methods.
+        var firstWheel = new propulsions.Wheel(5);
+        var secondWheel = new propulsions.Wheel(3);
+
+        console.log(firstWheel.getAcceleration());
+        console.log(secondWheel.getAcceleration());
+
+        var firstPropNozzle = new propulsions.PropellingNozzle(10, "on");
+        var secondPropNozzle = new propulsions.PropellingNozzle(12, "off");
+
+        console.log(firstPropNozzle.getAcceleration());
+        console.log(secondPropNozzle.getAcceleration());
+
+        var firstPropeller = new propulsions.Propeller(3, "clockwise");
+        var secondPropeller = new propulsions.Propeller(5, "counterclockwise");
+
+        console.log(firstPropeller.getAcceleration());
+        console.log(secondPropeller.getAcceleration());
+
+        var landVehicle = new vehicles.LandVehicle(10, [firstWheel, firstWheel, secondWheel, secondWheel]);
+        console.log(landVehicle.speed);
+        landVehicle.accelerate();
+        console.log(landVehicle.speed);
+
+        var landVehicle = new vehicles.AmphibianVehicle(10, [firstPropeller, firstWheel, secondWheel], "land");
+        console.log(landVehicle.speed);
+        landVehicle.accelerate();
+        console.log(landVehicle.speed);
+    </script>
+</body>
+</html>

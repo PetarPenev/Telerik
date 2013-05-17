@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Query Selectors Shim</title>
+</head>
+<body>
+	<div class="toSelect" id="firstDiv">1</div>
+    <div id="secondDiv">2</div>
+    <div class="toSelect">3</div>
+    <a href="#">4</a>
+    <div class="toSelect">5</div>
+	<script>
+	    document.querySelector = querySelectorShim;
+	    document.querySelectorAll = querySelectorAllShim;
+		
+		/* 	Simplified version of the querySelector shim that works for non-nested CSS selectors.
+			In order to create a fully working version, using a library like jQuery or Sizzle is appropriate (for example with 
+			the following code (with Sizzle):
+			 if (!document.querySelector) {
+				document.querySelector = function (selector) {
+				return Sizzle(selector)[0];
+				};
+			}			
+ 
+			if (!document.querySelectorAll) {
+				document.querySelectorAll = function (selector) {
+				return Sizzle(selector);
+				};
+			}
+			*/
+	    function querySelectorAllShim(selector) {
+	        var collectionResult;
+	        var firstChar = selector.charAt(0);
+	        switch (selector.charAt(0)) {
+	            case ".": {
+	                collectionResult = document.getElementsByClassName(selector.substring(1));
+	                break;
+	            }
+	            case "#": {
+	                collectionResult = document.getElementById(selector.substring(1));
+	                break;
+	            }
+	            default: {
+	                collectionResult = document.getElementsByTagName(selector);
+	                break;
+	            }
+	        }
+			
+			// Ensuring for the case when the selector is an ID selector and the ID does not exists -
+			// return an empty collection instead of a null value.
+	        if (collectionResult === null) {
+	            collectionResult = [];
+	        }
+
+	        return collectionResult;
+	    }
+
+	    function querySelectorShim(selector) {
+	        var result = querySelectorAllShim(selector);
+			// Checking whether we are selecting by id.
+	        if (typeof result[0] === "undefined") {
+	            return result;
+	        }
+	        else {
+	            return result[0];
+	        }
+	    }
+
+	    var singleSelect = document.querySelector("#firstDiv");
+	    console.log(singleSelect.innerHTML);
+
+	    var multipleSelect = document.querySelectorAll("div");
+	    for (var i = 0; i < multipleSelect.length; i++) {
+	        console.log(multipleSelect[i].innerHTML);
+	    }
+	</script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Moving DIVs</title>
+    <style>
+        div {
+            background-color:red;
+            border-radius:50px;
+            height:50px;
+            width:50px;
+        }
+    </style>
+</head>
+<body>
+	<script>
+	    var movingShapes = (function () {
+	        var ellipseMovingDivs = [];
+	        var rectangleMovingDivs = [];
+	        var radius = 20;
+	        var angle = 0;
+	        var rectangleWidth = 450;
+	        var rectangleHeight = 150;
+	        var RECTANGLE_START_WIDTH = 300;
+	        var RECTANGLE_STEP = 15;
+
+	        function moveInEllipse() {
+	            for (var k = 0, len = ellipseMovingDivs.length; k < len; k++) {
+	                // Using a specific formula. For more information: http://stackoverflow.com/questions/2093405/finding-the-coordinates-on-the-edge-of-a-circle
+	                var xPosition = Math.cos(angle + 2 * Math.PI / len * k) / radius * 1000 + "px";
+	                var yPosition = Math.sin(angle + 2 * Math.PI / len * k) / radius * 1000 + "px";
+
+	                ellipseMovingDivs[k].style.top = xPosition;
+	                ellipseMovingDivs[k].style.left = yPosition;
+	            }
+
+	            // You can change the speed of rotation by changing the value of the angle increment.
+	            angle += 0.3;
+	            setTimeout(moveInEllipse, 100);
+	        }
+
+	        function moveInRectangle() {
+	            var leftPosition, topPosition;
+	            for (var i = 0; i < rectangleMovingDivs.length; i++) {
+	                leftPosition = parseInt(rectangleMovingDivs[i].style.left, 10);
+	                topPosition = parseInt(rectangleMovingDivs[i].style.top, 10);
+					
+					// Must be extremely careful with the checks. At some places the "=" sign is necessary for the comparison and at others
+					// it is not. If chosen wrong, it can lead to endless movement of the div in only one direction.
+	                if (leftPosition >= RECTANGLE_START_WIDTH && topPosition==0 && leftPosition<RECTANGLE_START_WIDTH+rectangleWidth) {
+	                    leftPosition += RECTANGLE_STEP;
+	                }
+	                else if (leftPosition == RECTANGLE_START_WIDTH + rectangleWidth && topPosition < rectangleHeight) {
+	                    topPosition += RECTANGLE_STEP;
+	                }
+	                else if (leftPosition > RECTANGLE_START_WIDTH && topPosition == rectangleHeight && leftPosition <= RECTANGLE_START_WIDTH + rectangleWidth) {
+	                    leftPosition -= RECTANGLE_STEP;
+	                }
+	                else {
+	                    topPosition -= RECTANGLE_STEP;
+	                }
+
+	                rectangleMovingDivs[i].style.left = leftPosition + "px";
+	                rectangleMovingDivs[i].style.top = topPosition + "px";
+	            }
+
+	            setTimeout(moveInRectangle, 100);
+	        }
+
+	        function add(movement) {
+	            if (movement == "ellipse") {
+	                ellipseMovingDivs.push(createDiv());
+	                addToDom(ellipseMovingDivs);
+	                moveInEllipse();
+	            }
+	            else if (movement == "rect") {
+	                rectangleMovingDivs.push(createDiv());
+	                addToDom(rectangleMovingDivs);
+	                moveInRectangle();
+	            }
+	        }
+
+	        function createDiv() {
+	            var div = document.createElement("div");
+
+	            div.style.backgroundColor = "red";
+	            div.style.borderRadius = "50px";
+	            div.style.width = "10px";
+	            div.style.height = "10px";
+	            div.style.position = "absolute";
+	            div.style.top = "0px";
+	            div.style.left = RECTANGLE_START_WIDTH+ "px";
+	            div.style.margin = "50px";
+
+	            return div;
+	        }
+
+	        function addToDom(elements) {
+	            for (var i = 0; i < elements.length; i++) {
+	                document.body.appendChild(elements[i]);
+	            }
+	        }
+
+	        return {
+                add: add
+	        }
+	    })();
+	    
+	    movingShapes.add("ellipse");
+	    movingShapes.add("ellipse");
+	    movingShapes.add("ellipse");
+	    movingShapes.add("ellipse");
+	    movingShapes.add("ellipse");
+	   
+	    movingShapes.add("rect");
+	    movingShapes.add("rect");
+	    movingShapes.add("rect");
+	    movingShapes.add("rect");
+	</script>
+</body>
+</html>

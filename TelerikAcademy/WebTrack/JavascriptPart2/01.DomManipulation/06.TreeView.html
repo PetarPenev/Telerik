@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Tree View</title>
+    <style>
+        ul li {
+            list-style-type:circle;
+        }
+        li ul {
+            display:none;
+            width:200px;
+        }
+    </style>
+</head>
+<body>
+	<ul id="container">
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item
+            <ul>
+                <li>Sub Item</li>
+                <li>Sub Item
+                    <ul>
+                        <li>Sub Item</li>
+                        <li>Sub Item</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>Item</li>
+        <li>Item</li>
+	</ul>
+	<script>
+	    function onClickChange(event) {
+			// Ensuring the event does not propagate for parent elements.
+	        if (event.stopPropagation) {
+	            event.stopPropagation();
+	        }
+			
+	        event.cancelBubble = true;
+			
+	        if 	(this.getElementsByTagName('ul')[0].style.display == 'block') {
+	            this.getElementsByTagName('ul')[0].style.display = 'none';
+	        }
+	        else {
+	            this.getElementsByTagName('ul')[0].style.display = 'block';
+	        }
+	        if (!event) {
+	            event = window.Event;
+	        }			
+	    }
+
+	    var elements = document.getElementsByTagName("li");
+	    for (var i=0, length=elements.length; i<length;i++) {
+	        elements[i].addEventListener("click", onClickChange, false);
+	    }
+	</script>
+</body>
+</html>

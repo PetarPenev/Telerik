@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO list</title> 
+        
+        <style>
+            #title-div {
+                font-size:35px;
+            }
+        </style>   
+    </head>
+    <body>
+        <div id="title-div">TODO list:</div>
+        <div id="list-container">
+
+        </div>
+        <div id="control-container">
+            <button id="show-button">Show list</button>
+            <button id="hide-button">Hide list</button>
+        </div>
+        <div id="formContainer">
+            <label for="TODO-event">New item:</label>
+            <input type="text" id="TODO-event" />
+            <button id="submit-button">Add item</button>
+            <button id="delete-button">Delete item</button>
+        </div>
+
+        <script>
+            function attachEventHandler(element, eventType, eventHandler) {
+                if (!element) {
+                    return;
+                }
+
+                if (document.addEventListener) {
+                    element.addEventListener(eventType, eventHandler, false);
+                }
+                else if (document.attachEvent) {
+                    element.attachEvent("on" + eventType, eventHandler);
+                }
+                else {
+                    element['on' + eventType] = eventHandler;
+                }
+            }
+
+            var list = (function () {
+                var container = document.getElementById("list-container");
+                container.style.width = 300 + "px";
+
+                var oList = document.createElement("ol");
+                oList.id = "listOfItems";
+                container.appendChild(oList);
+
+                function addItem(text) {
+                    var element = document.createElement("li");
+                    element.innerHTML = text;
+                    element.style.fontSize = 20 + "px";
+                    container.firstElementChild.appendChild(element);
+                    console.log("New element was added.");
+                }
+
+                function removeItem(number) {
+                    var numberToRemove = parseInt(number);
+
+                    if (!numberToRemove){
+                        console.log("You need to enter the number to be removed");
+                        return;
+                    }
+
+                    if (number<=0){
+                        console.log("You need to a positive number.");
+                        return;
+                    }
+
+                    var element = container.firstElementChild.firstElementChild;
+                    counter=1;
+                    while ((element) && (counter <= numberToRemove)) {
+                        if (counter == numberToRemove) {
+                            container.firstElementChild.removeChild(element);
+                            console.log("Element" + counter + " was removed.");
+                            return;
+                        }
+                        counter++;
+                        element = element.nextElementSibling;
+                    }
+
+                    console.log("Number higher than the number of available elements in the list.");
+                    return;
+                }
+
+                return {
+                    addItem: addItem,
+                    removeItem: removeItem
+                }
+            })();
+
+            function onClickAdd() {
+                var element = document.getElementById("TODO-event");
+                var text = element.value;
+                list.addItem(text);
+            }
+
+            function onClickRemove() {
+                var element = document.getElementById("TODO-event");
+                var text = element.value;
+                list.removeItem(text);
+            }
+
+            function showList() {
+                var elementToShow = document.getElementById("listOfItems");
+                elementToShow.style.display = "block";
+            }
+
+            function hideList() {
+                var elementToShow = document.getElementById("listOfItems");
+                elementToShow.style.display = "none";
+            }
+
+            attachEventHandler(document.getElementById("submit-button"), "click", onClickAdd);
+            attachEventHandler(document.getElementById("delete-button"), "click", onClickRemove);
+            attachEventHandler(document.getElementById("show-button"), "click", showList);
+            attachEventHandler(document.getElementById("hide-button"), "click", hideList);
+
+            /*list.addItem("Go to market");
+            list.addItem("Go to gym");
+            list.addItem("Buy a watch.");
+            list.removeItem("2");*/
+            
+        </script>
+    </body>
+</html>

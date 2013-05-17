@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Drag'n'drop</title>
+
+    <style>
+        #binWrapper {
+            position:relative;
+            top:250px;
+            left:300px;
+            width: 100px;
+            height: 100px;
+            background-color:azure;
+            border-radius:20px;
+        }
+
+        #imageContainer {
+            width:400px;
+            height:400px;
+            background-color:coral;
+        }
+
+        img {
+            position:relative;
+        }
+
+        #bin {
+            width:100px;
+            height:100px;
+        }
+
+        #scoreContainer {
+            margin:20px;
+            padding:30px;
+            width:200px;
+            background-color:lightblue;
+            border-radius: 15px;
+            border: 3px solid black;
+        }
+    </style>
+
+    <script src="localStorage.js"></script>
+
+    <script>
+        var NUMBER_OF_TRASHES = 3;
+        var startTime;
+        var numberOfTrashesCleaned;
+        var trashes = [];
+
+        function changeBinImage(newState) {
+            var bin = document.getElementById("bin");
+            if (newState == "opened") {
+                bin.src = "img/trash-open.png";
+            }
+            else if (newState == "closed") {
+                bin.src = "img/trash-closed.png";
+            }
+        }
+
+        function allowDrop(ev) {
+            ev.preventDefault();
+        }
+
+        function drag(ev) {
+            ev.dataTransfer.setData("dragged-id", ev.target.id);
+        }
+
+        function drop(ev) {
+            ev.preventDefault();
+            var data = ev.dataTransfer.getData("dragged-id");
+            var trashToRemove = document.getElementById(data);
+            imageContainer.removeChild(trashToRemove);
+            numberOfTrashesCleaned += 1;
+            checkIfCleared();
+			
+        }
+
+        function dropper(ev) {
+            ev.preventDefault();
+        }
+
+        function getRandomPosition(start, end) {
+            var random = Math.floor((Math.random() * (end - start) + start));
+            return random;
+        }
+
+        function checkIfCleared() {
+            if (numberOfTrashesCleaned == NUMBER_OF_TRASHES) {
+                askForHighScore();
+                loadHighScore();
+                changeBinImage("closed");
+            }
+        }
+
+        function reloadGame() {
+            var docFragment = document.createDocumentFragment();
+            for (var i = 0; i < trashes.length; i++) {
+                docFragment.appendChild(trashes[i]);
+            }
+
+            imageContainer.appendChild(docFragment);
+            loadHighScore();
+            startTime = new Date();
+            numberOfTrashesCleaned = 0;
+        }
+
+        function askForHighScore() {
+            var endTime = new Date();
+            var timeToFinish = endTime - startTime;
+            var name = prompt("Please enter your name", "not entered");
+            while ((name == "not entered") || (name=="")) {
+                name = prompt("You have not entered a name. Please enter your name.");
+            }
+
+            localStorage.setObject(name, timeToFinish);
+        }
+
+        function loadHighScore() {
+            var topFiveArray = getSortedValues();
+
+            if (!topFiveArray.length || topFiveArray.length == 0) {
+                document.getElementById("scoreContainer").innerHTML = "{ name:empty, time=empty}";
+                return;
+            }
+
+            var resultHTML = "<ol>";
+            var length = topFiveArray.length;
+            var lengthOfList = Math.min(length, 5);
+            for (var i = 0; i < lengthOfList; i++) {
+                var key = topFiveArray[i][1];
+                resultHTML +=
+               '<li>' +
+               '<strong>Name</strong>: ' + key + ', <strong>time to complete (sec)</strong>: ' + topFiveArray[i][0]/1000 +
+               '</li>';
+            }
+
+            resultHTML += "</ol>";
+            document.getElementById("scoreContainer").innerHTML = resultHTML;
+        }
+
+        function getSortedValues() {
+            var topScorersList = new Array();
+
+            if (localStorage.length > 0) {
+                for (i = 0; i < localStorage.length; i++) {
+                    topScorersList[i] = [parseInt(localStorage.getItem(localStorage.key(i))), localStorage.key(i)];
+                }
+
+
+                topScorersList = topScorersList.sort(function (a, b) {
+                    var x = a[0];
+                    var y = b[0];
+                    return x - y;
+                });
+            }
+
+            return topScorersList;
+        }
+
+        function loadTrash() {
+            localStorage.clear();
+
+            var docFragment = document.createDocumentFragment();
+            var trash;
+
+            for (var i = 0; i < NUMBER_OF_TRASHES; i++) {
+                trash = document.createElement("img");
+                trash.style.position = "relative";
+                trash.style.top = getRandomPosition(0, 150) + "px";
+                trash.style.left = getRandomPosition(0, 150) + "px";
+                trash.src = "img/trash.jpg";
+                trash.style.height = 20 + "px";
+                trash.style.width = 20 + "px";
+                trash.draggable = "true";
+                trash.setAttribute('ondragstart', 'drag(event)');
+                trash.id = "image " + i;
+                docFragment.appendChild(trash);
+                trashes.push(trash);
+            }
+
+            document.getElementById("imageContainer").appendChild(docFragment);
+            
+            loadHighScore();
+            startTime = new Date();
+            numberOfTrashesCleaned = 0;
+        }
+    </script>
+</head>
+<body onload="loadTrash()" ondragover="allowDrop(event)">
+    <button onclick="reloadGame()">Start New Game</button>
+    <div id="imageContainer" ondragover="allowDrop(event)" ondrop="dropper(event)">
+        <div id="binWrapper" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <img id="bin" ondragover="changeBinImage('opened')" ondragleave="changeBinImage('closed')" onmouseout="changeBinImage('closed')" src="img/trash-closed.png" alt="This is the bin" />
+        </div>
+    </div>
+    <div id="scoreContainer">Set</div>
+</body>
+</html>
