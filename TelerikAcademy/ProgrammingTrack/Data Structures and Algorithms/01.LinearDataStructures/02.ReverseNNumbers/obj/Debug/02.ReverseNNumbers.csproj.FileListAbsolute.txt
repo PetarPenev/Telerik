@@ -1,0 +1,5 @@
+D:\Data Structures And Algorithms\2\LinearDataStructures\LinearDataStructures\02.ReverseNNumbers\bin\Debug\02.ReverseNNumbers.exe.config
+D:\Data Structures And Algorithms\2\LinearDataStructures\LinearDataStructures\02.ReverseNNumbers\bin\Debug\02.ReverseNNumbers.exe
+D:\Data Structures And Algorithms\2\LinearDataStructures\LinearDataStructures\02.ReverseNNumbers\bin\Debug\02.ReverseNNumbers.pdb
+D:\Data Structures And Algorithms\2\LinearDataStructures\LinearDataStructures\02.ReverseNNumbers\obj\Debug\02.ReverseNNumbers.exe
+D:\Data Structures And Algorithms\2\LinearDataStructures\LinearDataStructures\02.ReverseNNumbers\obj\Debug\02.ReverseNNumbers.pdb

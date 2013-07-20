@@ -1,0 +1,5 @@
+D:\Data Structures And Algorithms\2\LinearDataStructures\LinearDataStructures\06.RemoveNumbersWithOddOccurrances\bin\Debug\06.RemoveNumbersWithOddOccurrances.exe.config
+D:\Data Structures And Algorithms\2\LinearDataStructures\LinearDataStructures\06.RemoveNumbersWithOddOccurrances\bin\Debug\06.RemoveNumbersWithOddOccurrances.exe
+D:\Data Structures And Algorithms\2\LinearDataStructures\LinearDataStructures\06.RemoveNumbersWithOddOccurrances\bin\Debug\06.RemoveNumbersWithOddOccurrances.pdb
+D:\Data Structures And Algorithms\2\LinearDataStructures\LinearDataStructures\06.RemoveNumbersWithOddOccurrances\obj\Debug\06.RemoveNumbersWithOddOccurrances.exe
+D:\Data Structures And Algorithms\2\LinearDataStructures\LinearDataStructures\06.RemoveNumbersWithOddOccurrances\obj\Debug\06.RemoveNumbersWithOddOccurrances.pdb

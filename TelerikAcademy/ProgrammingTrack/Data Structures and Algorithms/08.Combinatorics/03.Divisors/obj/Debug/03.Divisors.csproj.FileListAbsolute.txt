@@ -1,0 +1,6 @@
+D:\Data Structures And Algorithms\9\CombinatoricsHomework\CombinatoricsHomework\03.Divisors\bin\Debug\03.Divisors.exe.config
+D:\Data Structures And Algorithms\9\CombinatoricsHomework\CombinatoricsHomework\03.Divisors\bin\Debug\03.Divisors.exe
+D:\Data Structures And Algorithms\9\CombinatoricsHomework\CombinatoricsHomework\03.Divisors\bin\Debug\03.Divisors.pdb
+D:\Data Structures And Algorithms\9\CombinatoricsHomework\CombinatoricsHomework\03.Divisors\obj\Debug\03.Divisors.csprojResolveAssemblyReference.cache
+D:\Data Structures And Algorithms\9\CombinatoricsHomework\CombinatoricsHomework\03.Divisors\obj\Debug\03.Divisors.exe
+D:\Data Structures And Algorithms\9\CombinatoricsHomework\CombinatoricsHomework\03.Divisors\obj\Debug\03.Divisors.pdb

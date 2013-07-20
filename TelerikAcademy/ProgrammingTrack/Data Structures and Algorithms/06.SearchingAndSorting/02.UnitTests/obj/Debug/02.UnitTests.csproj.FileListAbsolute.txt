@@ -1,0 +1,7 @@
+D:\Data Structures And Algorithms\7\SearchAndSortHomework\SearchingAndSortingHomework\02.UnitTests\bin\Debug\02.UnitTests.dll
+D:\Data Structures And Algorithms\7\SearchAndSortHomework\SearchingAndSortingHomework\02.UnitTests\bin\Debug\02.UnitTests.pdb
+D:\Data Structures And Algorithms\7\SearchAndSortHomework\SearchingAndSortingHomework\02.UnitTests\bin\Debug\01.SortableCollectionImplementation.exe
+D:\Data Structures And Algorithms\7\SearchAndSortHomework\SearchingAndSortingHomework\02.UnitTests\bin\Debug\01.SortableCollectionImplementation.pdb
+D:\Data Structures And Algorithms\7\SearchAndSortHomework\SearchingAndSortingHomework\02.UnitTests\obj\Debug\02.UnitTests.csprojResolveAssemblyReference.cache
+D:\Data Structures And Algorithms\7\SearchAndSortHomework\SearchingAndSortingHomework\02.UnitTests\obj\Debug\02.UnitTests.dll
+D:\Data Structures And Algorithms\7\SearchAndSortHomework\SearchingAndSortingHomework\02.UnitTests\obj\Debug\02.UnitTests.pdb

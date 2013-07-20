@@ -1,0 +1,6 @@
+D:\Data Structures And Algorithms\7\SearchAndSortHomework\RecursionHomework\05.VariationsWithRepetition\bin\Debug\05.VariationsWithRepetition.exe.config
+D:\Data Structures And Algorithms\7\SearchAndSortHomework\RecursionHomework\05.VariationsWithRepetition\bin\Debug\05.VariationsWithRepetition.exe
+D:\Data Structures And Algorithms\7\SearchAndSortHomework\RecursionHomework\05.VariationsWithRepetition\bin\Debug\05.VariationsWithRepetition.pdb
+D:\Data Structures And Algorithms\7\SearchAndSortHomework\RecursionHomework\05.VariationsWithRepetition\obj\Debug\05.VariationsWithRepetition.csprojResolveAssemblyReference.cache
+D:\Data Structures And Algorithms\7\SearchAndSortHomework\RecursionHomework\05.VariationsWithRepetition\obj\Debug\05.VariationsWithRepetition.exe
+D:\Data Structures And Algorithms\7\SearchAndSortHomework\RecursionHomework\05.VariationsWithRepetition\obj\Debug\05.VariationsWithRepetition.pdb

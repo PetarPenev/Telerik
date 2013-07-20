@@ -1,0 +1,6 @@
+D:\Data Structures And Algorithms\2\LinearDataStructures\LinearDataStructures\08.FindMajorant\bin\Debug\08.FindMajorant.exe.config
+D:\Data Structures And Algorithms\2\LinearDataStructures\LinearDataStructures\08.FindMajorant\bin\Debug\08.FindMajorant.exe
+D:\Data Structures And Algorithms\2\LinearDataStructures\LinearDataStructures\08.FindMajorant\bin\Debug\08.FindMajorant.pdb
+D:\Data Structures And Algorithms\2\LinearDataStructures\LinearDataStructures\08.FindMajorant\obj\Debug\08.FindMajorant.csprojResolveAssemblyReference.cache
+D:\Data Structures And Algorithms\2\LinearDataStructures\LinearDataStructures\08.FindMajorant\obj\Debug\08.FindMajorant.exe
+D:\Data Structures And Algorithms\2\LinearDataStructures\LinearDataStructures\08.FindMajorant\obj\Debug\08.FindMajorant.pdb

@@ -1,0 +1,6 @@
+D:\Data Structures And Algorithms\7\SearchAndSortHomework\RecursionHomework\12.NQueensPuzzle\bin\Debug\12.NQueensPuzzle.exe.config
+D:\Data Structures And Algorithms\7\SearchAndSortHomework\RecursionHomework\12.NQueensPuzzle\bin\Debug\12.NQueensPuzzle.exe
+D:\Data Structures And Algorithms\7\SearchAndSortHomework\RecursionHomework\12.NQueensPuzzle\bin\Debug\12.NQueensPuzzle.pdb
+D:\Data Structures And Algorithms\7\SearchAndSortHomework\RecursionHomework\12.NQueensPuzzle\obj\Debug\12.NQueensPuzzle.csprojResolveAssemblyReference.cache
+D:\Data Structures And Algorithms\7\SearchAndSortHomework\RecursionHomework\12.NQueensPuzzle\obj\Debug\12.NQueensPuzzle.exe
+D:\Data Structures And Algorithms\7\SearchAndSortHomework\RecursionHomework\12.NQueensPuzzle\obj\Debug\12.NQueensPuzzle.pdb

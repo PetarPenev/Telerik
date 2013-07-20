@@ -1,0 +1,5 @@
+D:\Data Structures And Algorithms\2\LinearDataStructures\LinearDataStructures\04.LongestSubsequenceOfEqualElements\bin\Debug\04.LongestSubsequenceOfEqualElements.exe.config
+D:\Data Structures And Algorithms\2\LinearDataStructures\LinearDataStructures\04.LongestSubsequenceOfEqualElements\bin\Debug\04.LongestSubsequenceOfEqualElements.exe
+D:\Data Structures And Algorithms\2\LinearDataStructures\LinearDataStructures\04.LongestSubsequenceOfEqualElements\bin\Debug\04.LongestSubsequenceOfEqualElements.pdb
+D:\Data Structures And Algorithms\2\LinearDataStructures\LinearDataStructures\04.LongestSubsequenceOfEqualElements\obj\Debug\04.LongestSubsequenceOfEqualElements.exe
+D:\Data Structures And Algorithms\2\LinearDataStructures\LinearDataStructures\04.LongestSubsequenceOfEqualElements\obj\Debug\04.LongestSubsequenceOfEqualElements.pdb

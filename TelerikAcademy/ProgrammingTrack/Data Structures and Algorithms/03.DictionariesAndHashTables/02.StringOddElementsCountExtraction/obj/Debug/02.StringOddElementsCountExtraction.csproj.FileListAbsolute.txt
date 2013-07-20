@@ -1,0 +1,1 @@
+D:\Data Structures And Algorithms\4\HashTables\DictionariesAndHashTables\HashTables\02.StringOddElementsCountExtraction\bin\Debug\02.StringOddElementsCountExtraction.exe.config

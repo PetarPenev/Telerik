@@ -1,0 +1,5 @@
+D:\Data Structures And Algorithms\2\LinearDataStructures\LinearDataStructures\07.CalculateOccurrances\bin\Debug\07.CalculateOccurrances.exe.config
+D:\Data Structures And Algorithms\2\LinearDataStructures\LinearDataStructures\07.CalculateOccurrances\bin\Debug\07.CalculateOccurrances.exe
+D:\Data Structures And Algorithms\2\LinearDataStructures\LinearDataStructures\07.CalculateOccurrances\bin\Debug\07.CalculateOccurrances.pdb
+D:\Data Structures And Algorithms\2\LinearDataStructures\LinearDataStructures\07.CalculateOccurrances\obj\Debug\07.CalculateOccurrances.exe
+D:\Data Structures And Algorithms\2\LinearDataStructures\LinearDataStructures\07.CalculateOccurrances\obj\Debug\07.CalculateOccurrances.pdb

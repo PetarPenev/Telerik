@@ -1,0 +1,6 @@
+D:\Data Structures And Algorithms\3\TreesHomework\TreesAndTraversals\03.FileTree\bin\Debug\03.FileTree.exe.config
+D:\Data Structures And Algorithms\3\TreesHomework\TreesAndTraversals\03.FileTree\bin\Debug\03.FileTree.exe
+D:\Data Structures And Algorithms\3\TreesHomework\TreesAndTraversals\03.FileTree\bin\Debug\03.FileTree.pdb
+D:\Data Structures And Algorithms\3\TreesHomework\TreesAndTraversals\03.FileTree\obj\Debug\03.FileTree.csprojResolveAssemblyReference.cache
+D:\Data Structures And Algorithms\3\TreesHomework\TreesAndTraversals\03.FileTree\obj\Debug\03.FileTree.exe
+D:\Data Structures And Algorithms\3\TreesHomework\TreesAndTraversals\03.FileTree\obj\Debug\03.FileTree.pdb

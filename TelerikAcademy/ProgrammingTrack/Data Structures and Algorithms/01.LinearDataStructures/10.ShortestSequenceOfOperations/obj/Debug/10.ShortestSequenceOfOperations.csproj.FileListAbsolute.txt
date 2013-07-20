@@ -1,0 +1,6 @@
+D:\Data Structures And Algorithms\2\LinearDataStructures\LinearDataStructures\10.ShortestSequenceOfOperations\bin\Debug\10.ShortestSequenceOfOperations.exe.config
+D:\Data Structures And Algorithms\2\LinearDataStructures\LinearDataStructures\10.ShortestSequenceOfOperations\obj\Debug\10.ShortestSequenceOfOperations.csprojResolveAssemblyReference.cache
+D:\Data Structures And Algorithms\2\LinearDataStructures\LinearDataStructures\10.ShortestSequenceOfOperations\bin\Debug\10.ShortestSequenceOfOperations.exe
+D:\Data Structures And Algorithms\2\LinearDataStructures\LinearDataStructures\10.ShortestSequenceOfOperations\bin\Debug\10.ShortestSequenceOfOperations.pdb
+D:\Data Structures And Algorithms\2\LinearDataStructures\LinearDataStructures\10.ShortestSequenceOfOperations\obj\Debug\10.ShortestSequenceOfOperations.exe
+D:\Data Structures And Algorithms\2\LinearDataStructures\LinearDataStructures\10.ShortestSequenceOfOperations\obj\Debug\10.ShortestSequenceOfOperations.pdb

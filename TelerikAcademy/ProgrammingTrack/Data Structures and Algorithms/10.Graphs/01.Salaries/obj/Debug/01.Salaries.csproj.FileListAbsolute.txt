@@ -1,0 +1,6 @@
+D:\Data Structures And Algorithms\11\GraphsHomework\Graphs\01.Salaries\bin\Debug\01.Salaries.exe.config
+D:\Data Structures And Algorithms\11\GraphsHomework\Graphs\01.Salaries\bin\Debug\01.Salaries.exe
+D:\Data Structures And Algorithms\11\GraphsHomework\Graphs\01.Salaries\bin\Debug\01.Salaries.pdb
+D:\Data Structures And Algorithms\11\GraphsHomework\Graphs\01.Salaries\obj\Debug\01.Salaries.csprojResolveAssemblyReference.cache
+D:\Data Structures And Algorithms\11\GraphsHomework\Graphs\01.Salaries\obj\Debug\01.Salaries.exe
+D:\Data Structures And Algorithms\11\GraphsHomework\Graphs\01.Salaries\obj\Debug\01.Salaries.pdb
