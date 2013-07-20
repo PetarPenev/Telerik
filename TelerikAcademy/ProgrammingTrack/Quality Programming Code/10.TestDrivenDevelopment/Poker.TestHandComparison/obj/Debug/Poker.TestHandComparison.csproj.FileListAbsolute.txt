@@ -1,0 +1,7 @@
+D:\QualityCode\11\11. Test-Driven-Development-Demo-Homework\Poker.TestHandComparison\bin\Debug\Poker.TestHandComparison.dll
+D:\QualityCode\11\11. Test-Driven-Development-Demo-Homework\Poker.TestHandComparison\bin\Debug\Poker.TestHandComparison.pdb
+D:\QualityCode\11\11. Test-Driven-Development-Demo-Homework\Poker.TestHandComparison\bin\Debug\Poker.exe
+D:\QualityCode\11\11. Test-Driven-Development-Demo-Homework\Poker.TestHandComparison\bin\Debug\Poker.pdb
+D:\QualityCode\11\11. Test-Driven-Development-Demo-Homework\Poker.TestHandComparison\obj\Debug\Poker.TestHandComparison.csprojResolveAssemblyReference.cache
+D:\QualityCode\11\11. Test-Driven-Development-Demo-Homework\Poker.TestHandComparison\obj\Debug\Poker.TestHandComparison.dll
+D:\QualityCode\11\11. Test-Driven-Development-Demo-Homework\Poker.TestHandComparison\obj\Debug\Poker.TestHandComparison.pdb

@@ -1,0 +1,5 @@
+D:\QualityCode\10\UnitTesting\SchoolSystem\bin\Debug\SchoolSystem.dll
+D:\QualityCode\10\UnitTesting\SchoolSystem\bin\Debug\SchoolSystem.pdb
+D:\QualityCode\10\UnitTesting\SchoolSystem\obj\Debug\SchoolSystem.csprojResolveAssemblyReference.cache
+D:\QualityCode\10\UnitTesting\SchoolSystem\obj\Debug\SchoolSystem.dll
+D:\QualityCode\10\UnitTesting\SchoolSystem\obj\Debug\SchoolSystem.pdb

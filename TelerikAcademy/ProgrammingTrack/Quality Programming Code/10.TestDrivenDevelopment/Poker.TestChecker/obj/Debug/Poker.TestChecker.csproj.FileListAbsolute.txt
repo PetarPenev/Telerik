@@ -1,0 +1,7 @@
+D:\QualityCode\11\11. Test-Driven-Development-Demo-Homework\Poker.TestChecker\bin\Debug\Poker.TestChecker.dll
+D:\QualityCode\11\11. Test-Driven-Development-Demo-Homework\Poker.TestChecker\bin\Debug\Poker.TestChecker.pdb
+D:\QualityCode\11\11. Test-Driven-Development-Demo-Homework\Poker.TestChecker\bin\Debug\Poker.exe
+D:\QualityCode\11\11. Test-Driven-Development-Demo-Homework\Poker.TestChecker\bin\Debug\Poker.pdb
+D:\QualityCode\11\11. Test-Driven-Development-Demo-Homework\Poker.TestChecker\obj\Debug\Poker.TestChecker.csprojResolveAssemblyReference.cache
+D:\QualityCode\11\11. Test-Driven-Development-Demo-Homework\Poker.TestChecker\obj\Debug\Poker.TestChecker.dll
+D:\QualityCode\11\11. Test-Driven-Development-Demo-Homework\Poker.TestChecker\obj\Debug\Poker.TestChecker.pdb

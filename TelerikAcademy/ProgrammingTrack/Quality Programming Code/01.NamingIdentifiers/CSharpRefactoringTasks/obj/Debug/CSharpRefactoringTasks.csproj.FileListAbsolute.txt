@@ -1,0 +1,5 @@
+D:\QualityCode\2\NamingIdentifiersHomework\NamingIdentifiers\CSharpRefactoringTasks\bin\Debug\CSharpRefactoringTasks.exe.config
+D:\QualityCode\2\NamingIdentifiersHomework\NamingIdentifiers\CSharpRefactoringTasks\bin\Debug\CSharpRefactoringTasks.exe
+D:\QualityCode\2\NamingIdentifiersHomework\NamingIdentifiers\CSharpRefactoringTasks\bin\Debug\CSharpRefactoringTasks.pdb
+D:\QualityCode\2\NamingIdentifiersHomework\NamingIdentifiers\CSharpRefactoringTasks\obj\Debug\CSharpRefactoringTasks.exe
+D:\QualityCode\2\NamingIdentifiersHomework\NamingIdentifiers\CSharpRefactoringTasks\obj\Debug\CSharpRefactoringTasks.pdb

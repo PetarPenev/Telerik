@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpRefactoringTasks", "CSharpRefactoringTasks\CSharpRefactoringTasks.csproj", "{108A0DBB-51C7-4470-A086-6E41EDD55C7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JavaScriptRefactoring", "JavaScriptRefactoring\JavaScriptRefactoring.csproj", "{5576A0FC-9A46-4BB9-86E1-B6644C06B987}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minesweeper", "Minesweeper\Minesweeper.csproj", "{51E760AE-34FE-4B49-AD5A-F2C977A1B900}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{108A0DBB-51C7-4470-A086-6E41EDD55C7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{108A0DBB-51C7-4470-A086-6E41EDD55C7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{108A0DBB-51C7-4470-A086-6E41EDD55C7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{108A0DBB-51C7-4470-A086-6E41EDD55C7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5576A0FC-9A46-4BB9-86E1-B6644C06B987}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5576A0FC-9A46-4BB9-86E1-B6644C06B987}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5576A0FC-9A46-4BB9-86E1-B6644C06B987}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5576A0FC-9A46-4BB9-86E1-B6644C06B987}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51E760AE-34FE-4B49-AD5A-F2C977A1B900}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51E760AE-34FE-4B49-AD5A-F2C977A1B900}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51E760AE-34FE-4B49-AD5A-F2C977A1B900}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51E760AE-34FE-4B49-AD5A-F2C977A1B900}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,5 @@
+D:\QualityCode\11\11. Test-Driven-Development-Demo-Homework\bin\Debug\Poker.exe
+D:\QualityCode\11\11. Test-Driven-Development-Demo-Homework\bin\Debug\Poker.pdb
+D:\QualityCode\11\11. Test-Driven-Development-Demo-Homework\obj\Debug\Poker.csprojResolveAssemblyReference.cache
+D:\QualityCode\11\11. Test-Driven-Development-Demo-Homework\obj\Debug\Poker.exe
+D:\QualityCode\11\11. Test-Driven-Development-Demo-Homework\obj\Debug\Poker.pdb

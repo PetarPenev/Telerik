@@ -1,0 +1,5 @@
+D:\QualityCode\8\9. Assertions-and-Exceptions-Homework\Exceptions-Homework\bin\Debug\Exceptions-Homework.exe
+D:\QualityCode\8\9. Assertions-and-Exceptions-Homework\Exceptions-Homework\bin\Debug\Exceptions-Homework.pdb
+D:\QualityCode\8\9. Assertions-and-Exceptions-Homework\Exceptions-Homework\obj\Debug\Exceptions-Homework.csprojResolveAssemblyReference.cache
+D:\QualityCode\8\9. Assertions-and-Exceptions-Homework\Exceptions-Homework\obj\Debug\Exceptions-Homework.exe
+D:\QualityCode\8\9. Assertions-and-Exceptions-Homework\Exceptions-Homework\obj\Debug\Exceptions-Homework.pdb

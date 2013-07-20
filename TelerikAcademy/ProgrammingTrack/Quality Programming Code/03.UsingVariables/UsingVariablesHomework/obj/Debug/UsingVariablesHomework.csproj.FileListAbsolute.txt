@@ -1,0 +1,5 @@
+D:\QualityCode\4\UsingVariables\UsingVariables\UsingVariablesHomework\bin\Debug\UsingVariablesHomework.dll
+D:\QualityCode\4\UsingVariables\UsingVariables\UsingVariablesHomework\bin\Debug\UsingVariablesHomework.pdb
+D:\QualityCode\4\UsingVariables\UsingVariables\UsingVariablesHomework\obj\Debug\UsingVariablesHomework.csprojResolveAssemblyReference.cache
+D:\QualityCode\4\UsingVariables\UsingVariables\UsingVariablesHomework\obj\Debug\UsingVariablesHomework.dll
+D:\QualityCode\4\UsingVariables\UsingVariables\UsingVariablesHomework\obj\Debug\UsingVariablesHomework.pdb

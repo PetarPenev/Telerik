@@ -1,0 +1,7 @@
+D:\QualityCode\10\UnitTesting\TestSchool\bin\Debug\TestSchool.dll
+D:\QualityCode\10\UnitTesting\TestSchool\bin\Debug\TestSchool.pdb
+D:\QualityCode\10\UnitTesting\TestSchool\bin\Debug\SchoolSystem.dll
+D:\QualityCode\10\UnitTesting\TestSchool\bin\Debug\SchoolSystem.pdb
+D:\QualityCode\10\UnitTesting\TestSchool\obj\Debug\TestSchool.csprojResolveAssemblyReference.cache
+D:\QualityCode\10\UnitTesting\TestSchool\obj\Debug\TestSchool.dll
+D:\QualityCode\10\UnitTesting\TestSchool\obj\Debug\TestSchool.pdb

@@ -1,0 +1,5 @@
+D:\QualityCode\3\DocumentationHomework\StringExtensionsLibrary\bin\Debug\StringExtensionsLibrary.dll
+D:\QualityCode\3\DocumentationHomework\StringExtensionsLibrary\bin\Debug\StringExtensionsLibrary.pdb
+D:\QualityCode\3\DocumentationHomework\StringExtensionsLibrary\obj\Debug\StringExtensionsLibrary.dll
+D:\QualityCode\3\DocumentationHomework\StringExtensionsLibrary\obj\Debug\StringExtensionsLibrary.pdb
+D:\QualityCode\3\DocumentationHomework\StringExtensionsLibrary\bin\Debug\StringExtensionsLibrary.XML
