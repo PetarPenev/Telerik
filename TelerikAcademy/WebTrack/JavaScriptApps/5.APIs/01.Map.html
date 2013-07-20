@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Map</title>
+    <script src="scripts/ClassCreate.js"></script>
+    <style>
+        html, body, #map-canvas {
+            margin: 0;
+            padding: 0;
+            height: 500px;
+            width: 750px;
+        }
+
+        ul {
+            position: absolute;
+            left: 830px;
+            top: 150px;
+            list-style-type:none;
+        }
+
+        #prev {
+            position: absolute;
+            left: 750px;
+            top: 100px;
+        }
+
+        #next {
+            position: absolute;
+            left: 950px;
+            top: 100px;
+        }
+		
+		button {
+			width: 100px;
+		}
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+</head>
+<body>
+    <div id="map-canvas"></div>
+    <button id="prev" onclick="prevCity()">Previous</button>
+    <button id="next" onclick="nextCity()">Next</button>
+    <ul id="list-of-capitals">        
+    </ul>
+    <script src="scripts/01.Map.js"></script>
+</body>
+</html>

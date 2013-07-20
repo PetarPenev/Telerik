@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Treeview</title>
+    <style>
+        ul {
+            list-style-type: square;
+        }
+
+        a {
+            text-decoration: none;
+            color: brown;
+        }
+
+            a:hover {
+                text-decoration:underline;
+            }
+    </style>
+    <script src="jquery-1.10.1.min.js"></script>
+    <script src="treeview.js"></script>
+</head>
+<body>
+    <ul id="treeview">
+        <li><a href="#">Programming Track</a>
+            <ul>
+                <li><a href="#">C# Part 1</a></li>
+                <li><a href="#">C# Part 2</a>
+                    <ul>
+                        <li><a href="#">Arrays</a></li>
+                        <li><a href="#">Methods and Objects</a></li>
+                        <li><a href="#">Exceptions</a></li>
+                        <li><a href="#">Strings and Text Processing</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Object Oriented Programming</a></li>
+                <li><a href="#">Quality Programming Code</a></li>
+                <li><a href="#">Data Structures and Algorithms</a>
+                    <ul>
+                        <li><a href="#">Linear Data Structures</a></li>
+                        <li><a href="#">Trees</a></li>
+                        <li><a href="#">Dictionaries, Hash Tables and Sets</a></li>
+                        <li><a href="#">Sorting and Searching Algorithms</a></li>
+                        <li><a href="#">Recursion and Combinatorial Algorithms</a></li>
+                        <li><a href="#">Dynamic Programming</a></li>
+                        <li><a href="#">Graphs</a></li>
+                    </ul>
+                </li>
+            </ul>
+            </li>
+        <li><a href="#">Web Track</a>
+            <ul>
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">JS Part 1</a>
+                    <ul>
+                        <li><a href="#">Operators and Expressions</a></li>
+                        <li><a href="#">Conditional Operators</a></li>
+                        <li><a href="#">Cycles</a></li>
+                        <li><a href="#">Arrays</a></li>
+                        <li><a href="#">Functions and Objects</a></li>
+                        <li><a href="#">Strings</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">JS Part 2</a></li>
+                <li><a href="#">JS Apps</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Sharing Knowledge Track</a>
+            <ul>
+                <li><a href="#">Software Engineering Essay</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Source Control Systems</a></li>
+                <li><a href="#">Mind Mapping</a></li>
+                <li><a href="#">Effective Learning</a></li>
+            </ul>
+        </li>
+    </ul>
+    <script>
+        $("#treeview").treeview();
+        $("ul:not(#treeview)").toggle();
+    </script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Grid View</title>
+    <style>
+        .cell-of-grid, .header-cell-of-grid {
+            display: inline-block;
+            padding: 5px;
+            width: 100px;
+            height: 25px;
+        }
+
+        .cell-of-grid {
+            border: 1px solid black;
+        }
+
+        .header-cell-of-grid {
+            font-weight: bold;
+            border: 1px solid black;
+        }
+
+        table, tr, td {
+            border-collapse: collapse;
+        }
+
+        .with-nested-grid td {
+            background-color: cyan;
+        }
+
+        .hidden {
+            display: none;
+            margin: 10px;
+        }
+    </style>
+    <script src="scripts/jquery-1.10.1.min.js"></script>
+</head>
+<body>
+    <div id="grid-container"></div>
+    <script src="scripts/05.GridView.js"></script>
+</body>
+</html>
