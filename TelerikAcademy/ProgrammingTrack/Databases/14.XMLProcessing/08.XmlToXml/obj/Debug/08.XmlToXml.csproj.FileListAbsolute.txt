@@ -1,0 +1,8 @@
+D:\Databases\16\XMLProcessing\XMLProcessing\08.XmlToXml\bin\Debug\08.XmlToXml.exe.config
+D:\Databases\16\XMLProcessing\XMLProcessing\08.XmlToXml\bin\Debug\08.XmlToXml.exe
+D:\Databases\16\XMLProcessing\XMLProcessing\08.XmlToXml\bin\Debug\08.XmlToXml.pdb
+D:\Databases\16\XMLProcessing\XMLProcessing\08.XmlToXml\obj\Debug\08.XmlToXml.exe
+D:\Databases\16\XMLProcessing\XMLProcessing\08.XmlToXml\obj\Debug\08.XmlToXml.pdb
+D:\Databases\16\XMLProcessing\XMLProcessingHomework\08.XmlToXml\bin\Debug\08.XmlToXml.exe.config
+D:\Databases\16\XMLProcessing\XMLProcessingHomework\08.XmlToXml\obj\Debug\08.XmlToXml.exe
+D:\Databases\16\XMLProcessing\XMLProcessingHomework\08.XmlToXml\obj\Debug\08.XmlToXml.pdb

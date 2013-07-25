@@ -1,0 +1,9 @@
+D:\Databases\16\XMLProcessing\XMLProcessing\05.ExtractSongTitles\bin\Debug\05.ExtractSongTitles.exe.config
+D:\Databases\16\XMLProcessing\XMLProcessing\05.ExtractSongTitles\bin\Debug\05.ExtractSongTitles.exe
+D:\Databases\16\XMLProcessing\XMLProcessing\05.ExtractSongTitles\bin\Debug\05.ExtractSongTitles.pdb
+D:\Databases\16\XMLProcessing\XMLProcessing\05.ExtractSongTitles\obj\Debug\05.ExtractSongTitles.csprojResolveAssemblyReference.cache
+D:\Databases\16\XMLProcessing\XMLProcessing\05.ExtractSongTitles\obj\Debug\05.ExtractSongTitles.exe
+D:\Databases\16\XMLProcessing\XMLProcessing\05.ExtractSongTitles\obj\Debug\05.ExtractSongTitles.pdb
+D:\Databases\16\XMLProcessing\XMLProcessingHomework\05.ExtractSongTitles\bin\Debug\05.ExtractSongTitles.exe.config
+D:\Databases\16\XMLProcessing\XMLProcessingHomework\05.ExtractSongTitles\obj\Debug\05.ExtractSongTitles.exe
+D:\Databases\16\XMLProcessing\XMLProcessingHomework\05.ExtractSongTitles\obj\Debug\05.ExtractSongTitles.pdb

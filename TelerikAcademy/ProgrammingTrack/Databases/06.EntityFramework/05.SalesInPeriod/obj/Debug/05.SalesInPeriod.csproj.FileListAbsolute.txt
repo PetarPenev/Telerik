@@ -1,0 +1,10 @@
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\05.SalesInPeriod\bin\Debug\05.SalesInPeriod.exe.config
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\05.SalesInPeriod\bin\Debug\05.SalesInPeriod.exe
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\05.SalesInPeriod\bin\Debug\05.SalesInPeriod.pdb
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\05.SalesInPeriod\bin\Debug\01.DatabaseContext.dll
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\05.SalesInPeriod\bin\Debug\EntityFramework.dll
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\05.SalesInPeriod\bin\Debug\01.DatabaseContext.pdb
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\05.SalesInPeriod\bin\Debug\EntityFramework.xml
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\05.SalesInPeriod\obj\Debug\05.SalesInPeriod.csprojResolveAssemblyReference.cache
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\05.SalesInPeriod\obj\Debug\05.SalesInPeriod.exe
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\05.SalesInPeriod\obj\Debug\05.SalesInPeriod.pdb

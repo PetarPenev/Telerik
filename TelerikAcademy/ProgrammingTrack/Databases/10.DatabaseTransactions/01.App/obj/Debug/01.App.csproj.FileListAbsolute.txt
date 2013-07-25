@@ -1,0 +1,12 @@
+D:\Databases\12\TransactionsHomework\01.App\bin\Debug\01.App.exe.config
+D:\Databases\12\TransactionsHomework\01.App\bin\Debug\01.App.exe
+D:\Databases\12\TransactionsHomework\01.App\bin\Debug\01.App.pdb
+D:\Databases\12\TransactionsHomework\01.App\obj\Debug\01.App.exe
+D:\Databases\12\TransactionsHomework\01.App\obj\Debug\01.App.pdb
+D:\Databases\12\TransactionsHomework\01.App\bin\Debug\EntityFramework.dll
+D:\Databases\12\TransactionsHomework\01.App\bin\Debug\EntityFramework.xml
+D:\Databases\12\TransactionsHomework\01.App\bin\Debug\02.Model.Classes.dll
+D:\Databases\12\TransactionsHomework\01.App\bin\Debug\03.Model.Data.dll
+D:\Databases\12\TransactionsHomework\01.App\bin\Debug\02.Model.Classes.pdb
+D:\Databases\12\TransactionsHomework\01.App\bin\Debug\03.Model.Data.pdb
+D:\Databases\12\TransactionsHomework\01.App\obj\Debug\01.App.csprojResolveAssemblyReference.cache

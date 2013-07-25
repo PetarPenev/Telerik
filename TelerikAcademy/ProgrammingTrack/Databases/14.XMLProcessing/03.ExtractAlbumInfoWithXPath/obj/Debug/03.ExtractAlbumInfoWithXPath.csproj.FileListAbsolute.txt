@@ -1,0 +1,8 @@
+D:\Databases\16\XMLProcessing\XMLProcessing\03.ExtractAlbumInfoWithXPath\bin\Debug\03.ExtractAlbumInfoWithXPath.exe.config
+D:\Databases\16\XMLProcessing\XMLProcessing\03.ExtractAlbumInfoWithXPath\bin\Debug\03.ExtractAlbumInfoWithXPath.exe
+D:\Databases\16\XMLProcessing\XMLProcessing\03.ExtractAlbumInfoWithXPath\bin\Debug\03.ExtractAlbumInfoWithXPath.pdb
+D:\Databases\16\XMLProcessing\XMLProcessing\03.ExtractAlbumInfoWithXPath\obj\Debug\03.ExtractAlbumInfoWithXPath.exe
+D:\Databases\16\XMLProcessing\XMLProcessing\03.ExtractAlbumInfoWithXPath\obj\Debug\03.ExtractAlbumInfoWithXPath.pdb
+D:\Databases\16\XMLProcessing\XMLProcessingHomework\03.ExtractAlbumInfoWithXPath\bin\Debug\03.ExtractAlbumInfoWithXPath.exe.config
+D:\Databases\16\XMLProcessing\XMLProcessingHomework\03.ExtractAlbumInfoWithXPath\obj\Debug\03.ExtractAlbumInfoWithXPath.exe
+D:\Databases\16\XMLProcessing\XMLProcessingHomework\03.ExtractAlbumInfoWithXPath\obj\Debug\03.ExtractAlbumInfoWithXPath.pdb

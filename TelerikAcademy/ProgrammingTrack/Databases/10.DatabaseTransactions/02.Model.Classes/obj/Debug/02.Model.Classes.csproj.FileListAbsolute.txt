@@ -1,0 +1,7 @@
+D:\Databases\12\TransactionsHomework\02.Model.Classes\bin\Debug\02.Model.Classes.dll.config
+D:\Databases\12\TransactionsHomework\02.Model.Classes\bin\Debug\02.Model.Classes.dll
+D:\Databases\12\TransactionsHomework\02.Model.Classes\bin\Debug\02.Model.Classes.pdb
+D:\Databases\12\TransactionsHomework\02.Model.Classes\bin\Debug\EntityFramework.dll
+D:\Databases\12\TransactionsHomework\02.Model.Classes\bin\Debug\EntityFramework.xml
+D:\Databases\12\TransactionsHomework\02.Model.Classes\obj\Debug\02.Model.Classes.dll
+D:\Databases\12\TransactionsHomework\02.Model.Classes\obj\Debug\02.Model.Classes.pdb

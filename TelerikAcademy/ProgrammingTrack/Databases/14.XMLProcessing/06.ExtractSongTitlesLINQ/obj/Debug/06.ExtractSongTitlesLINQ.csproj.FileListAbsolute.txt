@@ -1,0 +1,8 @@
+D:\Databases\16\XMLProcessing\XMLProcessing\06.ExtractSongTitlesLINQ\bin\Debug\06.ExtractSongTitlesLINQ.exe.config
+D:\Databases\16\XMLProcessing\XMLProcessing\06.ExtractSongTitlesLINQ\bin\Debug\06.ExtractSongTitlesLINQ.exe
+D:\Databases\16\XMLProcessing\XMLProcessing\06.ExtractSongTitlesLINQ\bin\Debug\06.ExtractSongTitlesLINQ.pdb
+D:\Databases\16\XMLProcessing\XMLProcessing\06.ExtractSongTitlesLINQ\obj\Debug\06.ExtractSongTitlesLINQ.exe
+D:\Databases\16\XMLProcessing\XMLProcessing\06.ExtractSongTitlesLINQ\obj\Debug\06.ExtractSongTitlesLINQ.pdb
+D:\Databases\16\XMLProcessing\XMLProcessingHomework\06.ExtractSongTitlesLINQ\bin\Debug\06.ExtractSongTitlesLINQ.exe.config
+D:\Databases\16\XMLProcessing\XMLProcessingHomework\06.ExtractSongTitlesLINQ\obj\Debug\06.ExtractSongTitlesLINQ.exe
+D:\Databases\16\XMLProcessing\XMLProcessingHomework\06.ExtractSongTitlesLINQ\obj\Debug\06.ExtractSongTitlesLINQ.pdb

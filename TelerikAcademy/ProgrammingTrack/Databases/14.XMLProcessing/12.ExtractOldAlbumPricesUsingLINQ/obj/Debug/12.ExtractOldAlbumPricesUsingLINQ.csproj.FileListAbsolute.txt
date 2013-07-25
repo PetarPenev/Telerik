@@ -1,0 +1,8 @@
+D:\Databases\16\XMLProcessing\XMLProcessing\12.ExtractOldAlbumPricesUsingLINQ\bin\Debug\12.ExtractOldAlbumPricesUsingLINQ.exe.config
+D:\Databases\16\XMLProcessing\XMLProcessing\12.ExtractOldAlbumPricesUsingLINQ\bin\Debug\12.ExtractOldAlbumPricesUsingLINQ.exe
+D:\Databases\16\XMLProcessing\XMLProcessing\12.ExtractOldAlbumPricesUsingLINQ\bin\Debug\12.ExtractOldAlbumPricesUsingLINQ.pdb
+D:\Databases\16\XMLProcessing\XMLProcessing\12.ExtractOldAlbumPricesUsingLINQ\obj\Debug\12.ExtractOldAlbumPricesUsingLINQ.exe
+D:\Databases\16\XMLProcessing\XMLProcessing\12.ExtractOldAlbumPricesUsingLINQ\obj\Debug\12.ExtractOldAlbumPricesUsingLINQ.pdb
+D:\Databases\16\XMLProcessing\XMLProcessingHomework\12.ExtractOldAlbumPricesUsingLINQ\bin\Debug\12.ExtractOldAlbumPricesUsingLINQ.exe.config
+D:\Databases\16\XMLProcessing\XMLProcessingHomework\12.ExtractOldAlbumPricesUsingLINQ\obj\Debug\12.ExtractOldAlbumPricesUsingLINQ.exe
+D:\Databases\16\XMLProcessing\XMLProcessingHomework\12.ExtractOldAlbumPricesUsingLINQ\obj\Debug\12.ExtractOldAlbumPricesUsingLINQ.pdb

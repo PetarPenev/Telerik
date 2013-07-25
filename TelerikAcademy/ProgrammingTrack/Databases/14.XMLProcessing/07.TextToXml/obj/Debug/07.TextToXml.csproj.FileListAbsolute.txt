@@ -1,0 +1,9 @@
+D:\Databases\16\XMLProcessing\XMLProcessing\07.TextToXml\bin\Debug\07.TextToXml.exe.config
+D:\Databases\16\XMLProcessing\XMLProcessing\07.TextToXml\bin\Debug\07.TextToXml.exe
+D:\Databases\16\XMLProcessing\XMLProcessing\07.TextToXml\bin\Debug\07.TextToXml.pdb
+D:\Databases\16\XMLProcessing\XMLProcessing\07.TextToXml\obj\Debug\07.TextToXml.csprojResolveAssemblyReference.cache
+D:\Databases\16\XMLProcessing\XMLProcessing\07.TextToXml\obj\Debug\07.TextToXml.exe
+D:\Databases\16\XMLProcessing\XMLProcessing\07.TextToXml\obj\Debug\07.TextToXml.pdb
+D:\Databases\16\XMLProcessing\XMLProcessingHomework\07.TextToXml\bin\Debug\07.TextToXml.exe.config
+D:\Databases\16\XMLProcessing\XMLProcessingHomework\07.TextToXml\obj\Debug\07.TextToXml.exe
+D:\Databases\16\XMLProcessing\XMLProcessingHomework\07.TextToXml\obj\Debug\07.TextToXml.pdb

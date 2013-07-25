@@ -1,0 +1,10 @@
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\08.EmployeeAsEntitySet\bin\Debug\08.EmployeeAsEntitySet.exe.config
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\08.EmployeeAsEntitySet\obj\Debug\08.EmployeeAsEntitySet.csprojResolveAssemblyReference.cache
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\08.EmployeeAsEntitySet\bin\Debug\08.EmployeeAsEntitySet.exe
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\08.EmployeeAsEntitySet\bin\Debug\08.EmployeeAsEntitySet.pdb
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\08.EmployeeAsEntitySet\bin\Debug\01.DatabaseContext.dll
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\08.EmployeeAsEntitySet\bin\Debug\EntityFramework.dll
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\08.EmployeeAsEntitySet\bin\Debug\01.DatabaseContext.pdb
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\08.EmployeeAsEntitySet\bin\Debug\EntityFramework.xml
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\08.EmployeeAsEntitySet\obj\Debug\08.EmployeeAsEntitySet.exe
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\08.EmployeeAsEntitySet\obj\Debug\08.EmployeeAsEntitySet.pdb

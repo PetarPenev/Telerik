@@ -1,0 +1,8 @@
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\11.UserDatabaseContext\bin\Debug\11.UserDatabaseContext.dll.config
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\11.UserDatabaseContext\bin\Debug\11.UserDatabaseContext.dll
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\11.UserDatabaseContext\bin\Debug\11.UserDatabaseContext.pdb
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\11.UserDatabaseContext\bin\Debug\EntityFramework.dll
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\11.UserDatabaseContext\bin\Debug\EntityFramework.xml
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\11.UserDatabaseContext\obj\Debug\11.UserDatabaseContext.csprojResolveAssemblyReference.cache
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\11.UserDatabaseContext\obj\Debug\11.UserDatabaseContext.dll
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\11.UserDatabaseContext\obj\Debug\11.UserDatabaseContext.pdb

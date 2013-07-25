@@ -1,0 +1,14 @@
+D:\Databases\14\NoSQLHomework\NoSQLHomework\02.RedisData\bin\Debug\02.RedisData.exe.config
+D:\Databases\14\NoSQLHomework\NoSQLHomework\02.RedisData\bin\Debug\02.RedisData.exe
+D:\Databases\14\NoSQLHomework\NoSQLHomework\02.RedisData\bin\Debug\02.RedisData.pdb
+D:\Databases\14\NoSQLHomework\NoSQLHomework\02.RedisData\bin\Debug\ServiceStack.Common.dll
+D:\Databases\14\NoSQLHomework\NoSQLHomework\02.RedisData\bin\Debug\ServiceStack.Interfaces.dll
+D:\Databases\14\NoSQLHomework\NoSQLHomework\02.RedisData\bin\Debug\ServiceStack.Redis.dll
+D:\Databases\14\NoSQLHomework\NoSQLHomework\02.RedisData\bin\Debug\ServiceStack.Text.dll
+D:\Databases\14\NoSQLHomework\NoSQLHomework\02.RedisData\bin\Debug\ServiceStack.Common.xml
+D:\Databases\14\NoSQLHomework\NoSQLHomework\02.RedisData\bin\Debug\ServiceStack.Interfaces.xml
+D:\Databases\14\NoSQLHomework\NoSQLHomework\02.RedisData\bin\Debug\ServiceStack.Redis.xml
+D:\Databases\14\NoSQLHomework\NoSQLHomework\02.RedisData\bin\Debug\ServiceStack.Text.xml
+D:\Databases\14\NoSQLHomework\NoSQLHomework\02.RedisData\obj\Debug\02.RedisData.csprojResolveAssemblyReference.cache
+D:\Databases\14\NoSQLHomework\NoSQLHomework\02.RedisData\obj\Debug\02.RedisData.exe
+D:\Databases\14\NoSQLHomework\NoSQLHomework\02.RedisData\obj\Debug\02.RedisData.pdb

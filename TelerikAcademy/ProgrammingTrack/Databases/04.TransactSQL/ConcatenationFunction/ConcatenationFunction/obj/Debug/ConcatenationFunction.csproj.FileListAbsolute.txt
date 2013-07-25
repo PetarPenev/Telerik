@@ -1,0 +1,5 @@
+D:\Databases\6\TransactSqlHomework\ConcatenationFunction\ConcatenationFunction\obj\Debug\ConcatenationFunction.csprojResolveAssemblyReference.cache
+D:\Databases\6\TransactSqlHomework\ConcatenationFunction\ConcatenationFunction\bin\Debug\ConcatenationFunction.dll
+D:\Databases\6\TransactSqlHomework\ConcatenationFunction\ConcatenationFunction\bin\Debug\ConcatenationFunction.pdb
+D:\Databases\6\TransactSqlHomework\ConcatenationFunction\ConcatenationFunction\obj\Debug\ConcatenationFunction.dll
+D:\Databases\6\TransactSqlHomework\ConcatenationFunction\ConcatenationFunction\obj\Debug\ConcatenationFunction.pdb

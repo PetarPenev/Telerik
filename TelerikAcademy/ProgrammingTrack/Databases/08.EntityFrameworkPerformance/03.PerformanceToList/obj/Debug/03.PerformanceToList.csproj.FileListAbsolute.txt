@@ -1,0 +1,10 @@
+D:\Databases\9\PerformanceHomework\PerformanceHomework\03.PerformanceToList\bin\Debug\03.PerformanceToList.exe.config
+D:\Databases\9\PerformanceHomework\PerformanceHomework\03.PerformanceToList\bin\Debug\03.PerformanceToList.exe
+D:\Databases\9\PerformanceHomework\PerformanceHomework\03.PerformanceToList\bin\Debug\03.PerformanceToList.pdb
+D:\Databases\9\PerformanceHomework\PerformanceHomework\03.PerformanceToList\bin\Debug\01.TelerikAcademyModel.dll
+D:\Databases\9\PerformanceHomework\PerformanceHomework\03.PerformanceToList\bin\Debug\EntityFramework.dll
+D:\Databases\9\PerformanceHomework\PerformanceHomework\03.PerformanceToList\bin\Debug\01.TelerikAcademyModel.pdb
+D:\Databases\9\PerformanceHomework\PerformanceHomework\03.PerformanceToList\bin\Debug\EntityFramework.xml
+D:\Databases\9\PerformanceHomework\PerformanceHomework\03.PerformanceToList\obj\Debug\03.PerformanceToList.exe
+D:\Databases\9\PerformanceHomework\PerformanceHomework\03.PerformanceToList\obj\Debug\03.PerformanceToList.pdb
+D:\Databases\9\PerformanceHomework\PerformanceHomework\03.PerformanceToList\obj\Debug\03.PerformanceToList.csprojResolveAssemblyReference.cache

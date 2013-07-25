@@ -1,0 +1,10 @@
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\03.CustomersWithParticualOrders\bin\Debug\03.CustomersWithParticualOrders.exe.config
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\03.CustomersWithParticualOrders\bin\Debug\03.CustomersWithParticualOrders.exe
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\03.CustomersWithParticualOrders\bin\Debug\03.CustomersWithParticualOrders.pdb
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\03.CustomersWithParticualOrders\bin\Debug\01.DatabaseContext.dll
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\03.CustomersWithParticualOrders\bin\Debug\EntityFramework.dll
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\03.CustomersWithParticualOrders\bin\Debug\01.DatabaseContext.pdb
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\03.CustomersWithParticualOrders\bin\Debug\EntityFramework.xml
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\03.CustomersWithParticualOrders\obj\Debug\03.CustomersWithParticualOrders.csprojResolveAssemblyReference.cache
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\03.CustomersWithParticualOrders\obj\Debug\03.CustomersWithParticualOrders.exe
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\03.CustomersWithParticualOrders\obj\Debug\03.CustomersWithParticualOrders.pdb

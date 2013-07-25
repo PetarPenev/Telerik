@@ -1,0 +1,10 @@
+D:\Databases\12\TransactionsHomework\03.Model.Data\obj\Debug\03.Model.Data.csprojResolveAssemblyReference.cache
+D:\Databases\12\TransactionsHomework\03.Model.Data\bin\Debug\03.Model.Data.dll.config
+D:\Databases\12\TransactionsHomework\03.Model.Data\bin\Debug\03.Model.Data.dll
+D:\Databases\12\TransactionsHomework\03.Model.Data\bin\Debug\03.Model.Data.pdb
+D:\Databases\12\TransactionsHomework\03.Model.Data\bin\Debug\02.Model.Classes.dll
+D:\Databases\12\TransactionsHomework\03.Model.Data\bin\Debug\EntityFramework.dll
+D:\Databases\12\TransactionsHomework\03.Model.Data\bin\Debug\02.Model.Classes.pdb
+D:\Databases\12\TransactionsHomework\03.Model.Data\bin\Debug\EntityFramework.xml
+D:\Databases\12\TransactionsHomework\03.Model.Data\obj\Debug\03.Model.Data.dll
+D:\Databases\12\TransactionsHomework\03.Model.Data\obj\Debug\03.Model.Data.pdb

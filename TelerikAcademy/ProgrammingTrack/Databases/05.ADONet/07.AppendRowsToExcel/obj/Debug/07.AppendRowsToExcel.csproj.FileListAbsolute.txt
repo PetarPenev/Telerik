@@ -1,0 +1,5 @@
+D:\Databases\7\ADOHomework\ADONetHomework\07.AppendRowsToExcel\bin\Debug\07.AppendRowsToExcel.exe.config
+D:\Databases\7\ADOHomework\ADONetHomework\07.AppendRowsToExcel\bin\Debug\07.AppendRowsToExcel.exe
+D:\Databases\7\ADOHomework\ADONetHomework\07.AppendRowsToExcel\bin\Debug\07.AppendRowsToExcel.pdb
+D:\Databases\7\ADOHomework\ADONetHomework\07.AppendRowsToExcel\obj\Debug\07.AppendRowsToExcel.exe
+D:\Databases\7\ADOHomework\ADONetHomework\07.AppendRowsToExcel\obj\Debug\07.AppendRowsToExcel.pdb

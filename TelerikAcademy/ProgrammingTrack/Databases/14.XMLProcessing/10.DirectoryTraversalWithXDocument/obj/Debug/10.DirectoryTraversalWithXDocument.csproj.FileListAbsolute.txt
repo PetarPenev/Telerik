@@ -1,0 +1,9 @@
+D:\Databases\16\XMLProcessing\XMLProcessing\10.DirectoryTraversalWithXDocument\bin\Debug\10.DirectoryTraversalWithXDocument.exe.config
+D:\Databases\16\XMLProcessing\XMLProcessing\10.DirectoryTraversalWithXDocument\obj\Debug\10.DirectoryTraversalWithXDocument.csprojResolveAssemblyReference.cache
+D:\Databases\16\XMLProcessing\XMLProcessing\10.DirectoryTraversalWithXDocument\bin\Debug\10.DirectoryTraversalWithXDocument.exe
+D:\Databases\16\XMLProcessing\XMLProcessing\10.DirectoryTraversalWithXDocument\bin\Debug\10.DirectoryTraversalWithXDocument.pdb
+D:\Databases\16\XMLProcessing\XMLProcessing\10.DirectoryTraversalWithXDocument\obj\Debug\10.DirectoryTraversalWithXDocument.exe
+D:\Databases\16\XMLProcessing\XMLProcessing\10.DirectoryTraversalWithXDocument\obj\Debug\10.DirectoryTraversalWithXDocument.pdb
+D:\Databases\16\XMLProcessing\XMLProcessingHomework\10.DirectoryTraversalWithXDocument\bin\Debug\10.DirectoryTraversalWithXDocument.exe.config
+D:\Databases\16\XMLProcessing\XMLProcessingHomework\10.DirectoryTraversalWithXDocument\obj\Debug\10.DirectoryTraversalWithXDocument.exe
+D:\Databases\16\XMLProcessing\XMLProcessingHomework\10.DirectoryTraversalWithXDocument\obj\Debug\10.DirectoryTraversalWithXDocument.pdb

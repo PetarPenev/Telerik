@@ -1,0 +1,9 @@
+D:\Databases\16\XMLProcessing\XMLProcessing\14.XslTransformation\bin\Debug\14.XslTransformation.exe.config
+D:\Databases\16\XMLProcessing\XMLProcessing\14.XslTransformation\bin\Debug\14.XslTransformation.exe
+D:\Databases\16\XMLProcessing\XMLProcessing\14.XslTransformation\bin\Debug\14.XslTransformation.pdb
+D:\Databases\16\XMLProcessing\XMLProcessing\14.XslTransformation\obj\Debug\14.XslTransformation.csprojResolveAssemblyReference.cache
+D:\Databases\16\XMLProcessing\XMLProcessing\14.XslTransformation\obj\Debug\14.XslTransformation.exe
+D:\Databases\16\XMLProcessing\XMLProcessing\14.XslTransformation\obj\Debug\14.XslTransformation.pdb
+D:\Databases\16\XMLProcessing\XMLProcessingHomework\14.XslTransformation\bin\Debug\14.XslTransformation.exe.config
+D:\Databases\16\XMLProcessing\XMLProcessingHomework\14.XslTransformation\obj\Debug\14.XslTransformation.exe
+D:\Databases\16\XMLProcessing\XMLProcessingHomework\14.XslTransformation\obj\Debug\14.XslTransformation.pdb

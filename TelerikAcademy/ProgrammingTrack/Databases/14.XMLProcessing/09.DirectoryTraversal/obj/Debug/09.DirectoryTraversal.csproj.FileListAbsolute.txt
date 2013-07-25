@@ -1,0 +1,9 @@
+D:\Databases\16\XMLProcessing\XMLProcessing\09.DirectoryTraversal\bin\Debug\09.DirectoryTraversal.exe.config
+D:\Databases\16\XMLProcessing\XMLProcessing\09.DirectoryTraversal\bin\Debug\09.DirectoryTraversal.exe
+D:\Databases\16\XMLProcessing\XMLProcessing\09.DirectoryTraversal\bin\Debug\09.DirectoryTraversal.pdb
+D:\Databases\16\XMLProcessing\XMLProcessing\09.DirectoryTraversal\obj\Debug\09.DirectoryTraversal.csprojResolveAssemblyReference.cache
+D:\Databases\16\XMLProcessing\XMLProcessing\09.DirectoryTraversal\obj\Debug\09.DirectoryTraversal.exe
+D:\Databases\16\XMLProcessing\XMLProcessing\09.DirectoryTraversal\obj\Debug\09.DirectoryTraversal.pdb
+D:\Databases\16\XMLProcessing\XMLProcessingHomework\09.DirectoryTraversal\bin\Debug\09.DirectoryTraversal.exe.config
+D:\Databases\16\XMLProcessing\XMLProcessingHomework\09.DirectoryTraversal\obj\Debug\09.DirectoryTraversal.exe
+D:\Databases\16\XMLProcessing\XMLProcessingHomework\09.DirectoryTraversal\obj\Debug\09.DirectoryTraversal.pdb

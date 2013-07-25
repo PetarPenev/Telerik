@@ -1,0 +1,10 @@
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\07.Conflicting chages\bin\Debug\07.Conflicting chages.exe.config
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\07.Conflicting chages\bin\Debug\07.Conflicting chages.exe
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\07.Conflicting chages\bin\Debug\07.Conflicting chages.pdb
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\07.Conflicting chages\bin\Debug\01.DatabaseContext.dll
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\07.Conflicting chages\bin\Debug\EntityFramework.dll
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\07.Conflicting chages\bin\Debug\01.DatabaseContext.pdb
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\07.Conflicting chages\bin\Debug\EntityFramework.xml
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\07.Conflicting chages\obj\Debug\07.Conflicting chages.csprojResolveAssemblyReference.cache
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\07.Conflicting chages\obj\Debug\07.Conflicting chages.exe
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\07.Conflicting chages\obj\Debug\07.Conflicting chages.pdb

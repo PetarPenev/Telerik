@@ -1,0 +1,6 @@
+D:\Databases\7\ADOHomework\ADONetHomework\01.RetrieveNumberOfRows\bin\Debug\01.RetrieveNumberOfRows.exe.config
+D:\Databases\7\ADOHomework\ADONetHomework\01.RetrieveNumberOfRows\bin\Debug\01.RetrieveNumberOfRows.exe
+D:\Databases\7\ADOHomework\ADONetHomework\01.RetrieveNumberOfRows\bin\Debug\01.RetrieveNumberOfRows.pdb
+D:\Databases\7\ADOHomework\ADONetHomework\01.RetrieveNumberOfRows\obj\Debug\01.RetrieveNumberOfRows.csprojResolveAssemblyReference.cache
+D:\Databases\7\ADOHomework\ADONetHomework\01.RetrieveNumberOfRows\obj\Debug\01.RetrieveNumberOfRows.exe
+D:\Databases\7\ADOHomework\ADONetHomework\01.RetrieveNumberOfRows\obj\Debug\01.RetrieveNumberOfRows.pdb

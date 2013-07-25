@@ -1,0 +1,6 @@
+D:\Databases\7\ADOHomework\ADONetHomework\03.ProductsInEachCategory\bin\Debug\03.ProductsInEachCategory.exe.config
+D:\Databases\7\ADOHomework\ADONetHomework\03.ProductsInEachCategory\bin\Debug\03.ProductsInEachCategory.exe
+D:\Databases\7\ADOHomework\ADONetHomework\03.ProductsInEachCategory\bin\Debug\03.ProductsInEachCategory.pdb
+D:\Databases\7\ADOHomework\ADONetHomework\03.ProductsInEachCategory\obj\Debug\03.ProductsInEachCategory.csprojResolveAssemblyReference.cache
+D:\Databases\7\ADOHomework\ADONetHomework\03.ProductsInEachCategory\obj\Debug\03.ProductsInEachCategory.exe
+D:\Databases\7\ADOHomework\ADONetHomework\03.ProductsInEachCategory\obj\Debug\03.ProductsInEachCategory.pdb

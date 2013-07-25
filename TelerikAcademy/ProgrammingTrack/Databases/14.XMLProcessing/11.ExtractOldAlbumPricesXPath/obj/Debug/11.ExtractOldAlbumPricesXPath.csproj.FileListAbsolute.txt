@@ -1,0 +1,9 @@
+D:\Databases\16\XMLProcessing\XMLProcessing\11.ExtractOldAlbumPricesXPath\bin\Debug\11.ExtractOldAlbumPricesXPath.exe.config
+D:\Databases\16\XMLProcessing\XMLProcessing\11.ExtractOldAlbumPricesXPath\bin\Debug\11.ExtractOldAlbumPricesXPath.exe
+D:\Databases\16\XMLProcessing\XMLProcessing\11.ExtractOldAlbumPricesXPath\bin\Debug\11.ExtractOldAlbumPricesXPath.pdb
+D:\Databases\16\XMLProcessing\XMLProcessing\11.ExtractOldAlbumPricesXPath\obj\Debug\11.ExtractOldAlbumPricesXPath.csprojResolveAssemblyReference.cache
+D:\Databases\16\XMLProcessing\XMLProcessing\11.ExtractOldAlbumPricesXPath\obj\Debug\11.ExtractOldAlbumPricesXPath.exe
+D:\Databases\16\XMLProcessing\XMLProcessing\11.ExtractOldAlbumPricesXPath\obj\Debug\11.ExtractOldAlbumPricesXPath.pdb
+D:\Databases\16\XMLProcessing\XMLProcessingHomework\11.ExtractOldAlbumPricesXPath\bin\Debug\11.ExtractOldAlbumPricesXPath.exe.config
+D:\Databases\16\XMLProcessing\XMLProcessingHomework\11.ExtractOldAlbumPricesXPath\obj\Debug\11.ExtractOldAlbumPricesXPath.exe
+D:\Databases\16\XMLProcessing\XMLProcessingHomework\11.ExtractOldAlbumPricesXPath\obj\Debug\11.ExtractOldAlbumPricesXPath.pdb

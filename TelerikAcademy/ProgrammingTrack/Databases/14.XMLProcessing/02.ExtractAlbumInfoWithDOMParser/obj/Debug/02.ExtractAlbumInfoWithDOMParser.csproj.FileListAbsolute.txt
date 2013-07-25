@@ -1,0 +1,9 @@
+D:\Databases\16\XMLProcessing\XMLProcessing\02.ExtractAlbumInfoWithDOMParser\bin\Debug\02.ExtractAlbumInfoWithDOMParser.exe.config
+D:\Databases\16\XMLProcessing\XMLProcessing\02.ExtractAlbumInfoWithDOMParser\bin\Debug\02.ExtractAlbumInfoWithDOMParser.exe
+D:\Databases\16\XMLProcessing\XMLProcessing\02.ExtractAlbumInfoWithDOMParser\bin\Debug\02.ExtractAlbumInfoWithDOMParser.pdb
+D:\Databases\16\XMLProcessing\XMLProcessing\02.ExtractAlbumInfoWithDOMParser\obj\Debug\02.ExtractAlbumInfoWithDOMParser.exe
+D:\Databases\16\XMLProcessing\XMLProcessing\02.ExtractAlbumInfoWithDOMParser\obj\Debug\02.ExtractAlbumInfoWithDOMParser.pdb
+D:\Databases\16\XMLProcessing\XMLProcessing\02.ExtractAlbumInfoWithDOMParser\obj\Debug\02.ExtractAlbumInfoWithDOMParser.csprojResolveAssemblyReference.cache
+D:\Databases\16\XMLProcessing\XMLProcessingHomework\02.ExtractAlbumInfoWithDOMParser\bin\Debug\02.ExtractAlbumInfoWithDOMParser.exe.config
+D:\Databases\16\XMLProcessing\XMLProcessingHomework\02.ExtractAlbumInfoWithDOMParser\obj\Debug\02.ExtractAlbumInfoWithDOMParser.exe
+D:\Databases\16\XMLProcessing\XMLProcessingHomework\02.ExtractAlbumInfoWithDOMParser\obj\Debug\02.ExtractAlbumInfoWithDOMParser.pdb

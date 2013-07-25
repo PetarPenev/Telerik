@@ -1,0 +1,5 @@
+D:\Databases\7\ADOHomework\ADONetHomework\04.AddProductInDatabase\bin\Debug\04.AddProductInDatabase.exe.config
+D:\Databases\7\ADOHomework\ADONetHomework\04.AddProductInDatabase\bin\Debug\04.AddProductInDatabase.exe
+D:\Databases\7\ADOHomework\ADONetHomework\04.AddProductInDatabase\bin\Debug\04.AddProductInDatabase.pdb
+D:\Databases\7\ADOHomework\ADONetHomework\04.AddProductInDatabase\obj\Debug\04.AddProductInDatabase.exe
+D:\Databases\7\ADOHomework\ADONetHomework\04.AddProductInDatabase\obj\Debug\04.AddProductInDatabase.pdb

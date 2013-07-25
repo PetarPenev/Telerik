@@ -1,0 +1,10 @@
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\11.UserDatabaseClient\bin\Debug\11.UserDatabaseClient.exe.config
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\11.UserDatabaseClient\bin\Debug\11.UserDatabaseClient.exe
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\11.UserDatabaseClient\bin\Debug\11.UserDatabaseClient.pdb
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\11.UserDatabaseClient\bin\Debug\11.UserDatabaseContext.dll
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\11.UserDatabaseClient\bin\Debug\EntityFramework.dll
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\11.UserDatabaseClient\bin\Debug\11.UserDatabaseContext.pdb
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\11.UserDatabaseClient\bin\Debug\EntityFramework.xml
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\11.UserDatabaseClient\obj\Debug\11.UserDatabaseClient.csprojResolveAssemblyReference.cache
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\11.UserDatabaseClient\obj\Debug\11.UserDatabaseClient.exe
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\11.UserDatabaseClient\obj\Debug\11.UserDatabaseClient.pdb

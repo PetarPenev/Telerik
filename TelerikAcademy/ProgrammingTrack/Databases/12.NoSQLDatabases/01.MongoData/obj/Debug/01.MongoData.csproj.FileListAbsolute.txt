@@ -1,0 +1,10 @@
+D:\Databases\14\NoSQLHomework\NoSQLHomework\01.MongoData\bin\Debug\01.MongoData.exe.config
+D:\Databases\14\NoSQLHomework\NoSQLHomework\01.MongoData\obj\Debug\01.MongoData.csprojResolveAssemblyReference.cache
+D:\Databases\14\NoSQLHomework\NoSQLHomework\01.MongoData\bin\Debug\01.MongoData.exe
+D:\Databases\14\NoSQLHomework\NoSQLHomework\01.MongoData\bin\Debug\01.MongoData.pdb
+D:\Databases\14\NoSQLHomework\NoSQLHomework\01.MongoData\bin\Debug\MongoDB.Bson.dll
+D:\Databases\14\NoSQLHomework\NoSQLHomework\01.MongoData\bin\Debug\MongoDB.Driver.dll
+D:\Databases\14\NoSQLHomework\NoSQLHomework\01.MongoData\bin\Debug\MongoDB.Bson.xml
+D:\Databases\14\NoSQLHomework\NoSQLHomework\01.MongoData\bin\Debug\MongoDB.Driver.xml
+D:\Databases\14\NoSQLHomework\NoSQLHomework\01.MongoData\obj\Debug\01.MongoData.exe
+D:\Databases\14\NoSQLHomework\NoSQLHomework\01.MongoData\obj\Debug\01.MongoData.pdb

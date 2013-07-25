@@ -1,0 +1,9 @@
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\06.TwinDatabase\bin\Debug\06.TwinDatabase.exe.config
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\06.TwinDatabase\bin\Debug\06.TwinDatabase.exe
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\06.TwinDatabase\bin\Debug\06.TwinDatabase.pdb
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\06.TwinDatabase\bin\Debug\01.DatabaseContext.dll
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\06.TwinDatabase\bin\Debug\EntityFramework.dll
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\06.TwinDatabase\bin\Debug\01.DatabaseContext.pdb
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\06.TwinDatabase\bin\Debug\EntityFramework.xml
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\06.TwinDatabase\obj\Debug\06.TwinDatabase.exe
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\06.TwinDatabase\obj\Debug\06.TwinDatabase.pdb

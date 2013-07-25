@@ -1,0 +1,8 @@
+D:\Databases\9\PerformanceHomework\PerformanceHomework\01.TelerikAcademyModel\obj\Debug\01.TelerikAcademyModel.csprojResolveAssemblyReference.cache
+D:\Databases\9\PerformanceHomework\PerformanceHomework\01.TelerikAcademyModel\bin\Debug\01.TelerikAcademyModel.dll.config
+D:\Databases\9\PerformanceHomework\PerformanceHomework\01.TelerikAcademyModel\bin\Debug\01.TelerikAcademyModel.dll
+D:\Databases\9\PerformanceHomework\PerformanceHomework\01.TelerikAcademyModel\bin\Debug\01.TelerikAcademyModel.pdb
+D:\Databases\9\PerformanceHomework\PerformanceHomework\01.TelerikAcademyModel\bin\Debug\EntityFramework.dll
+D:\Databases\9\PerformanceHomework\PerformanceHomework\01.TelerikAcademyModel\bin\Debug\EntityFramework.xml
+D:\Databases\9\PerformanceHomework\PerformanceHomework\01.TelerikAcademyModel\obj\Debug\01.TelerikAcademyModel.dll
+D:\Databases\9\PerformanceHomework\PerformanceHomework\01.TelerikAcademyModel\obj\Debug\01.TelerikAcademyModel.pdb

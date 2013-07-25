@@ -1,0 +1,6 @@
+D:\Databases\7\ADOHomework\ADONetHomework\02.RetrieveNameAndDescription\bin\Debug\02.RetrieveNameAndDescription.exe.config
+D:\Databases\7\ADOHomework\ADONetHomework\02.RetrieveNameAndDescription\bin\Debug\02.RetrieveNameAndDescription.exe
+D:\Databases\7\ADOHomework\ADONetHomework\02.RetrieveNameAndDescription\bin\Debug\02.RetrieveNameAndDescription.pdb
+D:\Databases\7\ADOHomework\ADONetHomework\02.RetrieveNameAndDescription\obj\Debug\02.RetrieveNameAndDescription.csprojResolveAssemblyReference.cache
+D:\Databases\7\ADOHomework\ADONetHomework\02.RetrieveNameAndDescription\obj\Debug\02.RetrieveNameAndDescription.exe
+D:\Databases\7\ADOHomework\ADONetHomework\02.RetrieveNameAndDescription\obj\Debug\02.RetrieveNameAndDescription.pdb

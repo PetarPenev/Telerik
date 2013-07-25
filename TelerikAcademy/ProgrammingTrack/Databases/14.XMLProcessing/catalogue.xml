@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<?xml-stylesheet type="text/xsl" href="catalogue.xsl"?>
+<catalogue name="My Catalogue">
+	<album>
+		<name>True Self</name>
+		<artist>Soil</artist>
+		<year>2006</year>
+		<producer>DRT Entertainment</producer>
+		<price>$25.00</price>
+	</album>
+	<album>
+		<name>Construct</name>
+		<artist>Dark Tranquility</artist>
+		<year>2013</year>
+		<producer>Century Media</producer>
+		<price>$10.50</price>
+		<songs>
+			<song>The Science Of Noise</song>
+			<song>Uniformity</song>
+			<song>Endtime Hearts</song>
+		</songs>
+	</album>
+	<album>
+		<name>Damage Done</name>
+		<artist>Dark Tranquility</artist>
+		<year>2002</year>
+		<producer>Century Media</producer>
+		<price>$22.00</price>
+	</album>
+	<album>
+		<name>Strap It On</name>
+		<artist>Helmet</artist>
+		<year>1990</year>
+		<producer>Amphetamine Reptile</producer>
+		<price>$12.50</price>
+		<songs>
+			<song>Bad Mood</song>
+			<song>Rude</song>
+		</songs>
+	</album>
+	<album>
+		<name>Redefine</name>
+		<artist>Soil</artist>
+		<year>2004</year>
+		<producer>J Records</producer>
+		<price>$8.00</price>
+	</album>
+</catalogue>

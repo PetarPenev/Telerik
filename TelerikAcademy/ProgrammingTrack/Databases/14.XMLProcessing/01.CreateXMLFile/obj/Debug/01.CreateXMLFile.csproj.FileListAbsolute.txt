@@ -1,0 +1,9 @@
+D:\Databases\16\XMLProcessing\XMLProcessing\01.CreateXMLFile\bin\Debug\01.CreateXMLFile.exe.config
+D:\Databases\16\XMLProcessing\XMLProcessing\01.CreateXMLFile\bin\Debug\01.CreateXMLFile.exe
+D:\Databases\16\XMLProcessing\XMLProcessing\01.CreateXMLFile\bin\Debug\01.CreateXMLFile.pdb
+D:\Databases\16\XMLProcessing\XMLProcessing\01.CreateXMLFile\obj\Debug\01.CreateXMLFile.csprojResolveAssemblyReference.cache
+D:\Databases\16\XMLProcessing\XMLProcessing\01.CreateXMLFile\obj\Debug\01.CreateXMLFile.exe
+D:\Databases\16\XMLProcessing\XMLProcessing\01.CreateXMLFile\obj\Debug\01.CreateXMLFile.pdb
+D:\Databases\16\XMLProcessing\XMLProcessingHomework\01.CreateXMLFile\bin\Debug\01.CreateXMLFile.exe.config
+D:\Databases\16\XMLProcessing\XMLProcessingHomework\01.CreateXMLFile\obj\Debug\01.CreateXMLFile.exe
+D:\Databases\16\XMLProcessing\XMLProcessingHomework\01.CreateXMLFile\obj\Debug\01.CreateXMLFile.pdb

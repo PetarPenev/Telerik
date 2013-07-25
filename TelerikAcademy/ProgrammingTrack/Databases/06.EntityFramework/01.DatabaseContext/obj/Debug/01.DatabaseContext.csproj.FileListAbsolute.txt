@@ -1,0 +1,8 @@
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\01.DatabaseContext\bin\Debug\01.DatabaseContext.dll.config
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\01.DatabaseContext\bin\Debug\01.DatabaseContext.dll
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\01.DatabaseContext\bin\Debug\01.DatabaseContext.pdb
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\01.DatabaseContext\bin\Debug\EntityFramework.dll
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\01.DatabaseContext\bin\Debug\EntityFramework.xml
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\01.DatabaseContext\obj\Debug\01.DatabaseContext.dll
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\01.DatabaseContext\obj\Debug\01.DatabaseContext.pdb
+D:\Databases\8\EntityFrameworkHomework\EntityHomework\01.DatabaseContext\obj\Debug\01.DatabaseContext.csprojResolveAssemblyReference.cache

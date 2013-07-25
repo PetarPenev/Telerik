@@ -1,0 +1,10 @@
+D:\Databases\11\OpenAccessModel\OpenAccessModel3\bin\Debug\OpenAccessModel3.dll.config
+D:\Databases\11\OpenAccessModel\OpenAccessModel3\bin\Debug\OpenAccessModel3.dll
+D:\Databases\11\OpenAccessModel\OpenAccessModel3\bin\Debug\OpenAccessModel3.pdb
+D:\Databases\11\OpenAccessModel\OpenAccessModel3\bin\Debug\Framework.dll
+D:\Databases\11\OpenAccessModel\OpenAccessModel3\bin\Debug\Telerik.OpenAccess.35.Extensions.dll
+D:\Databases\11\OpenAccessModel\OpenAccessModel3\bin\Debug\Framework.pdb
+D:\Databases\11\OpenAccessModel\OpenAccessModel3\bin\Debug\Telerik.OpenAccess.35.Extensions.xml
+D:\Databases\11\OpenAccessModel\OpenAccessModel3\obj\Debug\OpenAccessModel3.csprojResolveAssemblyReference.cache
+D:\Databases\11\OpenAccessModel\OpenAccessModel3\obj\Debug\OpenAccessModel3.dll
+D:\Databases\11\OpenAccessModel\OpenAccessModel3\obj\Debug\OpenAccessModel3.pdb

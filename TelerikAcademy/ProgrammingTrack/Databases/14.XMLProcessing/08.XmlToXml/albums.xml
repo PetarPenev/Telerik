@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<Albums name="Album's List">
+	<album>
+		<name>True Self</name>
+		<artist>Soil</artist>
+	</album>
+	<album>
+		<name>Construct</name>
+		<artist>Dark Tranquility</artist>
+	</album>
+	<album>
+		<name>Damage Done</name>
+		<artist>Dark Tranquility</artist>
+	</album>
+	<album>
+		<name>Strap It On</name>
+		<artist>Helmet</artist>
+	</album>
+	<album>
+		<name>Redefine</name>
+		<artist>Soil</artist>
+	</album>
+</Albums>

@@ -1,0 +1,5 @@
+D:\Databases\7\ADOHomework\ADONetHomework\06.ReadExcelFile\bin\Debug\06.ReadExcelFile.exe.config
+D:\Databases\7\ADOHomework\ADONetHomework\06.ReadExcelFile\bin\Debug\06.ReadExcelFile.exe
+D:\Databases\7\ADOHomework\ADONetHomework\06.ReadExcelFile\bin\Debug\06.ReadExcelFile.pdb
+D:\Databases\7\ADOHomework\ADONetHomework\06.ReadExcelFile\obj\Debug\06.ReadExcelFile.exe
+D:\Databases\7\ADOHomework\ADONetHomework\06.ReadExcelFile\obj\Debug\06.ReadExcelFile.pdb

@@ -1,0 +1,6 @@
+D:\Databases\7\ADOHomework\ADONetHomework\08.EscapeDangerousSymbols\bin\Debug\08.EscapeDangerousSymbols.exe.config
+D:\Databases\7\ADOHomework\ADONetHomework\08.EscapeDangerousSymbols\bin\Debug\08.EscapeDangerousSymbols.exe
+D:\Databases\7\ADOHomework\ADONetHomework\08.EscapeDangerousSymbols\bin\Debug\08.EscapeDangerousSymbols.pdb
+D:\Databases\7\ADOHomework\ADONetHomework\08.EscapeDangerousSymbols\obj\Debug\08.EscapeDangerousSymbols.csprojResolveAssemblyReference.cache
+D:\Databases\7\ADOHomework\ADONetHomework\08.EscapeDangerousSymbols\obj\Debug\08.EscapeDangerousSymbols.exe
+D:\Databases\7\ADOHomework\ADONetHomework\08.EscapeDangerousSymbols\obj\Debug\08.EscapeDangerousSymbols.pdb

@@ -1,0 +1,10 @@
+D:\Databases\9\PerformanceHomework\PerformanceHomework\02.PerformanceSelectQueries\bin\Debug\02.PerformanceSelectQueries.exe.config
+D:\Databases\9\PerformanceHomework\PerformanceHomework\02.PerformanceSelectQueries\obj\Debug\02.PerformanceSelectQueries.csprojResolveAssemblyReference.cache
+D:\Databases\9\PerformanceHomework\PerformanceHomework\02.PerformanceSelectQueries\bin\Debug\02.PerformanceSelectQueries.exe
+D:\Databases\9\PerformanceHomework\PerformanceHomework\02.PerformanceSelectQueries\bin\Debug\02.PerformanceSelectQueries.pdb
+D:\Databases\9\PerformanceHomework\PerformanceHomework\02.PerformanceSelectQueries\bin\Debug\01.TelerikAcademyModel.dll
+D:\Databases\9\PerformanceHomework\PerformanceHomework\02.PerformanceSelectQueries\bin\Debug\EntityFramework.dll
+D:\Databases\9\PerformanceHomework\PerformanceHomework\02.PerformanceSelectQueries\bin\Debug\01.TelerikAcademyModel.pdb
+D:\Databases\9\PerformanceHomework\PerformanceHomework\02.PerformanceSelectQueries\bin\Debug\EntityFramework.xml
+D:\Databases\9\PerformanceHomework\PerformanceHomework\02.PerformanceSelectQueries\obj\Debug\02.PerformanceSelectQueries.exe
+D:\Databases\9\PerformanceHomework\PerformanceHomework\02.PerformanceSelectQueries\obj\Debug\02.PerformanceSelectQueries.pdb

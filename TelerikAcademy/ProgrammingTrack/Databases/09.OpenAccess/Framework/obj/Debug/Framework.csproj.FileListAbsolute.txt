@@ -1,0 +1,5 @@
+D:\Databases\11\OpenAccessModel\Framework\bin\Debug\Framework.dll
+D:\Databases\11\OpenAccessModel\Framework\bin\Debug\Framework.pdb
+D:\Databases\11\OpenAccessModel\Framework\obj\Debug\Framework.csprojResolveAssemblyReference.cache
+D:\Databases\11\OpenAccessModel\Framework\obj\Debug\Framework.dll
+D:\Databases\11\OpenAccessModel\Framework\obj\Debug\Framework.pdb

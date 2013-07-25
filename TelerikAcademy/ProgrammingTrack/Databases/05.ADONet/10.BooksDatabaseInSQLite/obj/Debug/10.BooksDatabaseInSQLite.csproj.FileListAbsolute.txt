@@ -1,0 +1,9 @@
+D:\Databases\7\ADOHomework\ADONetHomework\10.BooksDatabaseInSQLite\bin\Debug\_10.BooksDatabaseInSQLite.exe.config
+D:\Databases\7\ADOHomework\ADONetHomework\10.BooksDatabaseInSQLite\bin\Debug\_10.BooksDatabaseInSQLite.exe
+D:\Databases\7\ADOHomework\ADONetHomework\10.BooksDatabaseInSQLite\bin\Debug\_10.BooksDatabaseInSQLite.pdb
+D:\Databases\7\ADOHomework\ADONetHomework\10.BooksDatabaseInSQLite\bin\Debug\System.Data.SQLite.dll
+D:\Databases\7\ADOHomework\ADONetHomework\10.BooksDatabaseInSQLite\obj\Debug\10.BooksDatabaseInSQLite.csprojResolveAssemblyReference.cache
+D:\Databases\7\ADOHomework\ADONetHomework\10.BooksDatabaseInSQLite\obj\Debug\_10.BooksDatabaseInSQLite.exe
+D:\Databases\7\ADOHomework\ADONetHomework\10.BooksDatabaseInSQLite\obj\Debug\_10.BooksDatabaseInSQLite.pdb
+D:\Databases\7\ADOHomework\ADONetHomework\10.BooksDatabaseInSQLite\bin\Debug\System.Data.SQLite.pdb
+D:\Databases\7\ADOHomework\ADONetHomework\10.BooksDatabaseInSQLite\bin\Debug\System.Data.SQLite.xml

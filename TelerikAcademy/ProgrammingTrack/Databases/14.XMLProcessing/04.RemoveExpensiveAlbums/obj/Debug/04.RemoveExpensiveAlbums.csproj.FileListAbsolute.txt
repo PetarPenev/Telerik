@@ -1,0 +1,8 @@
+D:\Databases\16\XMLProcessing\XMLProcessing\04.RemoveExpensiveAlbums\bin\Debug\04.RemoveExpensiveAlbums.exe.config
+D:\Databases\16\XMLProcessing\XMLProcessing\04.RemoveExpensiveAlbums\bin\Debug\04.RemoveExpensiveAlbums.exe
+D:\Databases\16\XMLProcessing\XMLProcessing\04.RemoveExpensiveAlbums\bin\Debug\04.RemoveExpensiveAlbums.pdb
+D:\Databases\16\XMLProcessing\XMLProcessing\04.RemoveExpensiveAlbums\obj\Debug\04.RemoveExpensiveAlbums.exe
+D:\Databases\16\XMLProcessing\XMLProcessing\04.RemoveExpensiveAlbums\obj\Debug\04.RemoveExpensiveAlbums.pdb
+D:\Databases\16\XMLProcessing\XMLProcessingHomework\04.RemoveExpensiveAlbums\bin\Debug\04.RemoveExpensiveAlbums.exe.config
+D:\Databases\16\XMLProcessing\XMLProcessingHomework\04.RemoveExpensiveAlbums\obj\Debug\04.RemoveExpensiveAlbums.exe
+D:\Databases\16\XMLProcessing\XMLProcessingHomework\04.RemoveExpensiveAlbums\obj\Debug\04.RemoveExpensiveAlbums.pdb

@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="students.xsl"?>
+<studentClass name=".NET Developer's Library">
+  <student>
+    <name>Hristo Ivanov</name>
+    <sex>Male</sex>
+    <dateOfBirth>1987-09-02</dateOfBirth>
+    <phone>0888456789</phone>
+    <email>ivanov@uni.com</email>
+    <course>4</course>
+    <speciality>Chemistry</speciality>
+    <facultyNumber>12345</facultyNumber>
+    <enrollmentInfo>
+      <enrollmentDate>2008-12-12</enrollmentDate>
+      <examScore>5</examScore>
+    </enrollmentInfo>
+    <teacherEndorsements>
+      <endorsement>Very good results.</endorsement>
+    </teacherEndorsements>
+    <exams>
+      <examName>Organic Chemistry</examName>
+      <examName>Basic Chemistry</examName>
+      <examName>Non-organic Chemistry</examName>
+    </exams>
+  </student>
+  <student>
+    <name>Iliana Ilieva</name>
+    <sex>Female</sex>
+    <dateOfBirth>1990-11-11</dateOfBirth>
+    <phone>0888134289</phone>
+    <email>ilieva@uni.com</email>
+    <course>3</course>
+    <speciality>History</speciality>
+    <facultyNumber>3456</facultyNumber>
+    <enrollmentInfo>
+      <enrollmentDate>2009-11-10</enrollmentDate>
+      <examScore>6</examScore>
+    </enrollmentInfo>
+    <teacherEndorsements>
+      <endorsement>Excellent results.</endorsement>
+      <endorsement>Very good student.</endorsement>
+    </teacherEndorsements>
+    <exams>
+      <examName>Bulgarian History</examName>
+      <examName>WorldHistory</examName>
+    </exams>
+  </student>
+</studentClass>

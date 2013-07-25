@@ -1,0 +1,7 @@
+D:\Databases\7\ADOHomework\ADONetHomework\09.BooksDatabaseInMySQL\bin\Debug\09.BooksDatabaseInMySQL.exe.config
+D:\Databases\7\ADOHomework\ADONetHomework\09.BooksDatabaseInMySQL\bin\Debug\09.BooksDatabaseInMySQL.exe
+D:\Databases\7\ADOHomework\ADONetHomework\09.BooksDatabaseInMySQL\bin\Debug\09.BooksDatabaseInMySQL.pdb
+D:\Databases\7\ADOHomework\ADONetHomework\09.BooksDatabaseInMySQL\bin\Debug\MySql.Data.dll
+D:\Databases\7\ADOHomework\ADONetHomework\09.BooksDatabaseInMySQL\obj\Debug\09.BooksDatabaseInMySQL.csprojResolveAssemblyReference.cache
+D:\Databases\7\ADOHomework\ADONetHomework\09.BooksDatabaseInMySQL\obj\Debug\09.BooksDatabaseInMySQL.exe
+D:\Databases\7\ADOHomework\ADONetHomework\09.BooksDatabaseInMySQL\obj\Debug\09.BooksDatabaseInMySQL.pdb

@@ -1,0 +1,8 @@
+D:\Databases\8\EntityFrameworkCodeFirstHomework\01StudentSystem.Model\bin\Debug\01StudentSystem.Model.dll.config
+D:\Databases\8\EntityFrameworkCodeFirstHomework\01StudentSystem.Model\bin\Debug\01StudentSystem.Model.dll
+D:\Databases\8\EntityFrameworkCodeFirstHomework\01StudentSystem.Model\bin\Debug\01StudentSystem.Model.pdb
+D:\Databases\8\EntityFrameworkCodeFirstHomework\01StudentSystem.Model\bin\Debug\EntityFramework.dll
+D:\Databases\8\EntityFrameworkCodeFirstHomework\01StudentSystem.Model\bin\Debug\EntityFramework.xml
+D:\Databases\8\EntityFrameworkCodeFirstHomework\01StudentSystem.Model\obj\Debug\01StudentSystem.Model.csprojResolveAssemblyReference.cache
+D:\Databases\8\EntityFrameworkCodeFirstHomework\01StudentSystem.Model\obj\Debug\01StudentSystem.Model.dll
+D:\Databases\8\EntityFrameworkCodeFirstHomework\01StudentSystem.Model\obj\Debug\01StudentSystem.Model.pdb

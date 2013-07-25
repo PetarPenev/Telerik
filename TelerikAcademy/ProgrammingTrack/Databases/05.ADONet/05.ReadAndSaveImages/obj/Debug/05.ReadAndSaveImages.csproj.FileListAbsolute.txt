@@ -1,0 +1,6 @@
+D:\Databases\7\ADOHomework\ADONetHomework\05.ReadAndSaveImages\bin\Debug\05.ReadAndSaveImages.exe.config
+D:\Databases\7\ADOHomework\ADONetHomework\05.ReadAndSaveImages\obj\Debug\05.ReadAndSaveImages.csprojResolveAssemblyReference.cache
+D:\Databases\7\ADOHomework\ADONetHomework\05.ReadAndSaveImages\bin\Debug\05.ReadAndSaveImages.exe
+D:\Databases\7\ADOHomework\ADONetHomework\05.ReadAndSaveImages\bin\Debug\05.ReadAndSaveImages.pdb
+D:\Databases\7\ADOHomework\ADONetHomework\05.ReadAndSaveImages\obj\Debug\05.ReadAndSaveImages.exe
+D:\Databases\7\ADOHomework\ADONetHomework\05.ReadAndSaveImages\obj\Debug\05.ReadAndSaveImages.pdb
