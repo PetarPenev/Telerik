@@ -6,3 +6,11 @@ D:\Databases\8\EntityFrameworkCodeFirstHomework\01StudentSystem.Model\bin\Debug\
 D:\Databases\8\EntityFrameworkCodeFirstHomework\01StudentSystem.Model\obj\Debug\01StudentSystem.Model.csprojResolveAssemblyReference.cache
 D:\Databases\8\EntityFrameworkCodeFirstHomework\01StudentSystem.Model\obj\Debug\01StudentSystem.Model.dll
 D:\Databases\8\EntityFrameworkCodeFirstHomework\01StudentSystem.Model\obj\Debug\01StudentSystem.Model.pdb
+D:\Telerik Git\TelerikAcademy\ProgrammingTrack\Databases\07.EntityFramework - CodeFirst\01StudentSystem.Model\bin\Debug\01StudentSystem.Model.dll.config
+D:\Telerik Git\TelerikAcademy\ProgrammingTrack\Databases\07.EntityFramework - CodeFirst\01StudentSystem.Model\bin\Debug\01StudentSystem.Model.dll
+D:\Telerik Git\TelerikAcademy\ProgrammingTrack\Databases\07.EntityFramework - CodeFirst\01StudentSystem.Model\bin\Debug\01StudentSystem.Model.pdb
+D:\Telerik Git\TelerikAcademy\ProgrammingTrack\Databases\07.EntityFramework - CodeFirst\01StudentSystem.Model\bin\Debug\EntityFramework.dll
+D:\Telerik Git\TelerikAcademy\ProgrammingTrack\Databases\07.EntityFramework - CodeFirst\01StudentSystem.Model\bin\Debug\EntityFramework.xml
+D:\Telerik Git\TelerikAcademy\ProgrammingTrack\Databases\07.EntityFramework - CodeFirst\01StudentSystem.Model\obj\Debug\01StudentSystem.Model.csprojResolveAssemblyReference.cache
+D:\Telerik Git\TelerikAcademy\ProgrammingTrack\Databases\07.EntityFramework - CodeFirst\01StudentSystem.Model\obj\Debug\01StudentSystem.Model.dll
+D:\Telerik Git\TelerikAcademy\ProgrammingTrack\Databases\07.EntityFramework - CodeFirst\01StudentSystem.Model\obj\Debug\01StudentSystem.Model.pdb
