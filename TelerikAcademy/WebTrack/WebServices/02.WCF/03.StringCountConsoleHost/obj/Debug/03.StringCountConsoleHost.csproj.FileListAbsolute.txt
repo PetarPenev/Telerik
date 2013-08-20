@@ -1,0 +1,8 @@
+D:\WebServices\2\WCFHomework\03.StringCountConsoleHost\bin\Debug\03.StringCountConsoleHost.exe.config
+D:\WebServices\2\WCFHomework\03.StringCountConsoleHost\bin\Debug\03.StringCountConsoleHost.exe
+D:\WebServices\2\WCFHomework\03.StringCountConsoleHost\bin\Debug\03.StringCountConsoleHost.pdb
+D:\WebServices\2\WCFHomework\03.StringCountConsoleHost\bin\Debug\03.StringCountLibrary.dll
+D:\WebServices\2\WCFHomework\03.StringCountConsoleHost\bin\Debug\03.StringCountLibrary.pdb
+D:\WebServices\2\WCFHomework\03.StringCountConsoleHost\obj\Debug\03.StringCountConsoleHost.csprojResolveAssemblyReference.cache
+D:\WebServices\2\WCFHomework\03.StringCountConsoleHost\obj\Debug\03.StringCountConsoleHost.exe
+D:\WebServices\2\WCFHomework\03.StringCountConsoleHost\obj\Debug\03.StringCountConsoleHost.pdb

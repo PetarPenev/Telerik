@@ -1,0 +1,5 @@
+D:\WebServices\2\WCFHomework\01.DayReturnerService\bin\01.DayReturnerService.dll
+D:\WebServices\2\WCFHomework\01.DayReturnerService\bin\01.DayReturnerService.pdb
+D:\WebServices\2\WCFHomework\01.DayReturnerService\obj\Debug\01.DayReturnerService.csprojResolveAssemblyReference.cache
+D:\WebServices\2\WCFHomework\01.DayReturnerService\obj\Debug\01.DayReturnerService.dll
+D:\WebServices\2\WCFHomework\01.DayReturnerService\obj\Debug\01.DayReturnerService.pdb

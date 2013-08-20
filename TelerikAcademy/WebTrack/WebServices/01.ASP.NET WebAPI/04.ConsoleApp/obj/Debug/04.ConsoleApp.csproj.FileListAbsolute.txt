@@ -1,0 +1,30 @@
+D:\WebServices\1\ImprovedCodeFirst\04.ConsoleApp\bin\Debug\04.ConsoleApp.exe.config
+D:\WebServices\1\ImprovedCodeFirst\04.ConsoleApp\obj\Debug\04.ConsoleApp.csprojResolveAssemblyReference.cache
+D:\WebServices\1\ImprovedCodeFirst\04.ConsoleApp\bin\Debug\04.ConsoleApp.exe
+D:\WebServices\1\ImprovedCodeFirst\04.ConsoleApp\bin\Debug\04.ConsoleApp.pdb
+D:\WebServices\1\ImprovedCodeFirst\04.ConsoleApp\bin\Debug\01.Classes.dll
+D:\WebServices\1\ImprovedCodeFirst\04.ConsoleApp\bin\Debug\02.Context.dll
+D:\WebServices\1\ImprovedCodeFirst\04.ConsoleApp\bin\Debug\03.WebClient.dll
+D:\WebServices\1\ImprovedCodeFirst\04.ConsoleApp\bin\Debug\System.Net.Http.Formatting.dll
+D:\WebServices\1\ImprovedCodeFirst\04.ConsoleApp\bin\Debug\EntityFramework.dll
+D:\WebServices\1\ImprovedCodeFirst\04.ConsoleApp\bin\Debug\System.Web.Http.dll
+D:\WebServices\1\ImprovedCodeFirst\04.ConsoleApp\bin\Debug\System.Web.Optimization.dll
+D:\WebServices\1\ImprovedCodeFirst\04.ConsoleApp\bin\Debug\System.Web.Http.Tracing.dll
+D:\WebServices\1\ImprovedCodeFirst\04.ConsoleApp\bin\Debug\System.Web.Http.WebHost.dll
+D:\WebServices\1\ImprovedCodeFirst\04.ConsoleApp\bin\Debug\Newtonsoft.Json.dll
+D:\WebServices\1\ImprovedCodeFirst\04.ConsoleApp\bin\Debug\01.Classes.pdb
+D:\WebServices\1\ImprovedCodeFirst\04.ConsoleApp\bin\Debug\02.Context.pdb
+D:\WebServices\1\ImprovedCodeFirst\04.ConsoleApp\bin\Debug\03.WebClient.pdb
+D:\WebServices\1\ImprovedCodeFirst\04.ConsoleApp\bin\Debug\System.Net.Http.Formatting.xml
+D:\WebServices\1\ImprovedCodeFirst\04.ConsoleApp\bin\Debug\EntityFramework.xml
+D:\WebServices\1\ImprovedCodeFirst\04.ConsoleApp\bin\Debug\System.Web.Http.xml
+D:\WebServices\1\ImprovedCodeFirst\04.ConsoleApp\bin\Debug\System.Web.Http.Tracing.xml
+D:\WebServices\1\ImprovedCodeFirst\04.ConsoleApp\bin\Debug\System.Web.Http.WebHost.xml
+D:\WebServices\1\ImprovedCodeFirst\04.ConsoleApp\bin\Debug\Newtonsoft.Json.xml
+D:\WebServices\1\ImprovedCodeFirst\04.ConsoleApp\obj\Debug\04.ConsoleApp.exe
+D:\WebServices\1\ImprovedCodeFirst\04.ConsoleApp\obj\Debug\04.ConsoleApp.pdb
+D:\WebServices\1\ImprovedCodeFirst\04.ConsoleApp\bin\Debug\03.WebApiClient.dll
+D:\WebServices\1\ImprovedCodeFirst\04.ConsoleApp\bin\Debug\03.WebApiClient.pdb
+D:\Telerik Git\TelerikAcademy\WebTrack\WebServices\ImprovedCodeFirst\04.ConsoleApp\bin\Debug\04.ConsoleApp.exe.config
+D:\Telerik Git\TelerikAcademy\WebTrack\WebServices\ImprovedCodeFirst\04.ConsoleApp\obj\Debug\04.ConsoleApp.exe
+D:\Telerik Git\TelerikAcademy\WebTrack\WebServices\ImprovedCodeFirst\04.ConsoleApp\obj\Debug\04.ConsoleApp.pdb

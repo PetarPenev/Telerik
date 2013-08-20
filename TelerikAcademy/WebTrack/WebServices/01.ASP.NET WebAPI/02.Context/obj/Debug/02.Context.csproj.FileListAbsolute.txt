@@ -1,0 +1,10 @@
+D:\WebServices\1\ImprovedCodeFirst\02.Context\bin\Debug\02.Context.dll.config
+D:\WebServices\1\ImprovedCodeFirst\02.Context\bin\Debug\02.Context.dll
+D:\WebServices\1\ImprovedCodeFirst\02.Context\bin\Debug\02.Context.pdb
+D:\WebServices\1\ImprovedCodeFirst\02.Context\bin\Debug\01.Classes.dll
+D:\WebServices\1\ImprovedCodeFirst\02.Context\bin\Debug\EntityFramework.dll
+D:\WebServices\1\ImprovedCodeFirst\02.Context\bin\Debug\01.Classes.pdb
+D:\WebServices\1\ImprovedCodeFirst\02.Context\bin\Debug\EntityFramework.xml
+D:\WebServices\1\ImprovedCodeFirst\02.Context\obj\Debug\02.Context.csprojResolveAssemblyReference.cache
+D:\WebServices\1\ImprovedCodeFirst\02.Context\obj\Debug\02.Context.dll
+D:\WebServices\1\ImprovedCodeFirst\02.Context\obj\Debug\02.Context.pdb

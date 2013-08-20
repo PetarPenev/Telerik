@@ -1,0 +1,16 @@
+D:\WebServices\5\UnitTestingHomework\Data.Models\bin\Debug\Data.Models.dll.config
+D:\WebServices\5\UnitTestingHomework\Data.Models\bin\Debug\Data.Models.dll
+D:\WebServices\5\UnitTestingHomework\Data.Models\bin\Debug\Data.Models.pdb
+D:\WebServices\5\UnitTestingHomework\Data.Models\bin\Debug\EntityFramework.dll
+D:\WebServices\5\UnitTestingHomework\Data.Models\bin\Debug\EntityFramework.xml
+D:\WebServices\5\UnitTestingHomework\Data.Models\obj\Debug\Data.Models.csprojResolveAssemblyReference.cache
+D:\WebServices\5\UnitTestingHomework\Data.Models\obj\Debug\Data.Models.dll
+D:\WebServices\5\UnitTestingHomework\Data.Models\obj\Debug\Data.Models.pdb
+D:\WebServices\UnitTestingHomework\Data.Models\bin\Debug\Data.Models.dll.config
+D:\WebServices\UnitTestingHomework\Data.Models\bin\Debug\Data.Models.dll
+D:\WebServices\UnitTestingHomework\Data.Models\bin\Debug\Data.Models.pdb
+D:\WebServices\UnitTestingHomework\Data.Models\bin\Debug\EntityFramework.dll
+D:\WebServices\UnitTestingHomework\Data.Models\bin\Debug\EntityFramework.xml
+D:\WebServices\UnitTestingHomework\Data.Models\obj\Debug\Data.Models.csprojResolveAssemblyReference.cache
+D:\WebServices\UnitTestingHomework\Data.Models\obj\Debug\Data.Models.dll
+D:\WebServices\UnitTestingHomework\Data.Models\obj\Debug\Data.Models.pdb

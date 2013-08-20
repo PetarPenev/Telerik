@@ -1,0 +1,5 @@
+D:\WebServices\2\WCFHomework\03.StringCountLibrary\bin\Debug\03.StringCountLibrary.dll.config
+D:\WebServices\2\WCFHomework\03.StringCountLibrary\bin\Debug\03.StringCountLibrary.dll
+D:\WebServices\2\WCFHomework\03.StringCountLibrary\bin\Debug\03.StringCountLibrary.pdb
+D:\WebServices\2\WCFHomework\03.StringCountLibrary\obj\Debug\03.StringCountLibrary.dll
+D:\WebServices\2\WCFHomework\03.StringCountLibrary\obj\Debug\03.StringCountLibrary.pdb

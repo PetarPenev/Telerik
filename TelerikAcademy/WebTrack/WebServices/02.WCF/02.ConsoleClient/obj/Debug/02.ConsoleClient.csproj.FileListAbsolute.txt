@@ -1,0 +1,6 @@
+D:\WebServices\2\WCFHomework\02.ConsoleClient\bin\Debug\02.ConsoleClient.exe.config
+D:\WebServices\2\WCFHomework\02.ConsoleClient\bin\Debug\02.ConsoleClient.exe
+D:\WebServices\2\WCFHomework\02.ConsoleClient\bin\Debug\02.ConsoleClient.pdb
+D:\WebServices\2\WCFHomework\02.ConsoleClient\obj\Debug\02.ConsoleClient.exe
+D:\WebServices\2\WCFHomework\02.ConsoleClient\obj\Debug\02.ConsoleClient.pdb
+D:\WebServices\2\WCFHomework\02.ConsoleClient\obj\Debug\02.ConsoleClient.csprojResolveAssemblyReference.cache

@@ -1,0 +1,16 @@
+D:\WebServices\6\CloudServices\01.Dropbox\bin\Debug\01.Dropbox.exe.config
+D:\WebServices\6\CloudServices\01.Dropbox\bin\Debug\01.Dropbox.exe
+D:\WebServices\6\CloudServices\01.Dropbox\bin\Debug\01.Dropbox.pdb
+D:\WebServices\6\CloudServices\01.Dropbox\bin\Debug\Common.Logging.dll
+D:\WebServices\6\CloudServices\01.Dropbox\bin\Debug\Spring.Rest.dll
+D:\WebServices\6\CloudServices\01.Dropbox\bin\Debug\Spring.Social.Core.dll
+D:\WebServices\6\CloudServices\01.Dropbox\bin\Debug\Spring.Social.Dropbox.dll
+D:\WebServices\6\CloudServices\01.Dropbox\bin\Debug\Spring.Rest.pdb
+D:\WebServices\6\CloudServices\01.Dropbox\bin\Debug\Spring.Rest.xml
+D:\WebServices\6\CloudServices\01.Dropbox\bin\Debug\Spring.Social.Core.pdb
+D:\WebServices\6\CloudServices\01.Dropbox\bin\Debug\Spring.Social.Core.xml
+D:\WebServices\6\CloudServices\01.Dropbox\bin\Debug\Spring.Social.Dropbox.pdb
+D:\WebServices\6\CloudServices\01.Dropbox\bin\Debug\Spring.Social.Dropbox.xml
+D:\WebServices\6\CloudServices\01.Dropbox\obj\Debug\01.Dropbox.csprojResolveAssemblyReference.cache
+D:\WebServices\6\CloudServices\01.Dropbox\obj\Debug\01.Dropbox.exe
+D:\WebServices\6\CloudServices\01.Dropbox\obj\Debug\01.Dropbox.pdb

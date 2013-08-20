@@ -1,0 +1,8 @@
+D:\WebServices\4\ConsumingWebServicesHomework\01.FeedzillaApp\bin\Debug\01.FeedzillaApp.exe.config
+D:\WebServices\4\ConsumingWebServicesHomework\01.FeedzillaApp\bin\Debug\01.FeedzillaApp.exe
+D:\WebServices\4\ConsumingWebServicesHomework\01.FeedzillaApp\bin\Debug\01.FeedzillaApp.pdb
+D:\WebServices\4\ConsumingWebServicesHomework\01.FeedzillaApp\bin\Debug\Newtonsoft.Json.dll
+D:\WebServices\4\ConsumingWebServicesHomework\01.FeedzillaApp\bin\Debug\Newtonsoft.Json.xml
+D:\WebServices\4\ConsumingWebServicesHomework\01.FeedzillaApp\obj\Debug\01.FeedzillaApp.csprojResolveAssemblyReference.cache
+D:\WebServices\4\ConsumingWebServicesHomework\01.FeedzillaApp\obj\Debug\01.FeedzillaApp.exe
+D:\WebServices\4\ConsumingWebServicesHomework\01.FeedzillaApp\obj\Debug\01.FeedzillaApp.pdb

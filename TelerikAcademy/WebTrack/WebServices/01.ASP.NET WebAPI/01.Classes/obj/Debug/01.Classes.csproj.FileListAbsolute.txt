@@ -1,0 +1,5 @@
+D:\WebServices\1\ImprovedCodeFirst\01.Classes\bin\Debug\01.Classes.dll
+D:\WebServices\1\ImprovedCodeFirst\01.Classes\bin\Debug\01.Classes.pdb
+D:\WebServices\1\ImprovedCodeFirst\01.Classes\obj\Debug\01.Classes.csprojResolveAssemblyReference.cache
+D:\WebServices\1\ImprovedCodeFirst\01.Classes\obj\Debug\01.Classes.dll
+D:\WebServices\1\ImprovedCodeFirst\01.Classes\obj\Debug\01.Classes.pdb
