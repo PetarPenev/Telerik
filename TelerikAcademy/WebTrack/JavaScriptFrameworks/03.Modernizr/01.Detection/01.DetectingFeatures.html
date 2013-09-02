@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Feature Detector</title>
+    <style>
+
+        table {
+            border: 1px solid grey;
+        }
+
+        thead th {
+            border-bottom: 1px solid black;
+        }
+
+        td, th {
+            border-left: 1px solid grey;
+            border-spacing: 0px;
+            border-collapse:collapse;
+        }
+    </style>
+    <script src="Scripts/mustache.js"></script>
+    <script src="Scripts/jquery-1.10.2.min.js"></script>
+    <script src="Scripts/ua-min.js"></script>
+    <script type='text/javascript' src="Scripts/modernizr.js"></script>
+</head>
+<body>
+    <div id="features-container"></div>
+    <table id="features-table">
+        <thead>
+            <tr>           
+                <th>Feature</th>
+                <th>Supported</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
+    <script type="x-mustache-template" id="info-template">	
+		<strong>Info</strong>
+		<ul>
+			<li>Browser info:</li>
+            <li>
+                <ul>
+                    <li>{{#browser.name}}You are browsing with {{browser.name}}{{/browser.name}}
+                        {{^browser.name}}No browser info.{{/browser.name}}</li>
+                    <li>{{#browser.version}}The version you are browsing with is {{browser.version}}{{/browser.version}}
+                        {{^browser.version}}No browser info.{{/browser.version}}</li>
+                </ul>
+            </li>
+            <li>Device info:</li>
+            <li>
+                <ul>
+                    <li>{{#device.model}} The model is {{device.model}} {{/device.model}}
+                        {{^device.model}} No model info. {{/device.model}}</li>
+                    <li>{{#device.type}} The type is {{device.type}} {{/device.type}}
+                        {{^device.type}} No type info. {{/device.type}}</li>
+                    <li>{{#device.vendor}} The vendor is {{device.vendor}} {{/device.vendor}}
+                        {{^device.vendor}} No vendor info. {{/device.vendor}}</li>
+                </ul>
+            </li>
+            <li>Os info:</li>
+            <li>
+                <ul>
+                    <li>{{#os.name}} The OS is {{os.name}} {{/os.name}}
+                        {{^os.name}} No OS info. {{/os.name}}</li>
+                    <li>{{#os.version}} The version is {{os.version}} {{/os.version}}
+                        {{^os.version}} No OS info. {{/os.version}}</li>
+                </ul>
+            </li>
+		</ul>			
+	</script>
+    <script src="Scripts/main-script-task1.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+﻿<label for="select-account-field">Selected account:</label>
+<select id ="select-account-field" data-text-field="id" data-value-field="id"
+       data-bind="source: accounts, events: { change: changeAccounts }, value: accountIdValue"></select>
+<ul id="account-list" data-template="account-template" data-bind="source: currentAccount"></ul>
+
+<script id="account-template" type="text/x-kendo-template">
+    <li>
+        <label for="balance-div">Current balance:</label>
+        <div id = "balance-div" data-bind="text: balance"></div>
+        <label for="sum-performer">Transaction amount:</label>
+        <input type = "number" min="0" id = "sum-performer" data-bind="value: sum" />
+        <button class="btn btn-success" data-bind="attr: { account-id: id }, events: { click: deposit }">Deposit</button>
+        <button class = "btn btn-danger" data-bind="attr: { account-id: id }, events: { click: withdraw }">Withdraw</button>
+    </li>
+</script>
+
+
+

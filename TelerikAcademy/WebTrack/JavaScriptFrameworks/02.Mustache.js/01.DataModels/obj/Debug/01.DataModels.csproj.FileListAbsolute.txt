@@ -1,0 +1,5 @@
+D:\JSLibraries\2\Homework\MustacheJsHomework\01.DataModels\bin\Debug\01.DataModels.dll
+D:\JSLibraries\2\Homework\MustacheJsHomework\01.DataModels\bin\Debug\01.DataModels.pdb
+D:\JSLibraries\2\Homework\MustacheJsHomework\01.DataModels\obj\Debug\01.DataModels.csprojResolveAssemblyReference.cache
+D:\JSLibraries\2\Homework\MustacheJsHomework\01.DataModels\obj\Debug\01.DataModels.dll
+D:\JSLibraries\2\Homework\MustacheJsHomework\01.DataModels\obj\Debug\01.DataModels.pdb

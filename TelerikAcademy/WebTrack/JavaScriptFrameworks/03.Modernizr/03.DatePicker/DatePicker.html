@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Date Picker</title>
+    <script src="Scripts/modernizr.custom.94633.js"></script>
+</head>
+<body>
+    <input type="date" />
+    <script>
+        Modernizr.load({
+            test: Modernizr.inputtypes.date,
+            nope: ["Scripts/jquery-1.4.4.min.js", "Scripts/jquery-ui-1.10.0.js"],
+            complete: function () {
+                $('input[type=date]').datepicker({
+                    dateFormat: 'yy-mm-dd'
+                });
+            }
+        });
+    </script>
+</body>
+</html>

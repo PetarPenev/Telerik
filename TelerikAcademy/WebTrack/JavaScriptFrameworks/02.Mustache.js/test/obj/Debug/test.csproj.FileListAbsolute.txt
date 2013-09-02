@@ -1,0 +1,12 @@
+D:\JSLibraries\2\Homework\MustacheJsHomework\test\bin\Debug\test.exe.config
+D:\JSLibraries\2\Homework\MustacheJsHomework\test\obj\Debug\test.csprojResolveAssemblyReference.cache
+D:\JSLibraries\2\Homework\MustacheJsHomework\test\bin\Debug\test.exe
+D:\JSLibraries\2\Homework\MustacheJsHomework\test\bin\Debug\test.pdb
+D:\JSLibraries\2\Homework\MustacheJsHomework\test\bin\Debug\02.DataContext.dll
+D:\JSLibraries\2\Homework\MustacheJsHomework\test\bin\Debug\EntityFramework.dll
+D:\JSLibraries\2\Homework\MustacheJsHomework\test\bin\Debug\01.DataModels.dll
+D:\JSLibraries\2\Homework\MustacheJsHomework\test\bin\Debug\02.DataContext.pdb
+D:\JSLibraries\2\Homework\MustacheJsHomework\test\bin\Debug\EntityFramework.xml
+D:\JSLibraries\2\Homework\MustacheJsHomework\test\bin\Debug\01.DataModels.pdb
+D:\JSLibraries\2\Homework\MustacheJsHomework\test\obj\Debug\test.exe
+D:\JSLibraries\2\Homework\MustacheJsHomework\test\obj\Debug\test.pdb

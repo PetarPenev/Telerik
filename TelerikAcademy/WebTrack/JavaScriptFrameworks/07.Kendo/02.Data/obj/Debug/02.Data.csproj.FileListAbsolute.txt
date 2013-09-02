@@ -1,0 +1,10 @@
+D:\JSLibraries\7\KendoHomework\02.Data\bin\Debug\02.Data.dll.config
+D:\JSLibraries\7\KendoHomework\02.Data\bin\Debug\02.Data.dll
+D:\JSLibraries\7\KendoHomework\02.Data\bin\Debug\02.Data.pdb
+D:\JSLibraries\7\KendoHomework\02.Data\bin\Debug\01.Models.dll
+D:\JSLibraries\7\KendoHomework\02.Data\bin\Debug\EntityFramework.dll
+D:\JSLibraries\7\KendoHomework\02.Data\bin\Debug\01.Models.pdb
+D:\JSLibraries\7\KendoHomework\02.Data\bin\Debug\EntityFramework.xml
+D:\JSLibraries\7\KendoHomework\02.Data\obj\Debug\02.Data.csprojResolveAssemblyReference.cache
+D:\JSLibraries\7\KendoHomework\02.Data\obj\Debug\02.Data.dll
+D:\JSLibraries\7\KendoHomework\02.Data\obj\Debug\02.Data.pdb

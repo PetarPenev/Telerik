@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Detection", "01.Detection\01.Detection.csproj", "{DA2315DF-7603-4017-8726-3B64D408CF3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.SimpleApp", "02.SimpleApp\02.SimpleApp.csproj", "{49EEAAE5-1D7C-4EA0-82E6-3BEC50BDCD1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.DatePicker", "03.DatePicker\03.DatePicker.csproj", "{61F61243-F140-4E5A-B558-CA5BF9D9B6D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA2315DF-7603-4017-8726-3B64D408CF3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA2315DF-7603-4017-8726-3B64D408CF3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA2315DF-7603-4017-8726-3B64D408CF3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA2315DF-7603-4017-8726-3B64D408CF3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49EEAAE5-1D7C-4EA0-82E6-3BEC50BDCD1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49EEAAE5-1D7C-4EA0-82E6-3BEC50BDCD1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49EEAAE5-1D7C-4EA0-82E6-3BEC50BDCD1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49EEAAE5-1D7C-4EA0-82E6-3BEC50BDCD1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61F61243-F140-4E5A-B558-CA5BF9D9B6D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61F61243-F140-4E5A-B558-CA5BF9D9B6D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61F61243-F140-4E5A-B558-CA5BF9D9B6D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61F61243-F140-4E5A-B558-CA5BF9D9B6D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

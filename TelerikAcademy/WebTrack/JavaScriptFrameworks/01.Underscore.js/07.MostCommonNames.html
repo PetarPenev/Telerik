@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Most Common Names</title>
+	<script src="Scripts/class.js"></script>
+	<script src="Scripts/underscore.js"></script>
+</head>
+<body>
+	<div id="result"></div>
+	<script>
+	    function getMaxByProperty(group, property) {
+	        var groupedByProperty = _.countBy(group, property);
+	        var largestPropertyCount = _.max(groupedByProperty);
+	        var mostPopularProperties = [];
+
+	        _.each(groupedByProperty, function (item, key) {
+	            if (item == largestPropertyCount) {
+	                mostPopularProperties.push(key);
+	            }
+	        });
+
+	        return mostPopularProperties;
+	    }
+
+
+	    var Person = Class.create({
+	        init: function (firstName, lastName) {
+	            this.firstName = firstName;
+	            this.lastName = lastName;
+	        },
+	        toString: function () {
+	            return this.fname + " " + this.lname;
+	        }
+	    });
+
+	    var people = [];
+	    people.push(new Person("Doncho", "Minkov"));
+	    people.push(new Person("Ancho", "Anchoev"));
+	    people.push(new Person("Doncho", "Ivanov"));
+	    people.push(new Person("Ilian", "Iliev"));
+	    people.push(new Person("Ancho", "Iliev"));
+	    people.push(new Person("Doncho", "Iliev"));
+
+	    var mostPopularFirstNames = getMaxByProperty(people, "firstName");
+
+	    console.log("The most popular first name(s) is/are:");
+	    _.each(mostPopularFirstNames, function (res) {
+	        console.log(res);
+	    });
+
+	    var mostPopularLastNames = getMaxByProperty(people, "lastName");
+
+	    console.log("The most popular last name(s) is/are:");
+	    _.each(mostPopularLastNames, function (res) {
+	        console.log(res);
+	    });
+	</script>
+</body>
+</html>

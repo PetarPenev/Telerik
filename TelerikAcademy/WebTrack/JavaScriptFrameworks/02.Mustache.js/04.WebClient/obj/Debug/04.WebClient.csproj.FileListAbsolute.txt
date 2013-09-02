@@ -1,0 +1,5 @@
+D:\JSLibraries\2\Homework\MustacheJsHomework\04.WebClient\bin\04.WebClient.dll
+D:\JSLibraries\2\Homework\MustacheJsHomework\04.WebClient\bin\04.WebClient.pdb
+D:\JSLibraries\2\Homework\MustacheJsHomework\04.WebClient\obj\Debug\04.WebClient.csprojResolveAssemblyReference.cache
+D:\JSLibraries\2\Homework\MustacheJsHomework\04.WebClient\obj\Debug\04.WebClient.dll
+D:\JSLibraries\2\Homework\MustacheJsHomework\04.WebClient\obj\Debug\04.WebClient.pdb

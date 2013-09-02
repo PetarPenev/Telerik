@@ -1,0 +1,16 @@
+﻿<div id="login-container">
+<fieldset>
+    <legend>Login or register</legend>
+    <label for="tb-username">Username</label>
+    <input required data-bind="value: username" type="text" id="tb-username" />
+    <label for="tb-password">Password</label>
+    <input required data-bind="value: password" type="password" id="tb-password" />
+    <button data-bind="click: login">Login</button>
+    <button data-bind="click: register">Register</button>
+</fieldset>
+</div>
+<div data-bind="text: message"></div>
+<div id="logout-container">
+<span id="user-name-span" data-bind="text: username"></span>
+<button data-bind="click: logout">Logout</button>
+</div>

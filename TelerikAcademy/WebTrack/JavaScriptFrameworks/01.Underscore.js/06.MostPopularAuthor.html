@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Most Popular Author</title>
+	<script src="Scripts/class.js"></script>
+	<script src="Scripts/underscore.js"></script>
+</head>
+<body>
+	<div id="result"></div>
+	<script>
+	    var Book = Class.create({
+	        init: function (name, author) {
+	            this.name = name;
+	            this.author = author;
+	        },
+	        toString: function () {
+	            return this.name + "written by " + this.author;
+	        }
+	    });
+
+	    var books = [];
+	    books.push(new Book("Cemetery World", "Clifford Simak"));
+	    books.push(new Book("Love from a Stranger", "Agatha Christie"));
+	    books.push(new Book("And Then There Were None ", "Agatha Christie"));
+	    books.push(new Book("Physics of Sorrow", "Georgi Gospodinov"));
+	    books.push(new Book("Murder at the Vicarage", "Agatha Christie"));
+	    books.push(new Book("The Goblin Reservation", "Clifford Simak"));
+
+	    var booksByAuthor = _.groupBy(books, "author");
+	    var mostPopularAuthor = _.max(booksByAuthor, function (bookCollection) {
+	        return bookCollection.length;
+	    });
+
+	    console.log("The most popular author is " + mostPopularAuthor[0].author);
+	</script>
+</body>
+</html>

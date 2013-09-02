@@ -1,0 +1,5 @@
+D:\JSLibraries\6\Homework\EverliveSPA\01.Client\bin\01.Client.dll
+D:\JSLibraries\6\Homework\EverliveSPA\01.Client\bin\01.Client.pdb
+D:\JSLibraries\6\Homework\EverliveSPA\01.Client\obj\Debug\01.Client.csprojResolveAssemblyReference.cache
+D:\JSLibraries\6\Homework\EverliveSPA\01.Client\obj\Debug\01.Client.dll
+D:\JSLibraries\6\Homework\EverliveSPA\01.Client\obj\Debug\01.Client.pdb

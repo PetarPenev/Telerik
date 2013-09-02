@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Student Vizualizer</title>
+    <style>
+        div {
+            margin-bottom:20px;
+        }
+
+        td {
+            width: 150px;
+            height: 100px;
+            border: 2px solid black;
+        }
+    </style>
+    <script src="Scripts/jquery-2.0.3.min.js"></script>
+    <script src="Scripts/class.js"></script>
+	<script src="Scripts/mustache.js"></script>
+	<script src="Scripts/TableView.js"></script>
+</head>
+<body>
+    <button id="show-students-btn">Show students</button>
+    <div id="table-container-div">The students' table appears here.</div>
+    <div id="marks-container-div">The selected student's marks appear here.</div>
+      <script type="x-mustache-template" id="student-template">	
+		<strong>Student</strong>
+		<ul>
+			<li>{{firstName}} {{lastName}}</li>
+            <li>{{age}} years old</li>
+            <li>In {{grade}} grade</li>
+		</ul>			
+	</script>
+
+    <script type="x-mustache-template" id="mark-template">	
+		<strong>Mark</strong>
+		<ul>
+			<li>In the subject of {{subject}}</li>
+            <li>With the value of {{score}}</li>
+		</ul>			
+	</script>
+    <script src="Scripts/main-script.js"></script>
+</body>
+</html>

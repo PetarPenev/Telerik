@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Combo Box</title>
+    <style>
+        li {
+            border: 1px dashed blue;
+            max-width: 250px;
+            list-style-type:none;
+        }
+
+        #message-state {
+            max-width:250px;
+        }
+
+        #message-state.selected {
+            background-color:lightblue;
+        }
+
+        #message-state.unselected {
+            background-color:red;
+        }
+
+        #event-msg-box {
+            border: 1px dotted cyan;
+            background-color:lightgray;
+            max-width:200px;
+        }
+    </style>
+</head>
+<body>
+    <script type="x-mustache-template" id="person-template">	
+        <div class="person-item" id="person-item-{{id}}">
+        <strong class="person-name">{{name}}</strong><p class="person-age">{{age}}</p>
+        <img src="{{avatarUrl}}" width="100px" />
+    </div>
+	</script>
+    <div id="message-state" class="unselected"></div>
+    <div id="container"></div>
+    <div id="event-msg-box">Messages:</div>
+    <script src="Scripts/libs/require.js" data-main="Scripts/app-config"></script>
+</body>
+</html>

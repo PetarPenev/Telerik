@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Students</title>
+    <script src="Scripts/libs/require.js" data-main="Scripts/app-config"></script>
+    <style>
+        li {
+            border: 1px dashed blue;
+            max-width: 250px;
+            list-style-type:none;
+        }
+    </style>
+</head>
+<body>
+    <script type="x-mustache-template" id="student-template">	
+        <strong>{{firstName}} {{lastName}}</strong>	in {{grade}}	
+	</script>
+
+    <script type="x-mustache-template" id="mark-template">	
+        <strong>{{value}}</strong> in <strong>{{subject}}</strong>	
+	</script>
+
+    <div id="container"></div>
+</body>
+</html>

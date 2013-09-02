@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Student In Age Interval</title>
+	<script src="Scripts/class.js"></script>
+	<script src="Scripts/underscore.js"></script>
+</head>
+<body>
+	<div id="result"></div>
+	<script>
+		var Student = Class.create({
+			init: function (firstName, lastName, age) {
+				this.firstName = firstName;
+				this.lastName = lastName;
+				this.age = age;
+			},
+			toString: function () {
+				return this.fname + " " + this.lname;
+			}
+		});
+		
+		var students = [];
+		students.push(new Student("Doncho", "Minkov", 19));
+		students.push(new Student("Ancho", "Anchoev", 17));
+		students.push(new Student("Spas", "Ivanov", 21));
+		students.push(new Student("Ilian", "Iliev", 24));
+
+		function isAgeInInterval(p) {
+		    return p.age < 18 || p.age > 24;
+		}
+
+		var selectedStudents = _.reject(students, isAgeInInterval);
+
+		function mapNames(st) {
+		    return st.firstName + " " + st.lastName;
+		}
+
+		var mappedStudents = _.map(selectedStudents, mapNames);
+
+		_.each(mappedStudents, function (st) {
+		    console.log(st);
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Sorted Animals</title>
+	<script src="Scripts/class.js"></script>
+	<script src="Scripts/underscore.js"></script>
+</head>
+<body>
+	<div id="result"></div>
+	<script>
+	    var Animal = Class.create({
+	        init: function (name, species, legNumber) {
+	            this.name = name;
+	            this.species = species;
+	            this.legNumber = legNumber;
+	        },
+	        toString: function () {
+	            return this.name + "of species " + this.species + " with " + this.legNumber + " legs";
+	        }
+	    });
+
+	    var animals = [];
+	    animals.push(new Animal("lizard", "reptile", 2));
+	    animals.push(new Animal("cow", "mammal", 4));
+	    animals.push(new Animal("dog", "mammal", 6));
+	    animals.push(new Animal("cock", "bird", 8));
+	    animals.push(new Animal("cockroach", "bird", 100));
+
+	    var totalLegNumber = 0;
+	    _.each(animals, function (animal) {
+	        totalLegNumber += animal.legNumber;
+	    });
+
+	    console.log("Total number of animal legs is " + totalLegNumber);
+	</script>
+</body>
+</html>

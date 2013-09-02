@@ -1,0 +1,5 @@
+D:\JSLibraries\3\Homework-modernizr\ModernizrHomework\01.Detection\bin\01.Detection.dll
+D:\JSLibraries\3\Homework-modernizr\ModernizrHomework\01.Detection\bin\01.Detection.pdb
+D:\JSLibraries\3\Homework-modernizr\ModernizrHomework\01.Detection\obj\Debug\01.Detection.csprojResolveAssemblyReference.cache
+D:\JSLibraries\3\Homework-modernizr\ModernizrHomework\01.Detection\obj\Debug\01.Detection.dll
+D:\JSLibraries\3\Homework-modernizr\ModernizrHomework\01.Detection\obj\Debug\01.Detection.pdb

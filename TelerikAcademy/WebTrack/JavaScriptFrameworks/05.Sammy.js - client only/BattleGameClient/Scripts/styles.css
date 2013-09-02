@@ -1,0 +1,70 @@
+﻿#main-content, #error-console {
+    margin: 0 auto;
+}
+
+div {
+    max-width:400px;
+    margin-bottom: 20px;
+}
+
+table {
+    border: 1px dashed blue;
+    border-collapse:collapse;
+}
+
+td {
+    border-collapse:collapse;
+    border: 1px dashed coral;
+    width: 70px;
+    height: 70px;
+}
+
+a {
+    text-decoration:none;
+    color: darkgoldenrod;
+    border: 1px solid grey;
+    padding: 5px;
+    max-width: 100px;
+}
+
+    a:hover {
+        text-decoration:underline;
+    }
+
+button {
+ background-color: lightgrey;
+ color: darkgoldenrod;
+ box-shadow: 5px 5px 2px #888888;
+ margin-bottom: 20px;
+}
+
+h1 {
+    color: goldenrod;
+}
+
+.block-link {
+    display: block;
+}
+
+.game-wrapper {
+    border: 1px solid goldenrod;
+}
+
+    .game-wrapper div {
+        border: 1px dashed yellow;
+        background-color: cyan;
+    }
+
+.game-wrapper div.state-link {
+    background-color: lightgrey;
+}
+
+    .game-wrapper div.state-link:hover {
+        text-decoration:underline;
+        background-color: darkgray;
+    }
+
+#main-content div {
+    color: darkgoldenrod;
+    background-color:lightcyan;
+}

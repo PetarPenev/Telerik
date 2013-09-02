@@ -1,0 +1,10 @@
+D:\JSLibraries\5\Battle-Game\BattleGame.Services\BattleGameClient\bin\BattleGameClient.dll
+D:\JSLibraries\5\Battle-Game\BattleGame.Services\BattleGameClient\bin\BattleGameClient.pdb
+D:\JSLibraries\5\Battle-Game\BattleGame.Services\BattleGameClient\obj\Debug\BattleGameClient.csprojResolveAssemblyReference.cache
+D:\JSLibraries\5\Battle-Game\BattleGame.Services\BattleGameClient\obj\Debug\BattleGameClient.dll
+D:\JSLibraries\5\Battle-Game\BattleGame.Services\BattleGameClient\obj\Debug\BattleGameClient.pdb
+D:\JSLibraries\5\Battle-Game\homework\BattleClient\BattleGameClient\bin\BattleGameClient.dll
+D:\JSLibraries\5\Battle-Game\homework\BattleClient\BattleGameClient\bin\BattleGameClient.pdb
+D:\JSLibraries\5\Battle-Game\homework\BattleClient\BattleGameClient\obj\Debug\BattleGameClient.csprojResolveAssemblyReference.cache
+D:\JSLibraries\5\Battle-Game\homework\BattleClient\BattleGameClient\obj\Debug\BattleGameClient.dll
+D:\JSLibraries\5\Battle-Game\homework\BattleClient\BattleGameClient\obj\Debug\BattleGameClient.pdb

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Student With Highest Marks</title>
+	<script src="Scripts/class.js"></script>
+	<script src="Scripts/underscore.js"></script>
+</head>
+<body>
+	<div id="result"></div>
+	<script>
+	    var Student = Class.create({
+	        init: function (firstName, lastName, marks) {
+	            this.firstName = firstName;
+	            this.lastName = lastName;
+	            this.marks = marks;
+	        },
+	        toString: function () {
+	            return this.fname + " " + this.lname;
+	        }
+	    });
+
+	    var students = [];
+	    students.push(new Student("Doncho", "Minkov", [5, 5, 5]));
+	    students.push(new Student("Ancho", "Anchoev", [3, 4, 4, 3]));
+	    students.push(new Student("Spas", "Ivanov", [6, 6]));
+	    students.push(new Student("Ilian", "Iliev", [5, 5, 6]));
+
+	    function sumFunction(sum, currentElement) {
+	        return sum + currentElement;
+	    }
+
+	    function sortByAverageGrade(st) {
+	        var sum = 0;
+	        _.each(st.marks, function (el) {
+	            sum += el;
+	        });
+
+	        return sum / st.marks.length;
+	    }
+
+	    var selectedStudents = _.sortBy(students, sortByAverageGrade);
+	    selectedStudents = selectedStudents.reverse();
+
+	    function mapNames(st) {
+	        return st.firstName + " " + st.lastName;
+	    }
+
+	    var mappedStudents = _.map(selectedStudents, mapNames);
+
+	    var topStudent = _.first(mappedStudents);
+	    console.log(topStudent);
+	</script>
+</body>
+</html>

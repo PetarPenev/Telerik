@@ -1,0 +1,5 @@
+D:\JSLibraries\3\Homework-modernizr\ModernizrHomework\03.DatePicker\bin\03.DatePicker.dll
+D:\JSLibraries\3\Homework-modernizr\ModernizrHomework\03.DatePicker\bin\03.DatePicker.pdb
+D:\JSLibraries\3\Homework-modernizr\ModernizrHomework\03.DatePicker\obj\Debug\03.DatePicker.csprojResolveAssemblyReference.cache
+D:\JSLibraries\3\Homework-modernizr\ModernizrHomework\03.DatePicker\obj\Debug\03.DatePicker.dll
+D:\JSLibraries\3\Homework-modernizr\ModernizrHomework\03.DatePicker\obj\Debug\03.DatePicker.pdb

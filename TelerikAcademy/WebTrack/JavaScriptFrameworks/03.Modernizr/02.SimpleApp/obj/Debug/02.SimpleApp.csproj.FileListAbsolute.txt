@@ -1,0 +1,4 @@
+D:\JSLibraries\3\Homework-modernizr\ModernizrHomework\02.SimpleApp\bin\02.SimpleApp.dll
+D:\JSLibraries\3\Homework-modernizr\ModernizrHomework\02.SimpleApp\bin\02.SimpleApp.pdb
+D:\JSLibraries\3\Homework-modernizr\ModernizrHomework\02.SimpleApp\obj\Debug\02.SimpleApp.dll
+D:\JSLibraries\3\Homework-modernizr\ModernizrHomework\02.SimpleApp\obj\Debug\02.SimpleApp.pdb

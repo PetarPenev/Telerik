@@ -1,0 +1,5 @@
+D:\JSLibraries\4\Homework\RequireJsHomework\02.StudentApp\bin\02.StudentApp.dll
+D:\JSLibraries\4\Homework\RequireJsHomework\02.StudentApp\bin\02.StudentApp.pdb
+D:\JSLibraries\4\Homework\RequireJsHomework\02.StudentApp\obj\Debug\02.StudentApp.csprojResolveAssemblyReference.cache
+D:\JSLibraries\4\Homework\RequireJsHomework\02.StudentApp\obj\Debug\02.StudentApp.dll
+D:\JSLibraries\4\Homework\RequireJsHomework\02.StudentApp\obj\Debug\02.StudentApp.pdb
