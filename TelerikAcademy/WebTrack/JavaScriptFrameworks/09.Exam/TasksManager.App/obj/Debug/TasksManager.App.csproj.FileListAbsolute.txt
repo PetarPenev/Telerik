@@ -1,0 +1,60 @@
+D:\JSLibraries\exam\TasksManager\TasksManager.App\obj\Debug\TasksManager.App.csprojResolveAssemblyReference.cache
+D:\JSLibraries\exam\TasksManager\TasksManager.App\bin\TasksManager.App.dll
+D:\JSLibraries\exam\TasksManager\TasksManager.App\bin\TasksManager.App.pdb
+D:\JSLibraries\exam\TasksManager\TasksManager.App\bin\EntityFramework.dll
+D:\JSLibraries\exam\TasksManager\TasksManager.App\bin\Microsoft.Web.Infrastructure.dll
+D:\JSLibraries\exam\TasksManager\TasksManager.App\bin\Newtonsoft.Json.dll
+D:\JSLibraries\exam\TasksManager\TasksManager.App\bin\System.Net.Http.Formatting.dll
+D:\JSLibraries\exam\TasksManager\TasksManager.App\bin\System.Web.Http.dll
+D:\JSLibraries\exam\TasksManager\TasksManager.App\bin\System.Web.Http.WebHost.dll
+D:\JSLibraries\exam\TasksManager\TasksManager.App\bin\TasksManager.Data.dll
+D:\JSLibraries\exam\TasksManager\TasksManager.App\bin\TasksManager.Models.dll
+D:\JSLibraries\exam\TasksManager\TasksManager.App\bin\TasksManager.Data.pdb
+D:\JSLibraries\exam\TasksManager\TasksManager.App\bin\TasksManager.Models.pdb
+D:\JSLibraries\exam\TasksManager\TasksManager.App\bin\EntityFramework.xml
+D:\JSLibraries\exam\TasksManager\TasksManager.App\bin\Newtonsoft.Json.xml
+D:\JSLibraries\exam\TasksManager\TasksManager.App\bin\System.Net.Http.Formatting.xml
+D:\JSLibraries\exam\TasksManager\TasksManager.App\bin\System.Web.Http.xml
+D:\JSLibraries\exam\TasksManager\TasksManager.App\bin\System.Web.Http.WebHost.xml
+D:\JSLibraries\exam\TasksManager\TasksManager.App\obj\Debug\TasksManager.App.dll
+D:\JSLibraries\exam\TasksManager\TasksManager.App\obj\Debug\TasksManager.App.pdb
+D:\JSLibraries\exam\ExamFile_petarpenev_JavaScript библиотеки - август 2013_2013-09-03_18-31\TasksManager\TasksManager.App\bin\TasksManager.App.dll
+D:\JSLibraries\exam\ExamFile_petarpenev_JavaScript библиотеки - август 2013_2013-09-03_18-31\TasksManager\TasksManager.App\bin\TasksManager.App.pdb
+D:\JSLibraries\exam\ExamFile_petarpenev_JavaScript библиотеки - август 2013_2013-09-03_18-31\TasksManager\TasksManager.App\bin\EntityFramework.dll
+D:\JSLibraries\exam\ExamFile_petarpenev_JavaScript библиотеки - август 2013_2013-09-03_18-31\TasksManager\TasksManager.App\bin\Microsoft.Web.Infrastructure.dll
+D:\JSLibraries\exam\ExamFile_petarpenev_JavaScript библиотеки - август 2013_2013-09-03_18-31\TasksManager\TasksManager.App\bin\Newtonsoft.Json.dll
+D:\JSLibraries\exam\ExamFile_petarpenev_JavaScript библиотеки - август 2013_2013-09-03_18-31\TasksManager\TasksManager.App\bin\System.Net.Http.Formatting.dll
+D:\JSLibraries\exam\ExamFile_petarpenev_JavaScript библиотеки - август 2013_2013-09-03_18-31\TasksManager\TasksManager.App\bin\System.Web.Http.dll
+D:\JSLibraries\exam\ExamFile_petarpenev_JavaScript библиотеки - август 2013_2013-09-03_18-31\TasksManager\TasksManager.App\bin\System.Web.Http.WebHost.dll
+D:\JSLibraries\exam\ExamFile_petarpenev_JavaScript библиотеки - август 2013_2013-09-03_18-31\TasksManager\TasksManager.App\bin\TasksManager.Data.dll
+D:\JSLibraries\exam\ExamFile_petarpenev_JavaScript библиотеки - август 2013_2013-09-03_18-31\TasksManager\TasksManager.App\bin\TasksManager.Models.dll
+D:\JSLibraries\exam\ExamFile_petarpenev_JavaScript библиотеки - август 2013_2013-09-03_18-31\TasksManager\TasksManager.App\bin\TasksManager.Data.pdb
+D:\JSLibraries\exam\ExamFile_petarpenev_JavaScript библиотеки - август 2013_2013-09-03_18-31\TasksManager\TasksManager.App\bin\TasksManager.Models.pdb
+D:\JSLibraries\exam\ExamFile_petarpenev_JavaScript библиотеки - август 2013_2013-09-03_18-31\TasksManager\TasksManager.App\bin\EntityFramework.xml
+D:\JSLibraries\exam\ExamFile_petarpenev_JavaScript библиотеки - август 2013_2013-09-03_18-31\TasksManager\TasksManager.App\bin\Newtonsoft.Json.xml
+D:\JSLibraries\exam\ExamFile_petarpenev_JavaScript библиотеки - август 2013_2013-09-03_18-31\TasksManager\TasksManager.App\bin\System.Net.Http.Formatting.xml
+D:\JSLibraries\exam\ExamFile_petarpenev_JavaScript библиотеки - август 2013_2013-09-03_18-31\TasksManager\TasksManager.App\bin\System.Web.Http.xml
+D:\JSLibraries\exam\ExamFile_petarpenev_JavaScript библиотеки - август 2013_2013-09-03_18-31\TasksManager\TasksManager.App\bin\System.Web.Http.WebHost.xml
+D:\JSLibraries\exam\ExamFile_petarpenev_JavaScript библиотеки - август 2013_2013-09-03_18-31\TasksManager\TasksManager.App\obj\Debug\TasksManager.App.csprojResolveAssemblyReference.cache
+D:\JSLibraries\exam\ExamFile_petarpenev_JavaScript библиотеки - август 2013_2013-09-03_18-31\TasksManager\TasksManager.App\obj\Debug\TasksManager.App.dll
+D:\JSLibraries\exam\ExamFile_petarpenev_JavaScript библиотеки - август 2013_2013-09-03_18-31\TasksManager\TasksManager.App\obj\Debug\TasksManager.App.pdb
+D:\JSLibraries\exam\ExamFile_petarpenev_JavaScript библиотеки - август 2013_2013-09-03_18-34\TasksManager\TasksManager.App\bin\TasksManager.App.dll
+D:\JSLibraries\exam\ExamFile_petarpenev_JavaScript библиотеки - август 2013_2013-09-03_18-34\TasksManager\TasksManager.App\bin\TasksManager.App.pdb
+D:\JSLibraries\exam\ExamFile_petarpenev_JavaScript библиотеки - август 2013_2013-09-03_18-34\TasksManager\TasksManager.App\bin\EntityFramework.dll
+D:\JSLibraries\exam\ExamFile_petarpenev_JavaScript библиотеки - август 2013_2013-09-03_18-34\TasksManager\TasksManager.App\bin\Microsoft.Web.Infrastructure.dll
+D:\JSLibraries\exam\ExamFile_petarpenev_JavaScript библиотеки - август 2013_2013-09-03_18-34\TasksManager\TasksManager.App\bin\Newtonsoft.Json.dll
+D:\JSLibraries\exam\ExamFile_petarpenev_JavaScript библиотеки - август 2013_2013-09-03_18-34\TasksManager\TasksManager.App\bin\System.Net.Http.Formatting.dll
+D:\JSLibraries\exam\ExamFile_petarpenev_JavaScript библиотеки - август 2013_2013-09-03_18-34\TasksManager\TasksManager.App\bin\System.Web.Http.dll
+D:\JSLibraries\exam\ExamFile_petarpenev_JavaScript библиотеки - август 2013_2013-09-03_18-34\TasksManager\TasksManager.App\bin\System.Web.Http.WebHost.dll
+D:\JSLibraries\exam\ExamFile_petarpenev_JavaScript библиотеки - август 2013_2013-09-03_18-34\TasksManager\TasksManager.App\bin\TasksManager.Data.dll
+D:\JSLibraries\exam\ExamFile_petarpenev_JavaScript библиотеки - август 2013_2013-09-03_18-34\TasksManager\TasksManager.App\bin\TasksManager.Models.dll
+D:\JSLibraries\exam\ExamFile_petarpenev_JavaScript библиотеки - август 2013_2013-09-03_18-34\TasksManager\TasksManager.App\bin\TasksManager.Data.pdb
+D:\JSLibraries\exam\ExamFile_petarpenev_JavaScript библиотеки - август 2013_2013-09-03_18-34\TasksManager\TasksManager.App\bin\TasksManager.Models.pdb
+D:\JSLibraries\exam\ExamFile_petarpenev_JavaScript библиотеки - август 2013_2013-09-03_18-34\TasksManager\TasksManager.App\bin\EntityFramework.xml
+D:\JSLibraries\exam\ExamFile_petarpenev_JavaScript библиотеки - август 2013_2013-09-03_18-34\TasksManager\TasksManager.App\bin\Newtonsoft.Json.xml
+D:\JSLibraries\exam\ExamFile_petarpenev_JavaScript библиотеки - август 2013_2013-09-03_18-34\TasksManager\TasksManager.App\bin\System.Net.Http.Formatting.xml
+D:\JSLibraries\exam\ExamFile_petarpenev_JavaScript библиотеки - август 2013_2013-09-03_18-34\TasksManager\TasksManager.App\bin\System.Web.Http.xml
+D:\JSLibraries\exam\ExamFile_petarpenev_JavaScript библиотеки - август 2013_2013-09-03_18-34\TasksManager\TasksManager.App\bin\System.Web.Http.WebHost.xml
+D:\JSLibraries\exam\ExamFile_petarpenev_JavaScript библиотеки - август 2013_2013-09-03_18-34\TasksManager\TasksManager.App\obj\Debug\TasksManager.App.csprojResolveAssemblyReference.cache
+D:\JSLibraries\exam\ExamFile_petarpenev_JavaScript библиотеки - август 2013_2013-09-03_18-34\TasksManager\TasksManager.App\obj\Debug\TasksManager.App.dll
+D:\JSLibraries\exam\ExamFile_petarpenev_JavaScript библиотеки - август 2013_2013-09-03_18-34\TasksManager\TasksManager.App\obj\Debug\TasksManager.App.pdb

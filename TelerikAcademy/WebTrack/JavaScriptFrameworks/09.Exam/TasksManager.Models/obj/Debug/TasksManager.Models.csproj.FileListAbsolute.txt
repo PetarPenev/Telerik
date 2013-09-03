@@ -1,0 +1,5 @@
+D:\JSLibraries\exam\TasksManager\TasksManager.Models\bin\Debug\TasksManager.Models.dll
+D:\JSLibraries\exam\TasksManager\TasksManager.Models\bin\Debug\TasksManager.Models.pdb
+D:\JSLibraries\exam\TasksManager\TasksManager.Models\obj\Debug\TasksManager.Models.csprojResolveAssemblyReference.cache
+D:\JSLibraries\exam\TasksManager\TasksManager.Models\obj\Debug\TasksManager.Models.dll
+D:\JSLibraries\exam\TasksManager\TasksManager.Models\obj\Debug\TasksManager.Models.pdb

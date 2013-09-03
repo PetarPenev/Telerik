@@ -1,0 +1,31 @@
+﻿<input type="text" required id="title-list-input" data-bind="value: title" />
+<button class="btn btn-success" data-bind="events: { click: createList }">Create new list</button>
+<div data-bind="text: message"></div>
+
+<!--<ul  id="todo-list" data-template="lists-template" data-bind="source: lists"></ul>
+
+<script id="lists-template" type="text/x-kendo-template">
+    <li>
+        <span>Title:</span>
+        <div data-bind="text: title"></div>
+        <button class="btn btn-success" data-bind="attr: { todo-id: id }, events: { click: seeDetails }">See details</button>
+    </li>
+</script>-->
+<h1>Lists</h1>
+<table class="table table-condensed table-bordered todo-table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Details</th>
+        </tr>
+    </thead>
+    <tbody data-template="row-template" data-bind="source: lists">
+    </tbody>
+</table>
+
+<script id="row-template" type="text/x-kendo-template">
+    <tr>
+        <td data-bind="text: title"></td>
+        <td><button class="btn btn-success" data-bind="attr: { todo-id: id }, events: { click: seeDetails }">See details</button></td>
+    </tr>
+</script>

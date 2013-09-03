@@ -1,0 +1,28 @@
+﻿<div class="title" data-bind="text: title"></div>
+<div id="todo-validation">
+<label for="text-todo">Text:</label>
+<input id="text-todo" required type="text" data-bind="value: todoText" />
+<button class="btn btn-success" data-bind="attr: { list-id: id }, events: { click: createTodo }">Create ToDo</button>
+</div>
+<div data-bind="text: message"></div>
+
+<h1>ToDo list</h1>
+<table class="table table-condensed table-bordered todo-table">
+    <thead>
+        <tr>
+            <th>Text</th>
+            <th>State</th>
+            <th>Change State</th>
+        </tr>
+    </thead>
+    <tbody data-template="row-template" data-bind="source: todos">
+    </tbody>
+</table>
+
+<script id="row-template" type="text/x-kendo-template">
+    <tr>
+        <td data-bind="text: text"></td>
+        <td data-bind="text: isDone"></td>
+        <td><button class="btn btn-success" data-bind="attr: { todo-id: id }, events: { click: changeState }">Change state</button></td>
+    </tr>
+</script>

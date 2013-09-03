@@ -1,0 +1,10 @@
+D:\JSLibraries\exam\TasksManager\TasksManager.Data\bin\Debug\TasksManager.Data.dll.config
+D:\JSLibraries\exam\TasksManager\TasksManager.Data\bin\Debug\TasksManager.Data.dll
+D:\JSLibraries\exam\TasksManager\TasksManager.Data\bin\Debug\TasksManager.Data.pdb
+D:\JSLibraries\exam\TasksManager\TasksManager.Data\bin\Debug\EntityFramework.dll
+D:\JSLibraries\exam\TasksManager\TasksManager.Data\bin\Debug\TasksManager.Models.dll
+D:\JSLibraries\exam\TasksManager\TasksManager.Data\bin\Debug\TasksManager.Models.pdb
+D:\JSLibraries\exam\TasksManager\TasksManager.Data\bin\Debug\EntityFramework.xml
+D:\JSLibraries\exam\TasksManager\TasksManager.Data\obj\Debug\TasksManager.Data.csprojResolveAssemblyReference.cache
+D:\JSLibraries\exam\TasksManager\TasksManager.Data\obj\Debug\TasksManager.Data.dll
+D:\JSLibraries\exam\TasksManager\TasksManager.Data\obj\Debug\TasksManager.Data.pdb

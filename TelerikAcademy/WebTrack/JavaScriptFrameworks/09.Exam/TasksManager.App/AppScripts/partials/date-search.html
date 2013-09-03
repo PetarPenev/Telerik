@@ -1,0 +1,15 @@
+﻿<label for="date-field">Date:</label>
+<input type="date" required id="date-field" data-bind="value: date" />
+<button class="btn btn-success" data-bind="events: { click: getAppointments }">See appointments</button>
+<div class="title">Appointments by date</div>
+<div data-role="grid"
+        data-bind="source: appointments"
+        data-editable="false"
+        data-columns='[
+        {"field": "subject", "title": "Subject"},
+        {"field": "description", "title": "Description"},
+        {"field": "createdAt", "title": "Created At"},
+        {"field": "appointmentDate", "title": "Date of appointment"},
+        {"field": "duration", "title": "Duration"},
+        {"field": "state", "title": "State"},]'>
+</div>

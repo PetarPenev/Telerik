@@ -1,0 +1,24 @@
+﻿table, td, th {
+    border-collapse: collapse;
+    border: 1px solid grey;
+}
+
+table.todo-table {
+    max-width: 500px;
+}
+
+#log-menu {
+    margin-bottom: 25px;
+    max-width: 400px;
+}
+
+div.title {
+    max-width: 500px;
+    background-color: lightblue;
+    margin-left: 400px;
+    font-size: 40px;
+    text-align: center;
+    line-height: 50px;
+    margin-top:20px;
+    margin-bottom:20px;
+}

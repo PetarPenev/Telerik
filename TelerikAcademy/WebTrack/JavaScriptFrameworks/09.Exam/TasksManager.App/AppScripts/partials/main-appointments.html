@@ -1,0 +1,26 @@
+﻿<div id="app-grid">
+    <div id="app-validate">
+        <label for="subject-field">Subject:</label>
+        <input required id="subject-field" type="text" data-bind="value: subject" />
+        <label for="description-field">Description:</label>
+        <input required id="description-field" type="text" data-bind="value: description" />
+        <label for="duration-field">Duration:</label>
+        <input required min="1" id="duration-field" type="number" data-bind="value: duration" />
+        <label for="date-field">Date:</label>
+        <input type="datetime" required id="date-field" data-bind="value: date" />
+    </div>
+    <button class="btn btn-success" data-bind="events: { click: createAppointment }">Create</button>
+    <div data-bind="text: message"></div>
+    <div class="title">All appointments</div>
+    <div data-role="grid"
+        data-bind="source: appointments"
+        data-editable="false"
+        data-columns='[
+        {"field": "subject", "title": "Subject"},
+        {"field": "description", "title": "Description"},
+        {"field": "createdAt", "title": "Created At"},
+        {"field": "appointmentDate", "title": "Date of appointment"},
+        {"field": "duration", "title": "Duration"},
+        {"field": "state", "title": "State"},]'>
+    </div>
+</div>
