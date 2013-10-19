@@ -1,0 +1,46 @@
+﻿
+@{
+    ViewBag.Title = "Books";
+}
+
+@using _02.InformationalApp.Models
+@using System.Linq
+@model _02.InformationalApp.Models.Book
+
+@Html.Partial("__BooksList");
+
+@using (Html.BeginForm("Create", "Books", FormMethod.Post))
+{
+    <h1>Create</h1>
+    @Html.Label("bookName", "bookName")
+    @Html.TextBox("bookName", string.Empty)
+    @Html.Label("CategoryName", "CategoryName")
+    @Html.DropDownList("CategoryName", new SelectList(Data.Categories.Select(c => c.Name)))
+    @Html.Label("AuthorName", "AuthorName")
+    @Html.DropDownList("AuthorName", new SelectList(Data.Authors.Select(c => c.Name)))
+    
+    <br />
+    <input type="submit" value="Go" />
+}
+
+@using (Html.BeginForm("Edit", "Books", FormMethod.Post))
+{
+    <h1>Edit</h1>
+    @Html.Label("bookName", "bookName")
+    @Html.TextBox("bookName", (Model == null) ? "Empty" : Model.Name)
+    @Html.Hidden("Id", (Model == null) ? 1 : Model.Id);
+    @Html.Label("CategoryName", "CategoryName")
+    @Html.DropDownList("CategoryName", new SelectList(Data.Categories.Select(c => c.Name)))
+    @Html.Label("AuthorName", "AuthorName")
+    @Html.DropDownList("AuthorName", new SelectList(Data.Authors.Select(c => c.Name)))
+    <br />
+    if (Model == null)
+    {
+        <input type="submit" value="Go" disabled="disabled" />
+    }
+    else
+    {
+        <input type="submit" value="Go" />
+    }
+
+}

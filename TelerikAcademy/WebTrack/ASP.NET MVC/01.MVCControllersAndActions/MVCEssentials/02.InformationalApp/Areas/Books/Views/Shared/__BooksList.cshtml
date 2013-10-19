@@ -1,0 +1,15 @@
+﻿@using _02.InformationalApp.Models
+<table class="table-bordered">
+    <tbody>
+        @for (int i = 0; i < Data.Books.Count; i++)
+        {
+            <tr>
+                <td>@Data.Books[i].Name</td>
+                <td>@Data.Categories.Where(a => a.Id == Data.Books[i].CategoryId).FirstOrDefault().Name</td>
+                <td>@Data.Authors.Where(a => a.Id == Data.Books[i].AuthorId).FirstOrDefault().Name</td>
+                <td>@Html.ActionLink("Edit", "Index", "Books", new { id = Data.Books[i].Id }, null)</td>
+                <td>@Html.ActionLink("Delete", "Delete", "Books", new { id = Data.Books[i].Id }, null)</td>
+            </tr>
+        }
+    </tbody>
+</table>

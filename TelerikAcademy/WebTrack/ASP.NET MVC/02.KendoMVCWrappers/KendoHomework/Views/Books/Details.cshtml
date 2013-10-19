@@ -1,0 +1,23 @@
+﻿@model KendoHomework.Models.Book
+@{
+    ViewBag.Title = "Details";
+}
+
+<h1>Book Details</h1>
+<div class="hero-unit">@Model.Title</div>
+<div>@Model.Author</div>
+<div>Isbn: @((Model.Isbn==null) ? "unavailable" : Model.Isbn)</div>
+@if (Model.WebSite == null)
+{
+    <div>Web Site: unavailable</div>
+}
+else
+{
+    <div>Web Site:<a href=@("http://" + Model.WebSite)>@Model.WebSite</a></div>
+}
+
+<div>Description: @((Model.Description == null) ? "unavailable" : Model.Description)</div>
+@Html.ActionLink("Back to books", "Index", "Home")
+
+
+

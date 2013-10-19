@@ -1,0 +1,44 @@
+﻿@model IEnumerable<Exam.WebApp.Models.TicketListViewModel>
+<style>
+    div.row-fluid div.span3 {
+        margin:0px;
+        padding:0px;
+    }
+</style>
+
+<h4>Tickets List</h4>
+<div class="row-fluid">
+    <div class="span3"><strong>Title</strong></div>
+    <div class="span3"><strong>Category</strong></div>
+    <div class="span2"><strong>Author</strong></div>
+    <div class="span2"><strong>Priority</strong></div>
+    <div class="span2"><strong>Details</strong></div>
+</div>
+<div id="update-div">
+    @(Html.Kendo().ListView<Exam.WebApp.Models.TicketListViewModel>()
+    .Name("tickets")
+    .TagName("div")
+    .ClientTemplateId("ticket-template")
+    .HtmlAttributes(new { id = "list-view" })
+    .BindTo(Model))
+</div>
+
+<script id="ticket-template" type="text/x-kendo-template">
+    <div class="row-fluid">
+        <div class="span3">
+            <strong>#: Title #</strong>
+        </div>
+        <div class="span3">
+            <strong>#: CategoryName #</strong>
+        </div>
+        <div class="span2">
+            <strong>#: AuthorName #</strong>
+        </div>
+        <div class="span2">
+            <strong>#: Priority #</strong>
+        </div>
+        <div class="span2">
+            <strong><a class="btn" href="Ticket/Details/#: Id #">Details</a></strong>
+        </div>
+    </div>
+</script>

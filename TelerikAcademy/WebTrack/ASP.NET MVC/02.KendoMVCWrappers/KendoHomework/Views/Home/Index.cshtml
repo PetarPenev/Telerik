@@ -1,0 +1,55 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+
+@model IEnumerable<Kendo.Mvc.UI.TreeViewItemModel>
+
+@(Html.Kendo().AutoComplete()
+          .Name("serversideautocomplete")
+      .DataTextField("Title")
+      .Placeholder("Enter search query")
+        .Events(ev =>
+                    {
+                        ev.Select("selectAutoComplete");
+                    })
+      .DataSource(source =>
+      {
+          source.Read(read =>
+          {
+              read.Action("GetAutocompleteData", "Books")
+                  .Data("onAdditionalData"); 
+          }).ServerFiltering(true);     
+      })
+      .HtmlAttributes(new { style = "width:400px" })
+      .Height(370)
+      .MinLength(3))
+
+<input type="button" value="Search" 
+       onclick="location.href='Books/GetSearchResults?query=' + getData()" />
+
+
+
+@(Html.Kendo()
+    .TreeView()
+    .Name("tree-view")
+    .BindTo(Model));
+
+<script>
+    function selectAutoComplete(e) {
+        $("#serversideautocomplete").html(this.dataItem(e.item.index()).Id);
+    }
+
+    function dataHandle(data) {
+        console.log(data);
+    }
+
+    function getData() {
+        return $("#serversideautocomplete").val();
+    }
+
+    function onAdditionalData() {
+        return {
+            text: $('#serversideautocomplete').val(),
+        }
+    }
+</script>

@@ -1,0 +1,35 @@
+﻿@model _02.InformationalApp.Models.Author
+@using _02.InformationalApp.Models
+
+@{
+    ViewBag.Title = "Authors";
+}
+
+@Html.Partial("__AuthorsList");
+
+@using (Html.BeginForm("Create", "Authors", FormMethod.Post))
+{
+    <h1>Create</h1>
+    @Html.Label("authorName", "authorName")
+    @Html.TextBox("authorName", string.Empty)
+    <br />
+    <input type="submit" value="Go" />
+}
+
+@using (Html.BeginForm("Edit", "Authors", FormMethod.Post))
+{
+    <h1>Edit</h1>
+    @Html.Label("authorName", "authorName")
+    @Html.TextBox("authorName", (Model == null) ? "Empty" : Model.Name)
+    @Html.Hidden("Id", (Model == null) ? 1 : Model.Id);
+    <br />
+    if (Model == null)
+    {
+        <input type="submit" value="Go" disabled="disabled" />
+    }
+    else
+    {
+        <input type="submit" value="Go" />
+    }
+
+}

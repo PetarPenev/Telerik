@@ -1,0 +1,14 @@
+﻿@using _02.InformationalApp.Models
+<table class="table-bordered">
+    <tbody>
+        @for (int i = 0; i < Data.Categories.Count; i++)
+        {
+            <tr>
+                <td>@Data.Categories[i].Name</td>
+                <td>@Html.ActionLink("Edit", "Index", "Categories", new { id = Data.Categories[i].Id }, null)</td>
+                <td>@Html.ActionLink("Delete", "Delete", "Categories", new { id = Data.Categories[i].Id }, null)</td>
+            </tr>
+        }
+    </tbody>
+</table>
+

@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Categories</h2>
+
+@(Html.Kendo().Grid<KendoHomework.Areas.Administration.Models.CategoryGridModel>()
+.Name("CategoryGrid")
+.Columns(col => {
+    col.Bound(c => c.Name);
+    col.Command(command => { command.Edit(); command.Destroy(); }).Width(172);
+})
+.ToolBar(toolbar => toolbar.Create())
+.Editable(editable => editable.Mode(GridEditMode.InLine))
+.Pageable()
+.Sortable()
+.DataSource(dataSource => dataSource
+    .Ajax()
+    .PageSize(20)
+    .Events(events => events.Error("error_handler"))
+    .Model(model => model.Id(p => p.Id))
+    .Create(create => create.Action("Create", "CategoriesAdmin"))
+    .Read(read => read.Action("Read", "CategoriesAdmin"))
+        .Update(update => update.Action("Update", "CategoriesAdmin"))
+        .Destroy(update => update.Action("Destroy", "CategoriesAdmin"))
+))
+
+<script type="text/javascript">
+    function error_handler(e) {
+        if (e.errors) {
+            var message = "There are some errors:\n";
+            // Create a message containing all errors.
+            $.each(e.errors, function (key, value) {
+                if ('errors' in value) {
+                    $.each(value.errors, function () {
+                        message += this + "\n";
+                    });
+                }
+            });
+            // Display the message
+            alert(message);
+            // Cancel the changes
+            var grid = $("#grid").data("kendoGrid");
+            grid.cancelChanges();
+        }
+    }
+</script>

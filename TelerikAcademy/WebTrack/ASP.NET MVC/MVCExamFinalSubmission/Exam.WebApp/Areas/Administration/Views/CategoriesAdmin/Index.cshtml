@@ -1,0 +1,71 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+<div id="errorDiv" class="alert alert-error" style="display:none"></div>
+@(Html.Kendo()
+    .Grid<Exam.WebApp.Models.CategoryAdminModel>()
+    .Name("categories-grid")
+    .Pageable()
+    .Sortable()
+    .Editable(edit =>
+            {
+                edit.Mode(GridEditMode.InLine);
+            })
+    .Filterable()
+    .Columns(col =>
+            {
+                col.Bound(m => m.Id);
+                col.Bound(m => m.Name);
+                col.Command(com =>
+                            {
+                                com.Edit();
+                                com.Destroy();
+                            }).Title("Commands");
+            })
+            .ToolBar(toolbar => toolbar.Create())
+    .DataSource(data =>
+            {
+                data.Ajax()
+                    .ServerOperation(true)
+                    .PageSize(5)
+                    .Model(m =>
+                        {
+                            m.Id("Id");
+                            m.Field(com => com.Id).Editable(false);
+                            m.Field(com => com.Name);
+                        })
+                    .Read("ReadCategories", "CategoriesAdmin")
+                    .Create("CreateCategory", "CategoriesAdmin")
+                    .Update("UpdateCategory", "CategoriesAdmin")
+                    .Destroy("DestroyCategory", "CategoriesAdmin")
+                    .Events(events => events.Error("error_handler"));
+            }))
+
+<script>
+    function error_handler(e) {
+        if (e.errors) {
+            var message = "There are some errors:\n";
+            // Create a message containing all errors.
+            $.each(e.errors, function (key, value) {
+                if ('errors' in value) {
+                    $.each(value.errors, function () {
+                        message += this + "\n";
+                    });
+                }
+            });
+            // Display the message
+            $("#errorDiv").show();
+            $("#errorDiv").html(message);
+            $("#errorDiv").fadeOut(5000, function () { });
+            // Cancel the changes
+            var grid = $("#CoursesGrid").data("kendoGrid");
+            grid.cancelChanges();
+        }
+        else if (e.errorThrown) {
+            $("#errorDiv").show();
+            $("#errorDiv").html(e.errorThrown);
+            $("#errorDiv").fadeOut(5000, function () { });
+        }
+    }
+</script>

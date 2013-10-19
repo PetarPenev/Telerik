@@ -1,0 +1,4 @@
+﻿@(Html.Kendo().DropDownList()
+.DataSource(source => source.Read("GetAllCategories", "CategoriesAdmin").ServerFiltering(true))
+.DataTextField("Name").DataValueField("Id").OptionLabel("Select category")
+.Name("CategoryId"));

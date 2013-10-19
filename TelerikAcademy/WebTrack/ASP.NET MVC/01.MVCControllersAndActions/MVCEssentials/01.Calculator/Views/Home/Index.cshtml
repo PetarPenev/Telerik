@@ -1,0 +1,28 @@
+﻿@model _01.Calculator.Models.CalculatorModel
+<link href="~/Content/calc-styles.css" rel="stylesheet" />
+@{
+    var selectList = new SelectList(Model.ValueOptions);
+    var selectValueList = new SelectList(new List<int>() { 1000, 1024 });
+}
+@using (Html.BeginForm("Index", "Home", FormMethod.Post))
+{
+    @Html.Label("Quantity", "Quantity")
+    @Html.TextBox("Quantity")
+    @Html.Label("Type", "Type")
+    @Html.DropDownList("Type", selectList);
+    @Html.Label("Kilo", "Kilo")
+    @Html.DropDownList("Kilo", selectValueList);
+    <br />
+    <input type="submit" value="Go" />
+}
+
+<table class="table-bordered" id="table_bit_container">
+    @for (int i = 0; i < Model.DataValues.Length; i++)
+    {
+        <tr>
+            <td>@Model.ValueOptions[i]</td>
+            <td>@Model.DataValues[i]</td>
+        </tr>
+    }
+</table>
+

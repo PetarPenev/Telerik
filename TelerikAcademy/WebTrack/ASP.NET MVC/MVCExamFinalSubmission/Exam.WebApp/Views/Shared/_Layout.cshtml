@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Ticketing System</title>
+    @Scripts.Render("~/bundles/jquery")
+    @Styles.Render("~/Content/css", "~/Content/kendo")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/kendo")
+
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Ticketing System", "Index", "Home", new { area = "" }, new { @class = "brand" })
+                <div class="nav-collapse collapse">
+                    <ul class="nav" id="mainMenu">
+                        <li>@Html.ActionLink("Home", "Index", "Home", new { area = "" }, null)</li>
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li>@Html.ActionLink("Add Ticket", "Create", "Ticket", new { area = "" }, null)</li>
+                            <li>@Html.ActionLink("View All Tickets", "Index", "Ticket", new { area = "" }, null)</li>
+                        }
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <li>
+                                Admin
+                                <ul>
+                                    <li>@Html.ActionLink("Comments Administration", "Index", "CommentsAdmin", new { area = "Administration" }, null)</li>
+                                    <li>@Html.ActionLink("Categories Administration", "Index", "CategoriesAdmin", new { area = "Administration" }, null)</li>
+                                </ul>
+                            </li>
+                        }
+                    </ul>
+                    @Html.Partial("_LoginPartial")
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Ticketing System</h1>
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My Ticketing System</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+    <script>
+        $("#mainMenu").kendoMenu();
+    </script>
+</body>
+</html>

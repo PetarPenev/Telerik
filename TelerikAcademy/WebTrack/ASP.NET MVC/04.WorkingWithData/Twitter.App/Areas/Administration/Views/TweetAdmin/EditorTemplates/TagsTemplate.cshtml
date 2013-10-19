@@ -1,0 +1,1 @@
+﻿@Html.Kendo().MultiSelect().Name("Tags").DataTextField("Name").DataValueField("Id").BindTo("Tags").DataSource(dataSource => dataSource.Read(read => read.Action("ReadAllTags", "Home", new { area="" }))));

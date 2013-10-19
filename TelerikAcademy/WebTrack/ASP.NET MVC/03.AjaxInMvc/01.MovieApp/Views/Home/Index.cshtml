@@ -1,0 +1,32 @@
+﻿@using _01.MovieApp.Models
+@model List<Movie>
+
+@{
+    ViewBag.Title = "Home Page";  
+}
+
+<table class="table-bordered">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Year</th>
+            <th>Director Name</th>
+            <th>Male Lead Name</th>
+            <th>Female Lead Name</th>
+            <th>Studio Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @for (int i = 0; i < Model.Count; i++)
+        {
+            <tr>
+                <td>@Model[i].Title</td>
+                <td>@Model[i].Year</td>
+                <td>@Model[i].Director.Name</td>
+                <td>@Model[i].LeadMaleActor.Name</td>
+                <td>@Model[i].LeadFemaleActress.Name</td>
+                <td>@Model[i].Studio.Name</td>
+            </tr>
+        }
+    </tbody>
+</table>

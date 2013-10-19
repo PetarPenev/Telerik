@@ -1,0 +1,36 @@
+﻿@using _02.InformationalApp.Models
+@model _02.InformationalApp.Models.Category
+
+@{
+    ViewBag.Title = "Categories";
+}
+
+@Html.Partial("__CategoriesList");
+
+@using (Html.BeginForm("Create", "Categories", FormMethod.Post))
+{
+    <h1>Create</h1>
+    @Html.Label("categoryName", "categoryName")
+    @Html.TextBox("categoryName", string.Empty)
+    <br />
+    <input type="submit" value="Go" />
+}
+
+@using (Html.BeginForm("Edit", "Categories", FormMethod.Post))
+{
+    <h1>Edit</h1>
+    @Html.Label("categoryName", "categoryName")
+    @Html.TextBox("categoryName", (Model == null) ? "Empty" : Model.Name)
+    @Html.Hidden("Id", (Model == null) ? 1 : Model.Id); 
+    <br />
+    if (Model == null)
+    {
+         <input type="submit" value="Go" disabled="disabled" />
+    }
+    else
+    {
+        <input type="submit" value="Go" />
+    }
+   
+}
+

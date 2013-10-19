@@ -1,0 +1,42 @@
+﻿@model Twitter.Models.ApplicationUser
+
+@{
+    ViewBag.Title = "View1";
+}
+
+<style>
+    .hr-first {
+        width: 300px;
+    }
+
+    a {
+        color: red;
+    }
+
+    .tweet-div {
+        max-width: 400px;
+        text-align: center;
+    }
+
+    .tweet-link {
+        margin: 10px;
+        max-width: 100px;
+        text-align: center;
+    }
+</style>
+
+<h2>Username: @Model.UserName</h2>
+
+<h3>Tweets:</h3>
+@foreach (var tweet in Model.Tweets.Take(20))
+{
+    <hr class="hr-first" />
+    <div class="alert alert-info tweet-div">@tweet.Text</div>
+    <div class="alert alert-info tweet-div">On @tweet.DateCreated.ToString("G")</div>
+    <h1>Tags:</h1>
+    foreach (var tag in tweet.Tags)
+    {
+        <div class="alert alert-info tweet-link">@Html.ActionLink(tag.Name, "TweetsByTag", new { tagId = tag.Id })</div>
+    }
+}
+

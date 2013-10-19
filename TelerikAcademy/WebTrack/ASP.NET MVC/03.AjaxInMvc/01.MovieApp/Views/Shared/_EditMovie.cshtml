@@ -1,0 +1,119 @@
+﻿@model _01.MovieApp.Models.Movie
+
+@using (Html.BeginForm("EditMovie", "Movies", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset class="form-horizontal">
+        <legend>Movie</legend>
+
+        @Html.HiddenFor(model => model.Id)
+
+        <div class="control-group">
+            @Html.LabelFor(model => model.Title, new { @class = "control-label" })
+            <div class="controls">
+                @Html.EditorFor(model => model.Title)
+                @Html.ValidationMessageFor(model => model.Title, null, new { @class = "help-inline" })
+            </div>
+        </div>
+
+        <div class="control-group">
+            @Html.LabelFor(model => model.Year, new { @class = "control-label" })
+            <div class="controls">
+                @Html.EditorFor(model => model.Year)
+                @Html.ValidationMessageFor(model => model.Year, null, new { @class = "help-inline" })
+            </div>
+        </div>
+
+        <div class="hidden">
+            @Html.EditorFor(model => model.Director.Id);
+        </div>
+
+        <div class="control-group">
+            @Html.LabelFor(model => model.Director.Name, "Director Name", new { @class = "control-label" })
+            <div class="controls">
+                @Html.EditorFor(model => model.Director.Name)
+                @Html.ValidationMessageFor(model => model.Director.Name, null, new { @class = "help-inline" })
+            </div>
+        </div>
+
+        <div class="control-group">
+            @Html.LabelFor(model => model.Director.Age, "Director Age", new { @class = "control-label" })
+            <div class="controls">
+                @Html.EditorFor(model => model.Director.Age)
+                @Html.ValidationMessageFor(model => model.Director.Age, null, new { @class = "help-inline" })
+            </div>
+        </div>
+
+        <div class="hidden">
+            @Html.EditorFor(model => model.LeadMaleActor.Id);
+        </div>
+
+        <div class="control-group">
+            @Html.LabelFor(model => model.LeadMaleActor.Name, "Lead Male Name", new { @class = "control-label" })
+            <div class="controls">
+                @Html.EditorFor(model => model.LeadMaleActor.Name)
+                @Html.ValidationMessageFor(model => model.LeadMaleActor.Name, null, new { @class = "help-inline" })
+            </div>
+        </div>
+
+        <div class="control-group">
+            @Html.LabelFor(model => model.LeadMaleActor.Age, "Lead Male Age", new { @class = "control-label" })
+            <div class="controls">
+                @Html.EditorFor(model => model.LeadMaleActor.Age)
+                @Html.ValidationMessageFor(model => model.LeadMaleActor.Age, null, new { @class = "help-inline" })
+            </div>
+        </div>
+
+        <div class="hidden">
+            @Html.EditorFor(model => model.LeadFemaleActress.Id);
+        </div>
+
+        <div class="control-group">
+            @Html.LabelFor(model => model.LeadFemaleActress.Name, "Lead Female Name", new { @class = "control-label" })
+            <div class="controls">
+                @Html.EditorFor(model => model.LeadFemaleActress.Name)
+                @Html.ValidationMessageFor(model => model.LeadFemaleActress.Name, null, new { @class = "help-inline" })
+            </div>
+        </div>
+
+        <div class="control-group">
+            @Html.LabelFor(model => model.LeadFemaleActress.Age, "Lead Female Age", new { @class = "control-label" })
+            <div class="controls">
+                @Html.EditorFor(model => model.LeadFemaleActress.Age)
+                @Html.ValidationMessageFor(model => model.LeadFemaleActress.Age, null, new { @class = "help-inline" })
+            </div>
+        </div>
+
+        <div class="hidden">
+            @Html.EditorFor(model => model.Studio.Id);
+        </div>
+
+        <div class="control-group">
+            @Html.LabelFor(model => model.Studio.Name, "Studio Name", new { @class = "control-label" })
+            <div class="controls">
+                @Html.EditorFor(model => model.Studio.Name)
+                @Html.ValidationMessageFor(model => model.Studio.Name, null, new { @class = "help-inline" })
+            </div>
+        </div>
+
+        <div class="control-group">
+            @Html.LabelFor(model => model.Studio.Address, "Studio Address", new { @class = "control-label" })
+            <div class="controls">
+                @Html.EditorFor(model => model.Studio.Address)
+                @Html.ValidationMessageFor(model => model.Studio.Address, null, new { @class = "help-inline" })
+            </div>
+        </div>
+
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Save" class="btn" />
+        </div>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+

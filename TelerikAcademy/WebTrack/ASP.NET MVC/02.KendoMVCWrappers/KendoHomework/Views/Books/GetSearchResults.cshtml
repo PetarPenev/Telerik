@@ -1,0 +1,16 @@
+﻿@model IEnumerable<KendoHomework.Models.Book>
+@{
+    ViewBag.Title = "GetSearchResults";
+}
+
+<h2>Search Results</h2>
+
+<ul>
+    @foreach (var book in Model)
+    {
+        <li>
+            <a href="Details?id=@book.Id">@(book.Title + " by " + book.Author)</a>
+            <span>(Category: @book.Category.Name</span>
+        </li>
+    }
+</ul>

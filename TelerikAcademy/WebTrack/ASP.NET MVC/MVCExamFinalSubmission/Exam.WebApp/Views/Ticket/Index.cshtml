@@ -1,0 +1,67 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<div class="row-fluid">
+    @using (Html.BeginForm("Search", "Ticket",
+        null))
+    {
+        @(Html.Kendo().DropDownList().Name("categoryId")
+            .DataTextField("Name")
+            .DataValueField("Id")
+            .DataSource(data =>
+            {
+                data.Read(read =>
+                    {
+                        read.Action("GetCategoryData", "Ticket");
+                    })
+                    .ServerFiltering(true);
+            }))
+        
+        <div>
+            <input type="submit" value="Search" class="btn" />
+        </div>
+    }
+</div>
+<br />
+<div class="row-fluid">
+    <div class="span3"><strong>Title</strong></div>
+    <div class="span3"><strong>Category</strong></div>
+    <div class="span2"><strong>Author</strong></div>
+    <div class="span2"><strong>Priority</strong></div>
+    <div class="span2"><strong>Details</strong></div>
+</div>
+<div id="update-div">
+    @(Html.Kendo().ListView<Exam.WebApp.Models.TicketListViewModel>()
+    .Name("tickets")
+    .TagName("div")
+    .ClientTemplateId("ticket-template")
+    .Pageable()
+    .HtmlAttributes(new { id = "list-view" })
+    .DataSource(data =>
+    {
+        data.Read("GetTickets", "Ticket");
+        data.ServerOperation(true);
+        data.PageSize(5);
+    }))
+</div>
+
+<script id="ticket-template" type="text/x-kendo-template">
+    <div class="row-fluid">
+        <div class="span3">
+            <strong>#: Title #</strong>
+        </div>
+        <div class="span3">
+            <strong>#: CategoryName #</strong>
+        </div>
+        <div class="span2">
+            <strong>#: AuthorName #</strong>
+        </div>
+        <div class="span2">
+            <strong>#: Priority #</strong>
+        </div>
+        <div class="span2">
+            <strong><a class="btn" href="Ticket/Details/#: Id #">Details</a></strong>
+        </div>
+    </div>
+</script>

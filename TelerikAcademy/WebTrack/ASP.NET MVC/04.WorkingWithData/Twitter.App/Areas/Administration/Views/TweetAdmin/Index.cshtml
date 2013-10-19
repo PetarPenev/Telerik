@@ -1,0 +1,100 @@
+﻿@using Twitter.App.Areas.Administration.Models
+<h2>Tweet Administration</h2>
+
+<div id="errorDiv" class="alert alert-error" style="display:none"></div>
+@(Html.Kendo().Grid<TweetGridViewModel>().Name("TweetGrid").Columns(col =>
+    {
+        col.Bound(c => c.Text);
+        col.Bound(c => c.Username);
+        col.Bound(c => c.DateCreated).Format("{0:dd/MM/yyyy}").EditorTemplateName("DataTemplate"); ;
+        col.Bound(c => c.Tags).ClientTemplate("#= generateTags(Tags)  #").EditorTemplateName("TagsTemplate");
+        col.Command(command => { command.Edit(); command.Destroy(); }).Width(172);
+    })
+        .Pageable()
+        .Sortable()
+        .DataSource(dataSource => dataSource
+            .Ajax()
+            .PageSize(10)
+            .Events(events => events.Error("error_handler"))
+            .Model(model => model.Id(p => p.Id))
+                .Read(read => read.Action("Read", "TweetAdmin"))
+                    .Update(update => update.Action("Update", "TweetAdmin").Data("serialize"))
+                .Destroy(destroy => destroy.Action("Destroy", "TweetAdmin"))
+        )
+        .Events(events =>
+        {
+            events.Edit("hideColumn");
+            events.Cancel("showColumn");
+            events.Save("showColumn");
+        })
+)
+
+<script>
+    function generateTags(Tags) {
+        var template = "<ul>";
+        if (Tags) {
+            for (var i = 0; i < Tags.length; i++) {
+                template = template + "<li>" + Tags[i].Name + "</li>";
+            }
+        }
+        return template + "</ul>";
+    }
+
+    function hideColumn() {
+        // $('#CoursesGrid div.k-grid-header-wrap th:nth-child(4), #grid div.k-grid-content td:nth-child(4)').toggle();
+        //$('#TweetGrid table thead tr th:nth-child(2)').hide();
+        $('#TweetGrid table thead tr th:nth-child(2)').hide();
+        $('#TweetGrid table tbody tr td:nth-child(2)').hide();
+        //$('#TweetGrid table tbody tr td:nth-child(2)').hide();
+    }
+
+    function showColumn() {
+        $('#TweetGrid table thead tr th:nth-child(2)').show();
+        //$('#TweetGrid table thead tr th:nth-child(2)').show();
+        $('#TweetGrid table tbody tr td:nth-child(2)').show();
+        //$('#TweetGrid table tbody tr td:nth-child(2)').show();
+    }
+
+    function error_handler(e) {
+        if (e.errors) {
+            var message = "There are some errors:\n";
+            // Create a message containing all errors.
+            $.each(e.errors, function (key, value) {
+                if ('errors' in value) {
+                    $.each(value.errors, function () {
+                        message += this + "\n";
+                    });
+                }
+            });
+            // Display the message
+            $("#errorDiv").show();
+            $("#errorDiv").html(message);
+            $("#errorDiv").fadeOut(5000, function () { });
+            // Cancel the changes
+            var grid = $("#CoursesGrid").data("kendoGrid");
+            grid.cancelChanges();
+        }
+    }
+
+    function serialize(data) {
+        debugger;
+        for (var property in data) {
+            if ($.isArray(data[property])) {
+                serializeArray(property, data[property], data);
+            }
+        }
+    }
+
+    function serializeArray(prefix, array, result) {
+        for (var i = 0; i < array.length; i++) {
+            if ($.isPlainObject(array[i])) {
+                for (var property in array[i]) {
+                    result[prefix + "[" + i + "]." + property] = array[i][property];
+                }
+            }
+            else {
+                result[prefix + "[" + i + "]"] = array[i];
+            }
+        }
+    }
+</script>

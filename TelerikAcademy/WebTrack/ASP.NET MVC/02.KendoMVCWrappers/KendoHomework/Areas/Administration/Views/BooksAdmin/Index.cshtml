@@ -1,0 +1,56 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Books</h2>
+
+@(Html.Kendo().Grid<KendoHomework.Areas.Administration.Models.BookGridModel>()
+.Name("CategoryGrid")
+.Columns(col =>
+{
+    col.Bound(c => c.Title);
+    col.Bound(c => c.Author);
+    col.Bound(c => c.Isbn);
+    col.Bound(c => c.Description);
+    col.Bound(c => c.WebSite);
+    col.Bound(c => c.CategoryId).EditorTemplateName("CategoriesList").Title("Category").
+        ClientTemplate("#:CategoryName#"); ;
+    col.Command(command => { command.Edit(); command.Destroy(); }).Width(172);
+})
+.ToolBar(toolbar => toolbar.Create())
+.Editable(editable => editable.Mode(GridEditMode.InLine))
+.Pageable()
+.Sortable()
+.DataSource(dataSource => dataSource
+    .Ajax()
+    .PageSize(20)
+    .Events(events => events.Error("error_handler"))
+    .Model(model => model.Id(p => p.Id))
+    .Create(create => create.Action("Create", "BooksAdmin"))
+        .Read(read => read.Action("Read", "BooksAdmin"))
+            .Update(update => update.Action("Update", "BooksAdmin"))
+            .Destroy(update => update.Action("Destroy", "BooksAdmin"))
+))
+
+<script type="text/javascript">
+    function error_handler(e) {
+        if (e.errors) {
+            var message = "There are some errors:\n";
+            // Create a message containing all errors.
+            $.each(e.errors, function (key, value) {
+                if ('errors' in value) {
+                    $.each(value.errors, function () {
+                        message += this + "\n";
+                    });
+                }
+            });
+            // Display the message
+            alert(message);
+            // Cancel the changes
+            var grid = $("#grid").data("kendoGrid");
+            grid.cancelChanges();
+        }
+    }
+</script>
+

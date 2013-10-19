@@ -1,0 +1,62 @@
+﻿@{
+    ViewBag.Title = "Home Page";  
+}
+
+@using Twitter.App.Models
+@model MainTweetModel
+<style>
+    .hr-first {
+        width:300px;
+    }
+
+    a {
+        color:red;
+    }
+
+    .tweet-div {
+        max-width:400px;
+        text-align:center;
+    }
+
+    .tweet-link {
+        margin:10px;
+        max-width:100px;
+        text-align:center;
+    }
+</style>
+
+@if (!string.IsNullOrWhiteSpace(Model.ErrorMessage))
+{
+    <div class="alert alert-error" id="error-data">@Model.ErrorMessage</div>
+    <script>
+        $("#error-data").fadeOut(4000, function () { });
+    </script>
+}
+
+@if (!string.IsNullOrWhiteSpace(Model.SuccessMessage))
+{
+    <div class="alert alert-success" id="error-data">@Model.SuccessMessage</div>
+    <script>
+        $("#error-data").fadeOut(4000, function () { });
+    </script>
+}
+
+@foreach (var tweet in Model.Tweets.Take(20))
+{
+    <hr class="hr-first" />
+    <div class="alert alert-info tweet-div">@tweet.Text</div>
+    <div class="alert alert-info tweet-div">By @Html.ActionLink(tweet.Username, "TweetsByUser", new { userId = tweet.UserId })</div>
+    <div class="alert alert-info tweet-div">On @tweet.DateCreated.ToString("G")</div>
+    <h1>Tags:</h1>
+    foreach (var tag in tweet.Tags)
+    {
+        <div class="alert alert-info tweet-link">@Html.ActionLink(tag.Name, "TweetsByTag", new { tagId = tag.Id })</div>
+    }
+}
+
+@if (User.Identity.IsAuthenticated)
+{
+    @Html.Partial("_CreateTweet", Model.NewTweet);
+    @Html.Partial("_AddTag", Model.TagToAdd);
+}
+
