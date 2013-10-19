@@ -1,0 +1,6 @@
+D:\WebForms\3\ControlsHomework\ControlsHomework\05.TicTacToe\bin\05.TicTacToe.dll.config
+D:\WebForms\3\ControlsHomework\ControlsHomework\05.TicTacToe\bin\05.TicTacToe.dll
+D:\WebForms\3\ControlsHomework\ControlsHomework\05.TicTacToe\bin\05.TicTacToe.pdb
+D:\WebForms\3\ControlsHomework\ControlsHomework\05.TicTacToe\obj\Debug\05.TicTacToe.csprojResolveAssemblyReference.cache
+D:\WebForms\3\ControlsHomework\ControlsHomework\05.TicTacToe\obj\Debug\05.TicTacToe.dll
+D:\WebForms\3\ControlsHomework\ControlsHomework\05.TicTacToe\obj\Debug\05.TicTacToe.pdb

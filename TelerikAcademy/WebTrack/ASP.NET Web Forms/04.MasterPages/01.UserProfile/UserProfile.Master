@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" 
+    CodeBehind="UserProfile.master.cs" 
+    Inherits="_01.UserProfile.UserProfile" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>User System</title>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="MainForm" runat="server">
+        <aside id="NavigationPanel">
+        <div class="menu-title">Menu</div>
+            <ul>
+                <li><a href="~/Home.aspx" runat="server">Home</a></li>
+                <li><a href="~/PersonalInfo.aspx" runat="server">Personal Information</a></li>
+                <li><a href="~/Friends.aspx" runat="server">Friends</a></li>
+                <li><a href="~/AdditionalInfo.aspx" runat="server">Additional Information</a></li>
+                <li><a href="~/About.aspx" runat="server">About</a></li>              
+            </ul>
+        </aside>
+        <div id="ContentHolder">
+            <asp:ContentPlaceHolder ID="ProfilePlaceholder" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

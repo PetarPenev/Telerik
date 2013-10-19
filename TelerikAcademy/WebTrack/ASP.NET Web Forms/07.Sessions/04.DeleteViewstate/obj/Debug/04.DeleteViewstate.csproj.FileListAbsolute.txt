@@ -1,0 +1,5 @@
+D:\WebForms\8\StateManagement\04.DeleteViewstate\bin\04.DeleteViewstate.dll.config
+D:\WebForms\8\StateManagement\04.DeleteViewstate\bin\04.DeleteViewstate.dll
+D:\WebForms\8\StateManagement\04.DeleteViewstate\bin\04.DeleteViewstate.pdb
+D:\WebForms\8\StateManagement\04.DeleteViewstate\obj\Debug\04.DeleteViewstate.dll
+D:\WebForms\8\StateManagement\04.DeleteViewstate\obj\Debug\04.DeleteViewstate.pdb

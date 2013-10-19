@@ -1,0 +1,6 @@
+D:\WebForms\9\SiteMapsHomework\WebApp\bin\WebApp.dll.config
+D:\WebForms\9\SiteMapsHomework\WebApp\bin\WebApp.dll
+D:\WebForms\9\SiteMapsHomework\WebApp\bin\WebApp.pdb
+D:\WebForms\9\SiteMapsHomework\WebApp\obj\Debug\WebApp.csprojResolveAssemblyReference.cache
+D:\WebForms\9\SiteMapsHomework\WebApp\obj\Debug\WebApp.dll
+D:\WebForms\9\SiteMapsHomework\WebApp\obj\Debug\WebApp.pdb

@@ -1,0 +1,5 @@
+D:\WebForms\2\WebFormsIntroHomework\AssemblyDisplay\bin\AssemblyDisplay.dll.config
+D:\WebForms\2\WebFormsIntroHomework\AssemblyDisplay\bin\AssemblyDisplay.dll
+D:\WebForms\2\WebFormsIntroHomework\AssemblyDisplay\bin\AssemblyDisplay.pdb
+D:\WebForms\2\WebFormsIntroHomework\AssemblyDisplay\obj\Debug\AssemblyDisplay.dll
+D:\WebForms\2\WebFormsIntroHomework\AssemblyDisplay\obj\Debug\AssemblyDisplay.pdb

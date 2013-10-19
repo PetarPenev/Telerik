@@ -1,0 +1,8 @@
+D:\WebForms\5\DataBindingHomework\05.EmployeesWithListView\bin\05.EmployeesWithListView.dll.config
+D:\WebForms\5\DataBindingHomework\05.EmployeesWithListView\bin\05.EmployeesWithListView.dll
+D:\WebForms\5\DataBindingHomework\05.EmployeesWithListView\bin\05.EmployeesWithListView.pdb
+D:\WebForms\5\DataBindingHomework\05.EmployeesWithListView\bin\EntityFramework.dll
+D:\WebForms\5\DataBindingHomework\05.EmployeesWithListView\bin\EntityFramework.xml
+D:\WebForms\5\DataBindingHomework\05.EmployeesWithListView\obj\Debug\05.EmployeesWithListView.csprojResolveAssemblyReference.cache
+D:\WebForms\5\DataBindingHomework\05.EmployeesWithListView\obj\Debug\05.EmployeesWithListView.dll
+D:\WebForms\5\DataBindingHomework\05.EmployeesWithListView\obj\Debug\05.EmployeesWithListView.pdb

@@ -1,0 +1,17 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MainPage.Master" 
+    AutoEventWireup="true" CodeBehind="EnglishMasterPage.master.cs"
+     Inherits="_02.CompanySite.EnglishSite.EnglishMasterPage" %>
+<asp:Content ID="EnglishContent" ContentPlaceHolderID="ContentPlaceHolder" runat="server">
+    <aside id="navigation-menu-english">
+             <asp:HyperLink runat="server" NavigateUrl="Home.aspx" 
+                Text="Home" CssClass="menu-link"/>
+
+            <asp:HyperLink runat="server" NavigateUrl="About.aspx" 
+                Text="About" CssClass="menu-link"/>
+
+            <asp:HyperLink runat="server" NavigateUrl="Contacts.aspx" 
+                Text="Contacts" CssClass="menu-link"/>
+        </aside>
+        <asp:ContentPlaceHolder ID="EnglishPlaceholder" runat="server">       
+        </asp:ContentPlaceHolder>
+</asp:Content>

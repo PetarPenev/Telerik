@@ -1,0 +1,33 @@
+﻿<?xml version='1.0'?>
+
+<!-- This file represents a fragment of a Categories inventory database -->
+
+<Categories>
+
+  <Category ID="1" Name="Beverages">
+
+    <Description Value="Soft drinks, coffees, teas, beers, and ales"/>
+
+  </Category>
+
+  <Category ID="2" Name="Condiments">
+
+    <Description Value="Sweet and savory sauces, relishes, spreads, and
+
+seasonings"/>
+
+  </Category>
+
+  <Category ID="3" Name="Confections">
+
+    <Description Value="Desserts, candies, and sweet breads"/>
+
+  </Category>
+
+  <Category ID="4" Name="Dairy Products">
+
+    <Description Value="Cheeses"/>
+
+  </Category>
+
+</Categories>

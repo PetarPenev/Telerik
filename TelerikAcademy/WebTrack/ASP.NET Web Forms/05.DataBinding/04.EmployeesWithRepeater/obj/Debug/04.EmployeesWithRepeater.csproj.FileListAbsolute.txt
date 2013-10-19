@@ -1,0 +1,8 @@
+D:\WebForms\5\DataBindingHomework\04.EmployeesWithRepeater\bin\04.EmployeesWithRepeater.dll.config
+D:\WebForms\5\DataBindingHomework\04.EmployeesWithRepeater\bin\04.EmployeesWithRepeater.dll
+D:\WebForms\5\DataBindingHomework\04.EmployeesWithRepeater\bin\04.EmployeesWithRepeater.pdb
+D:\WebForms\5\DataBindingHomework\04.EmployeesWithRepeater\bin\EntityFramework.dll
+D:\WebForms\5\DataBindingHomework\04.EmployeesWithRepeater\bin\EntityFramework.xml
+D:\WebForms\5\DataBindingHomework\04.EmployeesWithRepeater\obj\Debug\04.EmployeesWithRepeater.csprojResolveAssemblyReference.cache
+D:\WebForms\5\DataBindingHomework\04.EmployeesWithRepeater\obj\Debug\04.EmployeesWithRepeater.dll
+D:\WebForms\5\DataBindingHomework\04.EmployeesWithRepeater\obj\Debug\04.EmployeesWithRepeater.pdb

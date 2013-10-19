@@ -1,0 +1,6 @@
+D:\WebForms\2\WebFormsIntroHomework\NameDisplay\bin\NameDisplay.dll.config
+D:\WebForms\2\WebFormsIntroHomework\NameDisplay\bin\NameDisplay.dll
+D:\WebForms\2\WebFormsIntroHomework\NameDisplay\bin\NameDisplay.pdb
+D:\WebForms\2\WebFormsIntroHomework\NameDisplay\obj\Debug\NameDisplay.csprojResolveAssemblyReference.cache
+D:\WebForms\2\WebFormsIntroHomework\NameDisplay\obj\Debug\NameDisplay.dll
+D:\WebForms\2\WebFormsIntroHomework\NameDisplay\obj\Debug\NameDisplay.pdb

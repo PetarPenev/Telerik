@@ -1,0 +1,98 @@
+D:\WebForms\7\ChatSystem\ChatSystemWeb\bin\ChatSystemWeb.dll.config
+D:\WebForms\7\ChatSystem\ChatSystemWeb\bin\ChatSystemWeb.dll
+D:\WebForms\7\ChatSystem\ChatSystemWeb\bin\ChatSystemWeb.pdb
+D:\WebForms\7\ChatSystem\ChatSystemWeb\bin\Antlr3.Runtime.dll
+D:\WebForms\7\ChatSystem\ChatSystemWeb\bin\AspNet.ScriptManager.bootstrap.dll
+D:\WebForms\7\ChatSystem\ChatSystemWeb\bin\AspNet.ScriptManager.jQuery.dll
+D:\WebForms\7\ChatSystem\ChatSystemWeb\bin\EntityFramework.dll
+D:\WebForms\7\ChatSystem\ChatSystemWeb\bin\EntityFramework.SqlServer.dll
+D:\WebForms\7\ChatSystem\ChatSystemWeb\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\WebForms\7\ChatSystem\ChatSystemWeb\bin\Microsoft.AspNet.Identity.Core.dll
+D:\WebForms\7\ChatSystem\ChatSystemWeb\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\WebForms\7\ChatSystem\ChatSystemWeb\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\WebForms\7\ChatSystem\ChatSystemWeb\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\WebForms\7\ChatSystem\ChatSystemWeb\bin\Microsoft.Owin.dll
+D:\WebForms\7\ChatSystem\ChatSystemWeb\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\WebForms\7\ChatSystem\ChatSystemWeb\bin\Microsoft.Owin.Security.Cookies.dll
+D:\WebForms\7\ChatSystem\ChatSystemWeb\bin\Microsoft.Owin.Security.dll
+D:\WebForms\7\ChatSystem\ChatSystemWeb\bin\Microsoft.Owin.Security.Facebook.dll
+D:\WebForms\7\ChatSystem\ChatSystemWeb\bin\Microsoft.Owin.Security.Google.dll
+D:\WebForms\7\ChatSystem\ChatSystemWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\WebForms\7\ChatSystem\ChatSystemWeb\bin\Microsoft.Owin.Security.OAuth.dll
+D:\WebForms\7\ChatSystem\ChatSystemWeb\bin\Microsoft.Owin.Security.Twitter.dll
+D:\WebForms\7\ChatSystem\ChatSystemWeb\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\WebForms\7\ChatSystem\ChatSystemWeb\bin\Microsoft.ScriptManager.WebForms.dll
+D:\WebForms\7\ChatSystem\ChatSystemWeb\bin\Microsoft.Web.Infrastructure.dll
+D:\WebForms\7\ChatSystem\ChatSystemWeb\bin\Newtonsoft.Json.dll
+D:\WebForms\7\ChatSystem\ChatSystemWeb\bin\Owin.dll
+D:\WebForms\7\ChatSystem\ChatSystemWeb\bin\System.Web.Optimization.dll
+D:\WebForms\7\ChatSystem\ChatSystemWeb\bin\System.Web.Providers.dll
+D:\WebForms\7\ChatSystem\ChatSystemWeb\bin\WebGrease.dll
+D:\WebForms\7\ChatSystem\ChatSystemWeb\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\WebForms\7\ChatSystem\ChatSystemWeb\bin\EntityFramework.xml
+D:\WebForms\7\ChatSystem\ChatSystemWeb\bin\EntityFramework.SqlServer.xml
+D:\WebForms\7\ChatSystem\ChatSystemWeb\bin\Microsoft.AspNet.Identity.Core.xml
+D:\WebForms\7\ChatSystem\ChatSystemWeb\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\WebForms\7\ChatSystem\ChatSystemWeb\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\WebForms\7\ChatSystem\ChatSystemWeb\bin\Microsoft.Owin.xml
+D:\WebForms\7\ChatSystem\ChatSystemWeb\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\WebForms\7\ChatSystem\ChatSystemWeb\bin\Microsoft.Owin.Security.xml
+D:\WebForms\7\ChatSystem\ChatSystemWeb\bin\Microsoft.Owin.Security.Facebook.xml
+D:\WebForms\7\ChatSystem\ChatSystemWeb\bin\Microsoft.Owin.Security.Cookies.xml
+D:\WebForms\7\ChatSystem\ChatSystemWeb\bin\Microsoft.Owin.Security.Google.xml
+D:\WebForms\7\ChatSystem\ChatSystemWeb\bin\Microsoft.Owin.Security.Twitter.xml
+D:\WebForms\7\ChatSystem\ChatSystemWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\WebForms\7\ChatSystem\ChatSystemWeb\bin\Newtonsoft.Json.xml
+D:\WebForms\7\ChatSystem\ChatSystemWeb\bin\Microsoft.Owin.Security.OAuth.xml
+D:\WebForms\7\ChatSystem\ChatSystemWeb\obj\Debug\ChatSystemWeb.csprojResolveAssemblyReference.cache
+D:\WebForms\7\ChatSystem\ChatSystemWeb\obj\Debug\ChatSystemWeb.dll
+D:\WebForms\7\ChatSystem\ChatSystemWeb\obj\Debug\ChatSystemWeb.pdb
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\TelerikChatSystem\ChatSystemWeb\bin\ChatSystemWeb.dll.config
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\TelerikChatSystem\ChatSystemWeb\bin\ChatSystemWeb.dll
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\TelerikChatSystem\ChatSystemWeb\bin\ChatSystemWeb.pdb
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\TelerikChatSystem\ChatSystemWeb\bin\Antlr3.Runtime.dll
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\TelerikChatSystem\ChatSystemWeb\bin\AspNet.ScriptManager.bootstrap.dll
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\TelerikChatSystem\ChatSystemWeb\bin\AspNet.ScriptManager.jQuery.dll
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\TelerikChatSystem\ChatSystemWeb\bin\EntityFramework.dll
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\TelerikChatSystem\ChatSystemWeb\bin\EntityFramework.SqlServer.dll
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\TelerikChatSystem\ChatSystemWeb\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\TelerikChatSystem\ChatSystemWeb\bin\Microsoft.AspNet.Identity.Core.dll
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\TelerikChatSystem\ChatSystemWeb\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\TelerikChatSystem\ChatSystemWeb\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\TelerikChatSystem\ChatSystemWeb\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\TelerikChatSystem\ChatSystemWeb\bin\Microsoft.Owin.dll
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\TelerikChatSystem\ChatSystemWeb\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\TelerikChatSystem\ChatSystemWeb\bin\Microsoft.Owin.Security.Cookies.dll
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\TelerikChatSystem\ChatSystemWeb\bin\Microsoft.Owin.Security.dll
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\TelerikChatSystem\ChatSystemWeb\bin\Microsoft.Owin.Security.Facebook.dll
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\TelerikChatSystem\ChatSystemWeb\bin\Microsoft.Owin.Security.Google.dll
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\TelerikChatSystem\ChatSystemWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\TelerikChatSystem\ChatSystemWeb\bin\Microsoft.Owin.Security.OAuth.dll
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\TelerikChatSystem\ChatSystemWeb\bin\Microsoft.Owin.Security.Twitter.dll
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\TelerikChatSystem\ChatSystemWeb\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\TelerikChatSystem\ChatSystemWeb\bin\Microsoft.ScriptManager.WebForms.dll
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\TelerikChatSystem\ChatSystemWeb\bin\Microsoft.Web.Infrastructure.dll
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\TelerikChatSystem\ChatSystemWeb\bin\Newtonsoft.Json.dll
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\TelerikChatSystem\ChatSystemWeb\bin\Owin.dll
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\TelerikChatSystem\ChatSystemWeb\bin\System.Web.Optimization.dll
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\TelerikChatSystem\ChatSystemWeb\bin\System.Web.Providers.dll
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\TelerikChatSystem\ChatSystemWeb\bin\WebGrease.dll
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\TelerikChatSystem\ChatSystemWeb\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\TelerikChatSystem\ChatSystemWeb\bin\EntityFramework.xml
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\TelerikChatSystem\ChatSystemWeb\bin\EntityFramework.SqlServer.xml
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\TelerikChatSystem\ChatSystemWeb\bin\Microsoft.AspNet.Identity.Core.xml
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\TelerikChatSystem\ChatSystemWeb\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\TelerikChatSystem\ChatSystemWeb\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\TelerikChatSystem\ChatSystemWeb\bin\Microsoft.Owin.xml
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\TelerikChatSystem\ChatSystemWeb\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\TelerikChatSystem\ChatSystemWeb\bin\Microsoft.Owin.Security.xml
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\TelerikChatSystem\ChatSystemWeb\bin\Microsoft.Owin.Security.Facebook.xml
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\TelerikChatSystem\ChatSystemWeb\bin\Microsoft.Owin.Security.Cookies.xml
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\TelerikChatSystem\ChatSystemWeb\bin\Microsoft.Owin.Security.Google.xml
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\TelerikChatSystem\ChatSystemWeb\bin\Microsoft.Owin.Security.Twitter.xml
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\TelerikChatSystem\ChatSystemWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\TelerikChatSystem\ChatSystemWeb\bin\Newtonsoft.Json.xml
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\TelerikChatSystem\ChatSystemWeb\bin\Microsoft.Owin.Security.OAuth.xml
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\TelerikChatSystem\ChatSystemWeb\obj\Debug\ChatSystemWeb.csprojResolveAssemblyReference.cache
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\TelerikChatSystem\ChatSystemWeb\obj\Debug\ChatSystemWeb.dll
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\TelerikChatSystem\ChatSystemWeb\obj\Debug\ChatSystemWeb.pdb

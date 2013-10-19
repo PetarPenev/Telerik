@@ -1,0 +1,17 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MainPage.Master"
+     AutoEventWireup="true" CodeBehind="BulgarianMasterPage.master.cs" 
+    Inherits="_02.CompanySite.BulgarianSite.BulgarianMasterPage" %>
+<asp:Content ID="BulgarianContent" ContentPlaceHolderID="ContentPlaceHolder" runat="server">
+    <aside id="navigation-menu-bulgarian">
+             <asp:HyperLink runat="server" NavigateUrl="Home.aspx" 
+                Text="Вкъщи" CssClass="menu-link"/>
+
+            <asp:HyperLink runat="server" NavigateUrl="About.aspx" 
+                Text="За нас" CssClass="menu-link"/>
+
+            <asp:HyperLink runat="server" NavigateUrl="Contacts.aspx" 
+                Text="Контакти" CssClass="menu-link"/>
+        </aside>
+        <asp:ContentPlaceHolder ID="BulgarianPlaceholder" runat="server">       
+        </asp:ContentPlaceHolder>
+</asp:Content>

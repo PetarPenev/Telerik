@@ -1,0 +1,6 @@
+D:\WebForms\4\MasterPagesHomework\01.UserProfile\bin\01.UserProfile.dll.config
+D:\WebForms\4\MasterPagesHomework\01.UserProfile\bin\01.UserProfile.dll
+D:\WebForms\4\MasterPagesHomework\01.UserProfile\bin\01.UserProfile.pdb
+D:\WebForms\4\MasterPagesHomework\01.UserProfile\obj\Debug\01.UserProfile.csprojResolveAssemblyReference.cache
+D:\WebForms\4\MasterPagesHomework\01.UserProfile\obj\Debug\01.UserProfile.dll
+D:\WebForms\4\MasterPagesHomework\01.UserProfile\obj\Debug\01.UserProfile.pdb

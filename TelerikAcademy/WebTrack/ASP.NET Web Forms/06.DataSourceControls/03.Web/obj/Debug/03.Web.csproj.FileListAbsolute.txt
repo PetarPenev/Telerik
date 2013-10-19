@@ -1,0 +1,16 @@
+D:\WebForms\6\DataSourceControls\03.Web\bin\03.Web.dll.config
+D:\WebForms\6\DataSourceControls\03.Web\bin\03.Web.dll
+D:\WebForms\6\DataSourceControls\03.Web\bin\03.Web.pdb
+D:\WebForms\6\DataSourceControls\03.Web\bin\EntityFramework.dll
+D:\WebForms\6\DataSourceControls\03.Web\bin\EntityFramework.xml
+D:\WebForms\6\DataSourceControls\03.Web\obj\Debug\03.Web.csprojResolveAssemblyReference.cache
+D:\WebForms\6\DataSourceControls\03.Web\obj\Debug\03.Web.dll
+D:\WebForms\6\DataSourceControls\03.Web\obj\Debug\03.Web.pdb
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\DataSourceControls\03.Web\bin\03.Web.dll.config
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\DataSourceControls\03.Web\bin\03.Web.dll
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\DataSourceControls\03.Web\bin\03.Web.pdb
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\DataSourceControls\03.Web\bin\EntityFramework.dll
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\DataSourceControls\03.Web\bin\EntityFramework.xml
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\DataSourceControls\03.Web\obj\Debug\03.Web.csprojResolveAssemblyReference.cache
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\DataSourceControls\03.Web\obj\Debug\03.Web.dll
+D:\TelerikGit\TelerikAcademy\WebTrack\ASP.NET Web Forms\DataSourceControls\03.Web\obj\Debug\03.Web.pdb

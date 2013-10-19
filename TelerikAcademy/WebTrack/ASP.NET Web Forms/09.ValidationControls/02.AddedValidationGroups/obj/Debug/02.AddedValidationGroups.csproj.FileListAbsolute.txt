@@ -1,0 +1,6 @@
+D:\WebForms\10\ValidationControlsHomework\02.AddedValidationGroups\bin\02.AddedValidationGroups.dll.config
+D:\WebForms\10\ValidationControlsHomework\02.AddedValidationGroups\bin\02.AddedValidationGroups.dll
+D:\WebForms\10\ValidationControlsHomework\02.AddedValidationGroups\bin\02.AddedValidationGroups.pdb
+D:\WebForms\10\ValidationControlsHomework\02.AddedValidationGroups\obj\Debug\02.AddedValidationGroups.csprojResolveAssemblyReference.cache
+D:\WebForms\10\ValidationControlsHomework\02.AddedValidationGroups\obj\Debug\02.AddedValidationGroups.dll
+D:\WebForms\10\ValidationControlsHomework\02.AddedValidationGroups\obj\Debug\02.AddedValidationGroups.pdb

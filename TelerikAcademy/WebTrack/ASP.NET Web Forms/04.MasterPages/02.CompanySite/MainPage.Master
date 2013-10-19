@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" 
+    CodeBehind="MainPage.master.cs" 
+    Inherits="_02.CompanySite.MainPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Telerik</title>
+    <link href="Styles.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        Telerik - The Best Software Engineering Company
+    </header>
+    <form id="mainForm" runat="server">
+        <div id="main-content">
+        <aside id="navigation-menu">
+             <asp:HyperLink runat="server" NavigateUrl="~/BulgarianSite/Home.aspx" 
+                Text="BulgarianSite" CssClass="menu-link"/>
+
+            <asp:HyperLink runat="server" NavigateUrl="~/EnglishSite/Home.aspx" 
+                Text="EnglishSite" CssClass="menu-link"/>
+
+            <asp:HyperLink runat="server" NavigateUrl="~/GermanSite/Home.aspx" 
+                Text="GermanSite" CssClass="menu-link"/>
+        </aside>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder" runat="server">
+        
+        </asp:ContentPlaceHolder> 
+        </div>  
+    </form>
+    <footer>
+        ©Telerik 2013
+    </footer>
+</body>
+</html>

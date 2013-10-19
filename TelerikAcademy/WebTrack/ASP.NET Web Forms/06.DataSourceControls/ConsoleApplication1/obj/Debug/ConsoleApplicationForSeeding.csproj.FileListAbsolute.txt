@@ -1,0 +1,3 @@
+D:\WebForms\6\DataSourceControls\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+D:\WebForms\6\DataSourceControls\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\WebForms\6\DataSourceControls\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

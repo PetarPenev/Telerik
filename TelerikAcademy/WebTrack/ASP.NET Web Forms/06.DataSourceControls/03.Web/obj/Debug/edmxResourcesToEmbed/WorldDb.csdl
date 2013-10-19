@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WorldDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Continent">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Countries" Relationship="Self.FK_dbo_Countries_dbo_Continents_ContinentId" FromRole="Continents" ToRole="Countries" />
+  </EntityType>
+  <EntityType Name="Country">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Language" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Population" Type="Int64" Nullable="false" />
+    <Property Name="ContinentId" Type="Int32" />
+    <Property Name="Flag" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <NavigationProperty Name="Continent" Relationship="Self.FK_dbo_Countries_dbo_Continents_ContinentId" FromRole="Countries" ToRole="Continents" />
+    <NavigationProperty Name="Towns" Relationship="Self.FK_dbo_Towns_dbo_Countries_CountryId" FromRole="Countries" ToRole="Towns" />
+  </EntityType>
+  <EntityType Name="Town">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Population" Type="Int32" Nullable="false" />
+    <Property Name="CountryId" Type="Int32" />
+    <NavigationProperty Name="Country" Relationship="Self.FK_dbo_Towns_dbo_Countries_CountryId" FromRole="Towns" ToRole="Countries" />
+  </EntityType>
+  <Association Name="FK_dbo_Countries_dbo_Continents_ContinentId">
+    <End Role="Continents" Type="Self.Continent" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Countries" Type="Self.Country" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Continents">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Countries">
+        <PropertyRef Name="ContinentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Towns_dbo_Countries_CountryId">
+    <End Role="Countries" Type="Self.Country" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Towns" Type="Self.Town" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Countries">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Towns">
+        <PropertyRef Name="CountryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="WorldDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Continents" EntityType="Self.Continent" />
+    <EntitySet Name="Countries" EntityType="Self.Country" />
+    <EntitySet Name="Towns" EntityType="Self.Town" />
+    <AssociationSet Name="FK_dbo_Countries_dbo_Continents_ContinentId" Association="Self.FK_dbo_Countries_dbo_Continents_ContinentId">
+      <End Role="Continents" EntitySet="Continents" />
+      <End Role="Countries" EntitySet="Countries" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Towns_dbo_Countries_CountryId" Association="Self.FK_dbo_Towns_dbo_Countries_CountryId">
+      <End Role="Countries" EntitySet="Countries" />
+      <End Role="Towns" EntitySet="Towns" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

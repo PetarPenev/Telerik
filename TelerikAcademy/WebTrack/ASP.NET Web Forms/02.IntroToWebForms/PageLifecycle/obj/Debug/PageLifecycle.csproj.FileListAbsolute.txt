@@ -1,0 +1,6 @@
+D:\WebForms\2\WebFormsIntroHomework\PageLifecycle\bin\PageLifecycle.dll.config
+D:\WebForms\2\WebFormsIntroHomework\PageLifecycle\bin\PageLifecycle.dll
+D:\WebForms\2\WebFormsIntroHomework\PageLifecycle\bin\PageLifecycle.pdb
+D:\WebForms\2\WebFormsIntroHomework\PageLifecycle\obj\Debug\PageLifecycle.csprojResolveAssemblyReference.cache
+D:\WebForms\2\WebFormsIntroHomework\PageLifecycle\obj\Debug\PageLifecycle.dll
+D:\WebForms\2\WebFormsIntroHomework\PageLifecycle\obj\Debug\PageLifecycle.pdb

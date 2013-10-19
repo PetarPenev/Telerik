@@ -1,0 +1,6 @@
+D:\WebForms\3\ControlsHomework\ControlsHomework\04.RegistrationForm\bin\04.RegistrationForm.dll.config
+D:\WebForms\3\ControlsHomework\ControlsHomework\04.RegistrationForm\bin\04.RegistrationForm.dll
+D:\WebForms\3\ControlsHomework\ControlsHomework\04.RegistrationForm\bin\04.RegistrationForm.pdb
+D:\WebForms\3\ControlsHomework\ControlsHomework\04.RegistrationForm\obj\Debug\04.RegistrationForm.dll
+D:\WebForms\3\ControlsHomework\ControlsHomework\04.RegistrationForm\obj\Debug\04.RegistrationForm.pdb
+D:\WebForms\3\ControlsHomework\ControlsHomework\04.RegistrationForm\obj\Debug\04.RegistrationForm.csprojResolveAssemblyReference.cache

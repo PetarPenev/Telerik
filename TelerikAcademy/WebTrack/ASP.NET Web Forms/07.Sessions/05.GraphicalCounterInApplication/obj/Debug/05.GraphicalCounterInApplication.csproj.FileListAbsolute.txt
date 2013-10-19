@@ -1,0 +1,5 @@
+D:\WebForms\8\StateManagement\05.GraphicalCounterInApplication\bin\05.GraphicalCounterInApplication.dll.config
+D:\WebForms\8\StateManagement\05.GraphicalCounterInApplication\bin\05.GraphicalCounterInApplication.dll
+D:\WebForms\8\StateManagement\05.GraphicalCounterInApplication\bin\05.GraphicalCounterInApplication.pdb
+D:\WebForms\8\StateManagement\05.GraphicalCounterInApplication\obj\Debug\05.GraphicalCounterInApplication.dll
+D:\WebForms\8\StateManagement\05.GraphicalCounterInApplication\obj\Debug\05.GraphicalCounterInApplication.pdb

@@ -1,0 +1,6 @@
+D:\WebForms\10\ValidationControlsHomework\01.BasicRegisterValidation\bin\01.BasicRegisterValidation.dll.config
+D:\WebForms\10\ValidationControlsHomework\01.BasicRegisterValidation\bin\01.BasicRegisterValidation.dll
+D:\WebForms\10\ValidationControlsHomework\01.BasicRegisterValidation\bin\01.BasicRegisterValidation.pdb
+D:\WebForms\10\ValidationControlsHomework\01.BasicRegisterValidation\obj\Debug\01.BasicRegisterValidation.csprojResolveAssemblyReference.cache
+D:\WebForms\10\ValidationControlsHomework\01.BasicRegisterValidation\obj\Debug\01.BasicRegisterValidation.dll
+D:\WebForms\10\ValidationControlsHomework\01.BasicRegisterValidation\obj\Debug\01.BasicRegisterValidation.pdb

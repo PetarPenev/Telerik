@@ -1,0 +1,59 @@
+﻿header {
+    position:relative;
+    left: 20%;
+    background-color: cyan;
+    max-width: 60%;
+    text-align:center;
+    margin-bottom:5%;
+}
+
+footer {
+    position:relative;
+    left: 20%;
+    background-color: cyan;
+    max-width: 60%;
+    text-align:center;
+    margin-top:5%;
+}
+
+#main-content{
+    position:relative;
+    left: 20%;
+    max-width: 60%;
+}
+
+#navigation-menu, #navigation-menu-bulgarian, #navigation-menu-english, #navigation-menu-german{
+    position:relative;
+    left:25%;
+    max-width:50%;
+}
+
+#navigation-menu-bulgarian, #navigation-menu-english, #navigation-menu-german{
+    margin-top:25px;
+}
+
+.menu-link{
+    margin-right: 10%;
+    text-decoration:none;
+    background-color:lightcyan;
+    color:brown;
+}
+
+.menu-link:hover{
+    background-color:cyan;
+}
+
+#main-page-content-div{
+    position:relative;
+    left:15%;
+    max-width:60%;
+    text-align:center;
+    margin-top:20px;
+}
+
+#bulgarian-content-div, #english-content-div, #german-content-div{
+    position:relative;
+    left:25%;
+    max-width:50%;
+    margin-top:10px;
+}

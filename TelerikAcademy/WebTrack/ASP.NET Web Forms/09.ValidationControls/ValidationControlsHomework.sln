@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.20827.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.BasicRegisterValidation", "01.BasicRegisterValidation\01.BasicRegisterValidation.csproj", "{4D7FAAF1-C74C-4668-9061-D7ABC463AFFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.AddedValidationGroups", "02.AddedValidationGroups\02.AddedValidationGroups.csproj", "{8437AB57-F705-4750-AD0C-ACDC464B8A4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.AddedGenderOptions", "03.AddedGenderOptions\03.AddedGenderOptions.csproj", "{221D2F4E-E868-4153-B654-30B2B583708F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D7FAAF1-C74C-4668-9061-D7ABC463AFFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D7FAAF1-C74C-4668-9061-D7ABC463AFFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D7FAAF1-C74C-4668-9061-D7ABC463AFFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D7FAAF1-C74C-4668-9061-D7ABC463AFFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8437AB57-F705-4750-AD0C-ACDC464B8A4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8437AB57-F705-4750-AD0C-ACDC464B8A4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8437AB57-F705-4750-AD0C-ACDC464B8A4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8437AB57-F705-4750-AD0C-ACDC464B8A4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{221D2F4E-E868-4153-B654-30B2B583708F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{221D2F4E-E868-4153-B654-30B2B583708F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{221D2F4E-E868-4153-B654-30B2B583708F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{221D2F4E-E868-4153-B654-30B2B583708F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

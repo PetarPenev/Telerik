@@ -1,0 +1,6 @@
+D:\WebForms\8\StateManagement\03.CookieRedirection\bin\03.CookieRedirection.dll.config
+D:\WebForms\8\StateManagement\03.CookieRedirection\bin\03.CookieRedirection.dll
+D:\WebForms\8\StateManagement\03.CookieRedirection\bin\03.CookieRedirection.pdb
+D:\WebForms\8\StateManagement\03.CookieRedirection\obj\Debug\03.CookieRedirection.csprojResolveAssemblyReference.cache
+D:\WebForms\8\StateManagement\03.CookieRedirection\obj\Debug\03.CookieRedirection.dll
+D:\WebForms\8\StateManagement\03.CookieRedirection\obj\Debug\03.CookieRedirection.pdb

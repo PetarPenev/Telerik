@@ -1,0 +1,8 @@
+D:\WebForms\6\DataSourceControls\04.ToDoModels\bin\Debug\04.ToDoModels.dll.config
+D:\WebForms\6\DataSourceControls\04.ToDoModels\bin\Debug\04.ToDoModels.dll
+D:\WebForms\6\DataSourceControls\04.ToDoModels\bin\Debug\04.ToDoModels.pdb
+D:\WebForms\6\DataSourceControls\04.ToDoModels\bin\Debug\EntityFramework.dll
+D:\WebForms\6\DataSourceControls\04.ToDoModels\bin\Debug\EntityFramework.xml
+D:\WebForms\6\DataSourceControls\04.ToDoModels\obj\Debug\04.ToDoModels.csprojResolveAssemblyReference.cache
+D:\WebForms\6\DataSourceControls\04.ToDoModels\obj\Debug\04.ToDoModels.dll
+D:\WebForms\6\DataSourceControls\04.ToDoModels\obj\Debug\04.ToDoModels.pdb

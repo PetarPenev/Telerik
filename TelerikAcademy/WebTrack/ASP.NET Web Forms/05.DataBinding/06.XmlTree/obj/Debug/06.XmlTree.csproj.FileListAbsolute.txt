@@ -1,0 +1,6 @@
+D:\WebForms\5\DataBindingHomework\06.XmlTree\bin\06.XmlTree.dll.config
+D:\WebForms\5\DataBindingHomework\06.XmlTree\bin\06.XmlTree.dll
+D:\WebForms\5\DataBindingHomework\06.XmlTree\bin\06.XmlTree.pdb
+D:\WebForms\5\DataBindingHomework\06.XmlTree\obj\Debug\06.XmlTree.csprojResolveAssemblyReference.cache
+D:\WebForms\5\DataBindingHomework\06.XmlTree\obj\Debug\06.XmlTree.dll
+D:\WebForms\5\DataBindingHomework\06.XmlTree\obj\Debug\06.XmlTree.pdb

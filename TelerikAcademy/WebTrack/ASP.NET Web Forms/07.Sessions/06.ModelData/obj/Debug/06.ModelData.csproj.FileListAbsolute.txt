@@ -1,0 +1,8 @@
+D:\WebForms\8\StateManagement\06.ModelData\bin\Debug\06.ModelData.dll.config
+D:\WebForms\8\StateManagement\06.ModelData\bin\Debug\06.ModelData.dll
+D:\WebForms\8\StateManagement\06.ModelData\bin\Debug\06.ModelData.pdb
+D:\WebForms\8\StateManagement\06.ModelData\bin\Debug\EntityFramework.dll
+D:\WebForms\8\StateManagement\06.ModelData\bin\Debug\EntityFramework.xml
+D:\WebForms\8\StateManagement\06.ModelData\obj\Debug\06.ModelData.csprojResolveAssemblyReference.cache
+D:\WebForms\8\StateManagement\06.ModelData\obj\Debug\06.ModelData.dll
+D:\WebForms\8\StateManagement\06.ModelData\obj\Debug\06.ModelData.pdb

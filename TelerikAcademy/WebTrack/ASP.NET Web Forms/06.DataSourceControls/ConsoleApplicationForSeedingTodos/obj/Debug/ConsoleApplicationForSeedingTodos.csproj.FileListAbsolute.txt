@@ -1,0 +1,12 @@
+D:\WebForms\6\DataSourceControls\ConsoleApplicationForSeedingTodos\bin\Debug\ConsoleApplicationForSeedingTodos.exe.config
+D:\WebForms\6\DataSourceControls\ConsoleApplicationForSeedingTodos\obj\Debug\ConsoleApplicationForSeedingTodos.csprojResolveAssemblyReference.cache
+D:\WebForms\6\DataSourceControls\ConsoleApplicationForSeedingTodos\bin\Debug\ConsoleApplicationForSeedingTodos.exe
+D:\WebForms\6\DataSourceControls\ConsoleApplicationForSeedingTodos\bin\Debug\ConsoleApplicationForSeedingTodos.pdb
+D:\WebForms\6\DataSourceControls\ConsoleApplicationForSeedingTodos\bin\Debug\04.ToDoModels.dll
+D:\WebForms\6\DataSourceControls\ConsoleApplicationForSeedingTodos\bin\Debug\05.ToDoData.dll
+D:\WebForms\6\DataSourceControls\ConsoleApplicationForSeedingTodos\bin\Debug\EntityFramework.dll
+D:\WebForms\6\DataSourceControls\ConsoleApplicationForSeedingTodos\bin\Debug\04.ToDoModels.pdb
+D:\WebForms\6\DataSourceControls\ConsoleApplicationForSeedingTodos\bin\Debug\05.ToDoData.pdb
+D:\WebForms\6\DataSourceControls\ConsoleApplicationForSeedingTodos\bin\Debug\EntityFramework.xml
+D:\WebForms\6\DataSourceControls\ConsoleApplicationForSeedingTodos\obj\Debug\ConsoleApplicationForSeedingTodos.exe
+D:\WebForms\6\DataSourceControls\ConsoleApplicationForSeedingTodos\obj\Debug\ConsoleApplicationForSeedingTodos.pdb

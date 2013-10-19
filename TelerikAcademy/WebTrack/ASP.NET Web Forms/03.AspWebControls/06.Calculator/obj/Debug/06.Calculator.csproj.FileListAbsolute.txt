@@ -1,0 +1,6 @@
+D:\WebForms\3\ControlsHomework\ControlsHomework\06.Calculator\bin\06.Calculator.dll.config
+D:\WebForms\3\ControlsHomework\ControlsHomework\06.Calculator\bin\06.Calculator.dll
+D:\WebForms\3\ControlsHomework\ControlsHomework\06.Calculator\bin\06.Calculator.pdb
+D:\WebForms\3\ControlsHomework\ControlsHomework\06.Calculator\obj\Debug\06.Calculator.dll
+D:\WebForms\3\ControlsHomework\ControlsHomework\06.Calculator\obj\Debug\06.Calculator.pdb
+D:\WebForms\3\ControlsHomework\ControlsHomework\06.Calculator\obj\Debug\06.Calculator.csprojResolveAssemblyReference.cache

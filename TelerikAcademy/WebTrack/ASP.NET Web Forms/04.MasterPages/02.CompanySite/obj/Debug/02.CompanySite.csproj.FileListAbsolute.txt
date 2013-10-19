@@ -1,0 +1,6 @@
+D:\WebForms\4\MasterPagesHomework\02.CompanySite\bin\02.CompanySite.dll.config
+D:\WebForms\4\MasterPagesHomework\02.CompanySite\bin\02.CompanySite.dll
+D:\WebForms\4\MasterPagesHomework\02.CompanySite\bin\02.CompanySite.pdb
+D:\WebForms\4\MasterPagesHomework\02.CompanySite\obj\Debug\02.CompanySite.csprojResolveAssemblyReference.cache
+D:\WebForms\4\MasterPagesHomework\02.CompanySite\obj\Debug\02.CompanySite.dll
+D:\WebForms\4\MasterPagesHomework\02.CompanySite\obj\Debug\02.CompanySite.pdb

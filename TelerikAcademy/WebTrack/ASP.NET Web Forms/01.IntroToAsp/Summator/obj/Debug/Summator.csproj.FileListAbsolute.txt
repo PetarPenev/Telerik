@@ -1,0 +1,5 @@
+D:\WebForms\1\homework\IntroHomework\Summator\bin\Summator.dll.config
+D:\WebForms\1\homework\IntroHomework\Summator\bin\Summator.dll
+D:\WebForms\1\homework\IntroHomework\Summator\bin\Summator.pdb
+D:\WebForms\1\homework\IntroHomework\Summator\obj\Debug\Summator.dll
+D:\WebForms\1\homework\IntroHomework\Summator\obj\Debug\Summator.pdb

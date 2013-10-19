@@ -1,0 +1,6 @@
+D:\WebForms\3\ControlsHomework\ControlsHomework\01.RandomNumberGenerator\bin\01.RandomNumberGenerator.dll.config
+D:\WebForms\3\ControlsHomework\ControlsHomework\01.RandomNumberGenerator\bin\01.RandomNumberGenerator.dll
+D:\WebForms\3\ControlsHomework\ControlsHomework\01.RandomNumberGenerator\bin\01.RandomNumberGenerator.pdb
+D:\WebForms\3\ControlsHomework\ControlsHomework\01.RandomNumberGenerator\obj\Debug\01.RandomNumberGenerator.csprojResolveAssemblyReference.cache
+D:\WebForms\3\ControlsHomework\ControlsHomework\01.RandomNumberGenerator\obj\Debug\01.RandomNumberGenerator.dll
+D:\WebForms\3\ControlsHomework\ControlsHomework\01.RandomNumberGenerator\obj\Debug\01.RandomNumberGenerator.pdb

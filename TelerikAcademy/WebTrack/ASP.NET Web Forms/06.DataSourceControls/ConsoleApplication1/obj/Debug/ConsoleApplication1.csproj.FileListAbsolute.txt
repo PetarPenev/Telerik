@@ -1,0 +1,12 @@
+D:\WebForms\6\DataSourceControls\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+D:\WebForms\6\DataSourceControls\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\WebForms\6\DataSourceControls\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\WebForms\6\DataSourceControls\ConsoleApplication1\bin\Debug\01.Models.dll
+D:\WebForms\6\DataSourceControls\ConsoleApplication1\bin\Debug\02.Data.dll
+D:\WebForms\6\DataSourceControls\ConsoleApplication1\bin\Debug\EntityFramework.dll
+D:\WebForms\6\DataSourceControls\ConsoleApplication1\bin\Debug\01.Models.pdb
+D:\WebForms\6\DataSourceControls\ConsoleApplication1\bin\Debug\02.Data.pdb
+D:\WebForms\6\DataSourceControls\ConsoleApplication1\bin\Debug\EntityFramework.xml
+D:\WebForms\6\DataSourceControls\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+D:\WebForms\6\DataSourceControls\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\WebForms\6\DataSourceControls\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

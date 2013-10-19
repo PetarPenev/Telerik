@@ -1,0 +1,5 @@
+D:\WebForms\8\StateManagement\02.TextInputInSession\bin\02.TextInputInSession.dll.config
+D:\WebForms\8\StateManagement\02.TextInputInSession\bin\02.TextInputInSession.dll
+D:\WebForms\8\StateManagement\02.TextInputInSession\bin\02.TextInputInSession.pdb
+D:\WebForms\8\StateManagement\02.TextInputInSession\obj\Debug\02.TextInputInSession.dll
+D:\WebForms\8\StateManagement\02.TextInputInSession\obj\Debug\02.TextInputInSession.pdb

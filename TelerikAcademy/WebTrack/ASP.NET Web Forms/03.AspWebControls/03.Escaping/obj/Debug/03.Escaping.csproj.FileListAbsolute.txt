@@ -1,0 +1,6 @@
+D:\WebForms\3\ControlsHomework\ControlsHomework\03.Escaping\bin\03.Escaping.dll.config
+D:\WebForms\3\ControlsHomework\ControlsHomework\03.Escaping\bin\03.Escaping.dll
+D:\WebForms\3\ControlsHomework\ControlsHomework\03.Escaping\bin\03.Escaping.pdb
+D:\WebForms\3\ControlsHomework\ControlsHomework\03.Escaping\obj\Debug\03.Escaping.csprojResolveAssemblyReference.cache
+D:\WebForms\3\ControlsHomework\ControlsHomework\03.Escaping\obj\Debug\03.Escaping.dll
+D:\WebForms\3\ControlsHomework\ControlsHomework\03.Escaping\obj\Debug\03.Escaping.pdb

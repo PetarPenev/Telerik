@@ -1,0 +1,35 @@
+﻿#NavigationPanel{
+    display:inline-block;
+    border: 1px solid darkblue;
+    margin-bottom:20px;
+}
+    #NavigationPanel ul {
+        list-style-type: none;
+    }
+
+     #NavigationPanel ul li{
+        display: inline;
+     }
+
+     #NavigationPanel ul li a{
+         text-decoration: none;
+         background-color: rgba(58, 123, 186, 0.68);
+         color: brown;
+     }
+
+     #NavigationPanel ul li a:hover {
+         background-color: rgba(124, 19, 167, 0.74);
+     }
+
+     #ContentHolder div{
+         max-width:200px;
+     }
+
+     #ContentHolder div:nth-child(odd){
+         background-color: lightcyan;
+     }
+
+     #ContentHolder div:nth-child(even){
+        background-color: darkcyan;
+     }
+

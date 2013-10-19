@@ -1,0 +1,8 @@
+D:\WebForms\5\DataBindingHomework\02.EmployeeDetailsSeparatePages\bin\02.EmployeeDetailsSeparatePages.dll.config
+D:\WebForms\5\DataBindingHomework\02.EmployeeDetailsSeparatePages\bin\02.EmployeeDetailsSeparatePages.dll
+D:\WebForms\5\DataBindingHomework\02.EmployeeDetailsSeparatePages\bin\02.EmployeeDetailsSeparatePages.pdb
+D:\WebForms\5\DataBindingHomework\02.EmployeeDetailsSeparatePages\bin\EntityFramework.dll
+D:\WebForms\5\DataBindingHomework\02.EmployeeDetailsSeparatePages\bin\EntityFramework.xml
+D:\WebForms\5\DataBindingHomework\02.EmployeeDetailsSeparatePages\obj\Debug\02.EmployeeDetailsSeparatePages.csprojResolveAssemblyReference.cache
+D:\WebForms\5\DataBindingHomework\02.EmployeeDetailsSeparatePages\obj\Debug\02.EmployeeDetailsSeparatePages.dll
+D:\WebForms\5\DataBindingHomework\02.EmployeeDetailsSeparatePages\obj\Debug\02.EmployeeDetailsSeparatePages.pdb

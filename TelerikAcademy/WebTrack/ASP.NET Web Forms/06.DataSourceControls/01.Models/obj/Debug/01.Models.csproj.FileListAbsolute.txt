@@ -1,0 +1,8 @@
+D:\WebForms\6\DataSourceControls\01.Models\bin\Debug\01.Models.dll
+D:\WebForms\6\DataSourceControls\01.Models\bin\Debug\01.Models.pdb
+D:\WebForms\6\DataSourceControls\01.Models\obj\Debug\01.Models.csprojResolveAssemblyReference.cache
+D:\WebForms\6\DataSourceControls\01.Models\obj\Debug\01.Models.dll
+D:\WebForms\6\DataSourceControls\01.Models\obj\Debug\01.Models.pdb
+D:\WebForms\6\DataSourceControls\01.Models\bin\Debug\01.Models.dll.config
+D:\WebForms\6\DataSourceControls\01.Models\bin\Debug\EntityFramework.dll
+D:\WebForms\6\DataSourceControls\01.Models\bin\Debug\EntityFramework.xml

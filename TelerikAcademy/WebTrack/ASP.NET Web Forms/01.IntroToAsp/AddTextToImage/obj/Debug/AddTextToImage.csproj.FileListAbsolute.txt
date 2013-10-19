@@ -1,0 +1,6 @@
+D:\WebForms\1\homework\IntroHomework\AddTextToImage\bin\AddTextToImage.dll.config
+D:\WebForms\1\homework\IntroHomework\AddTextToImage\bin\AddTextToImage.dll
+D:\WebForms\1\homework\IntroHomework\AddTextToImage\bin\AddTextToImage.pdb
+D:\WebForms\1\homework\IntroHomework\AddTextToImage\obj\Debug\AddTextToImage.csprojResolveAssemblyReference.cache
+D:\WebForms\1\homework\IntroHomework\AddTextToImage\obj\Debug\AddTextToImage.dll
+D:\WebForms\1\homework\IntroHomework\AddTextToImage\obj\Debug\AddTextToImage.pdb
